@@ -23,9 +23,7 @@ proteus_subterranean_genomics/
 │
 ├── README.md
 ├── scripts/
-├── data/
-├── results/
-└── figures/
+└── data/
 ```
 
 ## Directory descriptions
