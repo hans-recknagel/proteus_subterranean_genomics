@@ -1,0 +1,23 @@
+#!/bin/bash
+
+analysis=analysis_name
+
+outdir=/path/to/$analysis
+mkdir $outdir
+
+dirs=$(ls -d /path/to/$analysis\_out/pal2nal_out/*mafft*)
+
+for d in $dirs;
+do
+	files=$(ls "$d")
+
+	for f in $files;
+	do
+
+		raxmlHPC-PTHREADS-SSE3 -T 10 -f a -x 123 -p 123 -N 100 -m GTRGAMMA -n "$f".nwk -w $outdir -s "$d"/"$f"
+
+	done
+
+done
+
+
