@@ -1,0 +1,22 @@
+"OG_ID","Preferred_name.x","selection","Preferred_name.y","Description","pvalue","F_vs_B"
+"OG0006106","Znf704","intensified","Znf704","c-clamp",0.025,TRUE
+"OG0007750","MDM2","intensified","MDM2","MDM2 proto-oncogene",0.044117647,TRUE
+"OG0007891","KDM1A","intensified","KDM1A","SWIRM domain",0.039215686,TRUE
+"OG0008160","GPC3","intensified","GPC3","peptidyl-dipeptidase inhibitor activity",0.044117647,TRUE
+"OG0008412","DNER","intensified","DNER","Follistatin-N-terminal domain-like",0.035087719,TRUE
+"OG0008600","KIAA1429","intensified","KIAA1429","Virilizer",0.039215686,TRUE
+"OG0008612","UBR5","intensified","UBR5","E3 ubiquitin ligase EDD",0.039215686,TRUE
+"OG0008740","TM9SF4","intensified","TM9SF4","Belongs to the nonaspanin (TM9SF) (TC 9.A.2) family",0.022058824,TRUE
+"OG0009541","ELMO3","intensified","ELMO3","Engulfment and cell motility",0.035087719,TRUE
+"OG0009904","CFAP58","intensified","CFAP58","Cilia and flagella associated protein 58",0.01754386,TRUE
+"OG0009972","MIB1","intensified","MIB1","Mib_herc2",0.039215686,TRUE
+"OG0010049","MPP1","intensified","MPP1","regulation of neutrophil chemotaxis",0.019607843,TRUE
+"OG0010261","GALT","intensified","GALT","Galactose-1-phosphate uridylyltransferase",0.031991744,TRUE
+"OG0010995","DCUN1D5","intensified","DCUN1D5","Defective in cullin neddylation 1 domain containing 5",0.044117647,TRUE
+"OG0011489","USP25","intensified","USP25","Belongs to the peptidase C19 family",0.035087719,TRUE
+"OG0011903","EPHA10","intensified","EPHA10","receptor",0.044117647,TRUE
+"OG0011941","MCM2","intensified","MCM2","Mini-chromosome maintenance protein 2",0.035087719,TRUE
+"OG0012159","STIP1","intensified","STIP1","Heat shock chaperonin-binding motif.",0.007142857,TRUE
+"OG0012339","FOXP2","intensified","FOXP2","putamen development",0.044117647,TRUE
+"OG0012366","MYBPC1","intensified","MYBPC1","Myosin binding protein C",0.019607843,TRUE
+"OG0013169","CMC2","intensified","CMC2","Cytochrome c oxidase biogenesis protein Cmc1 like",0.035087719,TRUE

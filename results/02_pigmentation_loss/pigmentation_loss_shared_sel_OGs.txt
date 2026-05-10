@@ -1,0 +1,43 @@
+OG Preferred_name Description pvalue F_vs_B
+OG0005683 RASA1 GTPase-activator protein for Ras-like GTPases 0.0206398348813209 TRUE
+OG0005990 ENOPH1 Bifunctional enzyme that catalyzes the enolization of 2,3-diketo-5-methylthiopentyl-1-phosphate (DK-MTP-1-P) into the intermediate 2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate (HK-MTPenyl-1-P), which is then dephosphorylated to form the acireductone 1,2-dihydroxy-3-keto-5-methylthiopentene (DHK- MTPene) 0.0175438596491228 TRUE
+OG0006527 HECTD4 Domain Homologous to E6-AP Carboxyl Terminus with 0.0476190476190476 TRUE
+OG0006768 CBFB Core-binding factor subunit beta isoform 0.0175438596491228 TRUE
+OG0006973 UBR5 E3 ubiquitin ligase EDD 0.0476190476190476 TRUE
+OG0007574 C9orf171 Domain of unknown function (DUF4483) 0.0150375939849624 TRUE
+OG0007829 SASS6 Centriolar protein SAS N-terminal 0.0103199174406605 TRUE
+OG0007857 KDM1A SWIRM domain 0.0476190476190476 TRUE
+OG0007899 UNC13D Munc13 (mammalian uncoordinated) homology domain 0.0476190476190476 TRUE
+OG0007998 PRKX Extension to Ser/Thr-type protein kinases 0.0476190476190476 TRUE
+OG0008000 PUS3 tRNA pseudouridine synthase 0.0150375939849624 TRUE
+OG0008070 OIT3 Zona pellucida (ZP) domain 0.0476190476190476 TRUE
+OG0008359 DAW1 WD domain, G-beta repeat 0.012987012987013 TRUE
+OG0008509 CFAP58 Cilia and flagella associated protein 58 0.0363636363636363 TRUE
+OG0008736 TFEC cellular response to heat 0.0150375939849624 TRUE
+OG0008960 LRRC74A Leucine Rich repeat 0.0263157894736842 TRUE
+OG0009199 SDCCAG8 Serologically defined colon cancer antigen 8 0.00478468899521532 TRUE
+OG0009331 FBXL16 Leucine Rich repeat 0.0476190476190476 TRUE
+OG0009343 ATXN7L3 Component of the transcription regulatory histone acetylation (HAT) complex SAGA, a multiprotein complex that activates transcription by remodeling chromatin and mediating histone acetylation and deubiquitination. Within the SAGA complex, participates in a subcomplex that specifically deubiquitinates both histones H2A and H2B. The SAGA complex is recruited to specific gene promoters by activators such as MYC, where it is required for transcription. Required for nuclear receptor-mediated transactivation. Within the complex, it is required to recruit USP22 and ENY2 into the SAGA complex. Regulates H2B monoubiquitination (H2Bub1) levels. Affects subcellular distribution of ENY2, USP22 and ATXN7L3B 0.0087719298245614 TRUE
+OG0009411 DNAJC24 DnaJ (Hsp40) homolog, subfamily C, member 24 0.0432900432900433 TRUE
+OG0009842 MPP1 regulation of neutrophil chemotaxis 0.0476190476190476 TRUE
+OG0009889 ZRANB2 Zinc finger Ran-binding domain-containing protein 2 0.0150375939849624 TRUE
+OG0009908 RAD18 Rad18-like CCHC zinc finger 0.0113519091847265 TRUE
+OG0009976 KIAA1467 Family with sequence similarity 234 member B 0.00610595115239078 TRUE
+OG0009988 CSPG4 Laminin G domain 0.0197628458498024 TRUE
+OG0010121 PIGU GPI transamidase subunit PIG-U 0.0150375939849624 TRUE
+OG0010250 NPHS1 CD80-like C2-set immunoglobulin domain 0.0113519091847265 TRUE
+OG0010511 C19orf47 Chromosome 19 open reading frame 47 0.0476190476190476 TRUE
+OG0010784 GATM Glycine amidinotransferase (L-arginine glycine amidinotransferase) 0.0276679841897233 TRUE
+OG0011170 SCFD1 Sec1 family 0.0432900432900433 TRUE
+OG0011175 DNAJC17 DnaJ domain 0.0144927536231884 TRUE
+OG0011286 ABCD4 ABC transporter transmembrane region 2 0.0172924901185771 TRUE
+OG0011538 FHIT HIT domain 0.02573045028288 TRUE
+OG0011685 STIP1 Heat shock chaperonin-binding motif. 0.0206398348813209 TRUE
+OG0011741 SUGT1 SGT1, suppressor of G2 allele of SKP1 0.0197628458498024 TRUE
+OG0011870 MYBPC1 Myosin binding protein C, slow type 0.0476190476190476 TRUE
+OG0012015 PDIA5 OST3 / OST6 family, transporter family 0.0350877192982456 TRUE
+OG0012076 WDR35 Component of the IFT complex A (IFT-A), a complex required for retrograde ciliary transport. Required for ciliogenesis. May promote CASP3 activation and TNF-stimulated apoptosis 0.0243478260869565 TRUE
+OG0012533 CIR1 corepressor interacting with RBPJ, 1 0.0207336523125997 TRUE
+OG0012839 SLC25A21 transmembrane transport 0.0316205533596838 TRUE
+OG0012869 SLC38A11 Solute carrier family 38, member 11 0.00751879699248119 TRUE
+OG0013076 ENDOV Endonuclease V 0.0227272727272727 TRUE

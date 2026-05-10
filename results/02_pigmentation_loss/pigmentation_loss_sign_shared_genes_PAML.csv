@@ -1,0 +1,846 @@
+OG,Preferred_name,Description,count,analysis
+OG0013147,EVC,Creveld syndrome,6,pigmentation_loss
+OG0008537,ARHGEF1,Regulator of G protein signalling-like domain,5,pigmentation_loss
+OG0008624,RAI14,Retinoic acid induced 14,5,pigmentation_loss
+OG0009307,MED23,Mediator of RNA polymerase II transcription subunit 23 isoform,5,pigmentation_loss
+OG0009976,KIAA1467,Family with sequence similarity 234 member B,5,pigmentation_loss
+OG0011175,DNAJC17,DnaJ domain,5,pigmentation_loss
+OG0006065,TACC2,Transforming acidic coiled-coil-containing protein (TACC),4,pigmentation_loss
+OG0006527,HECTD4,Domain Homologous to E6-AP Carboxyl Terminus with,4,pigmentation_loss
+OG0006557,AKNA,AT-hook-containing transcription factor,4,pigmentation_loss
+OG0007101,COL22A1,Thrombospondin N-terminal -like domains.,4,pigmentation_loss
+OG0007102,TERT,Telomerase ribonucleoprotein complex - RNA binding domain,4,pigmentation_loss
+OG0007188,CEP164,Centrosomal protein,4,pigmentation_loss
+OG0007574,C9orf171,Domain of unknown function (DUF4483),4,pigmentation_loss
+OG0007967,LRCH1,Calponin homology domain,4,pigmentation_loss
+OG0008101,FTO,"Dioxygenase that repairs alkylated DNA and RNA by oxidative demethylation. Has highest activity towards single- stranded RNA containing 3-methyluracil, followed by single- stranded DNA containing 3-methylthymine. Has low demethylase activity towards single-stranded DNA containing 1-methyladenine or 3-methylcytosine. Specifically demethylates N(6)-methyladenosine (m6A) RNA, the most prevalent internal modification of messenger RNA (mRNA) in higher eukaryotes. Has no activity towards 1- methylguanine. Has no detectable activity towards double-stranded DNA. Requires molecular oxygen, alpha-ketoglutarate and iron. Contributes to the regulation of the global metabolic rate, energy expenditure and energy homeostasis. Contributes to the regulation of body size and body fat accumulation",4,pigmentation_loss
+OG0008302,MIB2,Mib_herc2,4,pigmentation_loss
+OG0008509,CFAP58,Cilia and flagella associated protein 58,4,pigmentation_loss
+OG0008591,SHROOM3,Apx/Shroom domain ASD1,4,pigmentation_loss
+OG0008722,EPS8,actin polymerization-dependent cell motility,4,pigmentation_loss
+OG0008860,RNF8,histone H2A K63-linked ubiquitination,4,pigmentation_loss
+OG0008891,ASPSCR1,"Alveolar soft part sarcoma chromosome region, candidate 1",4,pigmentation_loss
+OG0009110,UBE3D,protein modification by small protein conjugation,4,pigmentation_loss
+OG0009819,PTPN13,Unstructured linker region on PTN13 protein between PDZ,4,pigmentation_loss
+OG0009879,AGMAT,Agmatine ureohydrolase (agmatinase),4,pigmentation_loss
+OG0009884,TSHZ2,Homeodomain,4,pigmentation_loss
+OG0009888,GTPBP6,GTP-binding GTPase Middle Region,4,pigmentation_loss
+OG0009988,CSPG4,Laminin G domain,4,pigmentation_loss
+OG0010030,GALT,Galactose-1-phosphate uridylyltransferase,4,pigmentation_loss
+OG0010290,IFIH1,C-terminal domain of RIG-I,4,pigmentation_loss
+OG0010526,MEI4,Meiotic double-stranded break formation protein 4,4,pigmentation_loss
+OG0010578,RRN3,nucleic acid-templated transcription,4,pigmentation_loss
+OG0010784,GATM,Glycine amidinotransferase (L-arginine glycine amidinotransferase),4,pigmentation_loss
+OG0010790,ULK3,Microtubule Interacting and Trafficking molecule domain,4,pigmentation_loss
+OG0010900,ERCC5,Helix-hairpin-helix class 2 (Pol1 family) motifs,4,pigmentation_loss
+OG0010973,CAST,calpastatin,4,pigmentation_loss
+OG0011015,WDR63,WD40 repeats,4,pigmentation_loss
+OG0011069,KIAA0430,NYN domain,4,pigmentation_loss
+OG0011154,APC2,"Coiled-coil N-terminus of APC, dimerisation domain",4,pigmentation_loss
+OG0011281,OFD1,"OFD1, centriole and centriolar satellite protein",4,pigmentation_loss
+OG0011489,DSTYK,positive regulation of fibroblast growth factor receptor signaling pathway,4,pigmentation_loss
+OG0011538,FHIT,HIT domain,4,pigmentation_loss
+OG0011658,DHX36,DEAH (Asp-Glu-Ala-His) box polypeptide 36,4,pigmentation_loss
+OG0011749,MYCBPAP,MYCBP-associated protein family,4,pigmentation_loss
+OG0011762,HPN,pilomotor reflex,4,pigmentation_loss
+OG0011786,SEMA4D,semaphorin domain,4,pigmentation_loss
+OG0011822,COL7A1,Kunitz/Bovine pancreatic trypsin inhibitor domain,4,pigmentation_loss
+OG0011876,TMEM173,Transmembrane protein 173,4,pigmentation_loss
+OG0011887,MPI,mannoprotein metabolic process,4,pigmentation_loss
+OG0012216,FAM35A,DNA repair,4,pigmentation_loss
+OG0012492,FAM161B,Family with sequence similarity 161 member B,4,pigmentation_loss
+OG0012599,VWF,von Willebrand factor (vWF) type A domain,4,pigmentation_loss
+OG0012631,NOL8,nucleolar protein 8,4,pigmentation_loss
+OG0012839,SLC25A21,transmembrane transport,4,pigmentation_loss
+OG0013066,CHD1L,Chromodomain helicase DNA binding protein,4,pigmentation_loss
+OG0013325,ACP7,"Purple acid Phosphatase, N-terminal domain",4,pigmentation_loss
+OG0013366,-,Pyridoxal-phosphate dependent enzyme,4,pigmentation_loss
+OG0005118,NR6A1,"Zinc finger, C4 type (two domains)",3,pigmentation_loss
+OG0005162,CENPE,"Kinesin motor, catalytic domain. ATPase.",3,pigmentation_loss
+OG0005323,PIBF1,Progesterone immunomodulatory binding factor 1,3,pigmentation_loss
+OG0005734,MUSK,"Muscle, skeletal, receptor",3,pigmentation_loss
+OG0006079,LUZP2,leucine zipper protein,3,pigmentation_loss
+OG0006326,GCC2,Rab binding domain,3,pigmentation_loss
+OG0006450,EP400,E1A binding protein p400,3,pigmentation_loss
+OG0006464,FGG,Fibrinogen alpha/beta chain family,3,pigmentation_loss
+OG0006488,GOLGA2,Golgin subfamily A member,3,pigmentation_loss
+OG0006575,HAUS8,"HAUS augmin-like complex, subunit 8",3,pigmentation_loss
+OG0006604,LEMD3,Man1-Src1p-C-terminal domain,3,pigmentation_loss
+OG0006621,LRRK2,"C-terminal of Roc, COR, domain",3,pigmentation_loss
+OG0006756,CNTLN,Centlein,3,pigmentation_loss
+OG0006768,CBFB,Core-binding factor subunit beta isoform,3,pigmentation_loss
+OG0006893,GRIPAP1,GRIP1 associated protein 1,3,pigmentation_loss
+OG0006939,VSIG10,Immunoglobulin V-set domain,3,pigmentation_loss
+OG0007006,WIPF3,"protein family, member 3",3,pigmentation_loss
+OG0007019,NOC2L,Noc2p family,3,pigmentation_loss
+OG0007036,CASP9,Caspase domain,3,pigmentation_loss
+OG0007060,FBXO18,UvrD-like helicase C-terminal domain,3,pigmentation_loss
+OG0007189,NOX4,superoxide-generating NADPH oxidase activity,3,pigmentation_loss
+OG0007243,NES,Intermediate filament protein,3,pigmentation_loss
+OG0007273,TRIP11,Thyroid hormone receptor interactor 11,3,pigmentation_loss
+OG0007277,LRRC1,Leucine rich repeat containing 1,3,pigmentation_loss
+OG0007312,HMMR,Hyaluronan-mediated motility receptor (RHAMM),3,pigmentation_loss
+OG0007481,N4BP2,DUF1771,3,pigmentation_loss
+OG0007488,C4orf27,Chromosome 4 open reading frame,3,pigmentation_loss
+OG0007510,DEPDC1,"Domain found in Dishevelled, Egl-10, and Pleckstrin",3,pigmentation_loss
+OG0007528,DDX54,DBP10CT (NUC160) domain,3,pigmentation_loss
+OG0007543,LTBP3,TB domain,3,pigmentation_loss
+OG0007636,STK11,Belongs to the protein kinase superfamily,3,pigmentation_loss
+OG0007651,RIC1,RAB6A GEF complex partner 1,3,pigmentation_loss
+OG0007686,UBR4,E3 ubiquitin-protein ligase UBR4,3,pigmentation_loss
+OG0007719,DNAJC6,C2 domain of PTEN tumour-suppressor protein,3,pigmentation_loss
+OG0007727,RSPH9,Radial spoke head,3,pigmentation_loss
+OG0007748,RPTOR,"Regulatory associated protein of MTOR, complex 1",3,pigmentation_loss
+OG0007768,CFAP69,Cilia and flagella associated protein 69,3,pigmentation_loss
+OG0007799,UVRAG,UV radiation resistance associated,3,pigmentation_loss
+OG0007825,ARMC9,cilium assembly,3,pigmentation_loss
+OG0007829,SASS6,Centriolar protein SAS N-terminal,3,pigmentation_loss
+OG0007983,NEB,Nebulin repeat,3,pigmentation_loss
+OG0007994,POPDC2,Popeye protein conserved region,3,pigmentation_loss
+OG0008107,FA2H,Fatty acid hydroxylase superfamily,3,pigmentation_loss
+OG0008129,PPCDC,Flavoprotein,3,pigmentation_loss
+OG0008148,DDB1,DNA binding protein 1,3,pigmentation_loss
+OG0008157,CASP8AP2,Fas signaling pathway,3,pigmentation_loss
+OG0008162,SPATA5,Spermatogenesis associated 5,3,pigmentation_loss
+OG0008171,MRC2,"Mannose receptor, C type 2",3,pigmentation_loss
+OG0008288,UBL4A,tail-anchored membrane protein insertion into ER membrane,3,pigmentation_loss
+OG0008359,DAW1,"WD domain, G-beta repeat",3,pigmentation_loss
+OG0008397,NUP214,WD40 repeats,3,pigmentation_loss
+OG0008419,MKS1,Meckel syndrome type 1,3,pigmentation_loss
+OG0008440,HEPACAM2,Immunoglobulin like,3,pigmentation_loss
+OG0008446,MATN1,Trimeric coiled-coil oligomerisation domain of matrilin,3,pigmentation_loss
+OG0008483,POMT1,C-terminal four TMM region of protein-O-mannosyltransferase,3,pigmentation_loss
+OG0008487,LNPEP,ERAP1-like C-terminal domain,3,pigmentation_loss
+OG0008505,PDILT,Thioredoxin-like domain,3,pigmentation_loss
+OG0008508,PDCD11,Suppressor of forked protein (Suf),3,pigmentation_loss
+OG0008516,NUPL1,Nucleoporin FG repeated region,3,pigmentation_loss
+OG0008538,TMEM145,Transmembrane protein 145,3,pigmentation_loss
+OG0008599,DNAI1,"WD domain, G-beta repeat",3,pigmentation_loss
+OG0008600,GTF3C4,Putative zinc-finger of transcription factor IIIC complex,3,pigmentation_loss
+OG0008616,SUPT6H,Transcription elongation factor that enhances transcription elongation by RNA polymerase II (RNAPII),3,pigmentation_loss
+OG0008736,TFEC,cellular response to heat,3,pigmentation_loss
+OG0008767,STX8,Syntaxin 8,3,pigmentation_loss
+OG0008829,CNTFR,Immunoglobulin C-2 Type,3,pigmentation_loss
+OG0008943,PLK4,positive regulation of centriole replication,3,pigmentation_loss
+OG0008950,EXD2,3'-5' exonuclease,3,pigmentation_loss
+OG0008982,POLR2A,DNA-directed 5'-3' RNA polymerase activity,3,pigmentation_loss
+OG0008995,XRCC6,X-ray repair complementing defective repair in Chinese hamster cells 6,3,pigmentation_loss
+OG0009078,TTLL4,"Tubulin tyrosine ligase-like family, member 4",3,pigmentation_loss
+OG0009164,CCDC39,Coiled-coil domain containing 39,3,pigmentation_loss
+OG0009180,PSAP,Saposin/surfactant protein-B A-type DOMAIN,3,pigmentation_loss
+OG0009188,ATE1,Involved in the post-translational conjugation of arginine to the N-terminal aspartate or glutamate of a protein. This arginylation is required for degradation of the protein via the ubiquitin pathway,3,pigmentation_loss
+OG0009199,SDCCAG8,Serologically defined colon cancer antigen 8,3,pigmentation_loss
+OG0009262,SLC25A48,Belongs to the mitochondrial carrier (TC 2.A.29) family,3,pigmentation_loss
+OG0009281,VPS9D1,Vacuolar sorting protein 9 (VPS9) domain,3,pigmentation_loss
+OG0009289,KIFC3,Belongs to the TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family,3,pigmentation_loss
+OG0009291,CLASRP,serine arginine rich protein,3,pigmentation_loss
+OG0009302,CCDC79,"SANT  SWI3, ADA2, N-CoR and TFIIIB'' DNA-binding domains",3,pigmentation_loss
+OG0009304,LAMA4,Laminin Domain I,3,pigmentation_loss
+OG0009343,ATXN7L3,"Component of the transcription regulatory histone acetylation (HAT) complex SAGA, a multiprotein complex that activates transcription by remodeling chromatin and mediating histone acetylation and deubiquitination. Within the SAGA complex, participates in a subcomplex that specifically deubiquitinates both histones H2A and H2B. The SAGA complex is recruited to specific gene promoters by activators such as MYC, where it is required for transcription. Required for nuclear receptor-mediated transactivation. Within the complex, it is required to recruit USP22 and ENY2 into the SAGA complex. Regulates H2B monoubiquitination (H2Bub1) levels. Affects subcellular distribution of ENY2, USP22 and ATXN7L3B",3,pigmentation_loss
+OG0009562,MAPK8IP2,"Phosphotyrosine-binding domain, phosphotyrosine-interaction (PI) domain",3,pigmentation_loss
+OG0009567,BLVRB,NAD(P)H-binding,3,pigmentation_loss
+OG0009569,BLM,BDHCT (NUC031) domain,3,pigmentation_loss
+OG0009648,GMIP,GTPase-activator protein for Rho-like GTPases,3,pigmentation_loss
+OG0009673,MGMT,"6-O-methylguanine DNA methyltransferase, DNA binding domain",3,pigmentation_loss
+OG0009779,NPC1,Niemann-Pick C1 N terminus,3,pigmentation_loss
+OG0009793,MMS22L,DNA repair protein,3,pigmentation_loss
+OG0009864,USP19,Linker region of USP19 deubiquitinase,3,pigmentation_loss
+OG0009894,RNF219,metal ion binding,3,pigmentation_loss
+OG0009915,LRRC7,PDZ domain (Also known as DHR or GLGF),3,pigmentation_loss
+OG0009974,WBP11,WW domain binding protein 11,3,pigmentation_loss
+OG0009986,TRAPPC11,Trafficking protein particle complex,3,pigmentation_loss
+OG0010013,CHID1,chitin binding,3,pigmentation_loss
+OG0010020,TNIP1,TNFAIP3 interacting protein 1,3,pigmentation_loss
+OG0010114,CCDC50,Coiled-coil domain-containing protein 50  N-terminus,3,pigmentation_loss
+OG0010117,IMMP1L,Peptidase S24-like,3,pigmentation_loss
+OG0010121,PIGU,GPI transamidase subunit PIG-U,3,pigmentation_loss
+OG0010136,APOB,DUF1943,3,pigmentation_loss
+OG0010266,ANKZF1,Ankyrin repeat,3,pigmentation_loss
+OG0010305,LATS2,Extension to Ser/Thr-type protein kinases,3,pigmentation_loss
+OG0010343,SNX7,Sorting nexin 7,3,pigmentation_loss
+OG0010404,RFWD2,zinc-RING finger domain,3,pigmentation_loss
+OG0010463,UNC93B1,unc-93 homolog B1,3,pigmentation_loss
+OG0010493,MAP7D3,MAP7 domain containing 3,3,pigmentation_loss
+OG0010553,SGSM3,RUN domain,3,pigmentation_loss
+OG0010603,CCDC66,regulation of protein localization to cilium,3,pigmentation_loss
+OG0010682,SRP54,endoplasmic reticulum signal peptide binding,3,pigmentation_loss
+OG0010763,SCARA3,Collagen triple helix repeat (20 copies),3,pigmentation_loss
+OG0010772,SLC30A6,Cation efflux family,3,pigmentation_loss
+OG0010851,ELP2,"WD domain, G-beta repeat",3,pigmentation_loss
+OG0010889,SPEF2,CH-like domain in sperm protein,3,pigmentation_loss
+OG0010920,MRI1,Initiation factor 2 subunit family,3,pigmentation_loss
+OG0010929,CFAP44,"WD domain, G-beta repeat",3,pigmentation_loss
+OG0010941,PHF1,Polycomb-like MTF2 factor 2,3,pigmentation_loss
+OG0010965,WBSCR22,Methyltransferase involved in Williams-Beuren syndrome,3,pigmentation_loss
+OG0010975,ZER1,regulation of ligase activity,3,pigmentation_loss
+OG0011042,C1orf159,Domain of unknown function (DUF4501),3,pigmentation_loss
+OG0011075,NUDC,Nuclear distribution C domain,3,pigmentation_loss
+OG0011170,SCFD1,Sec1 family,3,pigmentation_loss
+OG0011173,EIF2AK4,RWD,3,pigmentation_loss
+OG0011193,KIAA1598,endoplasmic reticulum polarization,3,pigmentation_loss
+OG0011216,OGFOD3,Prolyl 4-hydroxylase alpha subunit homologues.,3,pigmentation_loss
+OG0011271,AKAP11,regulation of protein kinase A signaling,3,pigmentation_loss
+OG0011286,ABCD4,ABC transporter transmembrane region 2,3,pigmentation_loss
+OG0011324,C8A,membrane-attack complex / perforin,3,pigmentation_loss
+OG0011327,ARHGEF11,Rho guanine nucleotide exchange factor,3,pigmentation_loss
+OG0011357,STARD3NL,MLN64 N-terminal domain homolog,3,pigmentation_loss
+OG0011369,NFX1,R3H domain,3,pigmentation_loss
+OG0011385,ANAPC1,"complex, subunit",3,pigmentation_loss
+OG0011440,PDPR,Aminomethyltransferase folate-binding domain,3,pigmentation_loss
+OG0011452,NSL1,"NSL1, MIS12 kinetochore complex component",3,pigmentation_loss
+OG0011459,WDR1,"WD domain, G-beta repeat",3,pigmentation_loss
+OG0011562,UTP18,WD40 repeats,3,pigmentation_loss
+OG0011641,CEP85L,Centrosomal protein,3,pigmentation_loss
+OG0011685,STIP1,Heat shock chaperonin-binding motif.,3,pigmentation_loss
+OG0011712,SNRNP27,U4 U6.U5 small nuclear ribonucleoprotein 27 kDa protein,3,pigmentation_loss
+OG0011734,GAK,C2 domain of PTEN tumour-suppressor protein,3,pigmentation_loss
+OG0011736,FBXL18,F-box and leucine-rich repeat protein 18,3,pigmentation_loss
+OG0011741,SUGT1,"SGT1, suppressor of G2 allele of SKP1",3,pigmentation_loss
+OG0011770,IL20RB,"Interferon-alpha/beta receptor, fibronectin type III",3,pigmentation_loss
+OG0011841,VEZT,myosin binding,3,pigmentation_loss
+OG0011848,SOX5,positive regulation of mesenchymal stem cell differentiation,3,pigmentation_loss
+OG0011852,ACOX1,acyl-CoA oxidase activity,3,pigmentation_loss
+OG0011888,AP4E1,Adaptin AP4 complex epsilon appendage platform,3,pigmentation_loss
+OG0011898,HLCS,Biotin--protein ligase,3,pigmentation_loss
+OG0011957,PAPLN,Linking region between Kunitz_BPTI and I-set on papilin,3,pigmentation_loss
+OG0011959,RLF,"Zinc finger, C2H2 type",3,pigmentation_loss
+OG0011964,MED1,"Component of the Mediator complex, a coactivator involved in the regulated transcription of nearly all RNA polymerase II-dependent genes. Mediator functions as a bridge to convey information from gene-specific regulatory proteins to the basal RNA polymerase II transcription machinery. Mediator is recruited to promoters by direct interactions with regulatory proteins and serves as a scaffold for the assembly of a functional preinitiation complex with RNA polymerase II and the general transcription factors",3,pigmentation_loss
+OG0011976,DAGLB,neuroblast proliferation,3,pigmentation_loss
+OG0011982,PEMT,Phospholipid methyltransferase,3,pigmentation_loss
+OG0011990,NUP160,Nucleoporin Nup120/160,3,pigmentation_loss
+OG0012001,MFRP,eye photoreceptor cell development,3,pigmentation_loss
+OG0012031,COG3,oligomeric golgi complex,3,pigmentation_loss
+OG0012050,RUSC1,RUN and SH3 domain containing 1,3,pigmentation_loss
+OG0012060,SEMA4F,semaphorin domain,3,pigmentation_loss
+OG0012076,WDR35,"Component of the IFT complex A (IFT-A), a complex required for retrograde ciliary transport. Required for ciliogenesis. May promote CASP3 activation and TNF-stimulated apoptosis",3,pigmentation_loss
+OG0012112,MTHFSD,5-formyltetrahydrofolate cyclo-ligase family,3,pigmentation_loss
+OG0012156,SETMAR,Transposase (partial DDE domain),3,pigmentation_loss
+OG0012168,ARHGEF3,Rho guanyl-nucleotide exchange factor activity,3,pigmentation_loss
+OG0012199,LAD1,Anchoring filament protein which is a component of the basement membrane zone,3,pigmentation_loss
+OG0012213,C5,A-macroglobulin receptor,3,pigmentation_loss
+OG0012226,C16orf89,Chromosome 16 open reading frame,3,pigmentation_loss
+OG0012246,P2RX2,ATP P2X receptor,3,pigmentation_loss
+OG0012300,EIF2D,translation initiation factor activity,3,pigmentation_loss
+OG0012302,IFT122,"WD domain, G-beta repeat",3,pigmentation_loss
+OG0012306,PEX7,Peroxisomal biogenesis factor 7,3,pigmentation_loss
+OG0012345,AUNIP,Aurora kinase A and ninein interacting protein,3,pigmentation_loss
+OG0012347,FIGLA,Helix-loop-helix DNA-binding domain,3,pigmentation_loss
+OG0012367,TMCO3,Transmembrane and coiled-coil domains 3,3,pigmentation_loss
+OG0012386,ATP5SL,Distal membrane arm assembly complex 2,3,pigmentation_loss
+OG0012509,PRODH2,Proline dehydrogenase,3,pigmentation_loss
+OG0012538,VTCN1,Immunoglobulin V-set domain,3,pigmentation_loss
+OG0012592,LONP2,ATP-dependent peptidase activity,3,pigmentation_loss
+OG0012603,FIG4,FIG4 phosphoinositide 5-phosphatase,3,pigmentation_loss
+OG0012630,ATG7,Ubiquitin-like modifier-activating enzyme ATG7 N-terminus,3,pigmentation_loss
+OG0012671,C2orf61,Sperm-tail PG-rich repeat,3,pigmentation_loss
+OG0012672,MAP10,Protein of unknown function (DUF4497),3,pigmentation_loss
+OG0012732,PNPT1,mitochondrial mRNA polyadenylation,3,pigmentation_loss
+OG0012776,KIAA2026,bromo domain,3,pigmentation_loss
+OG0012838,FSIP1,FSIP1 family,3,pigmentation_loss
+OG0012857,ACRC,SprT homologues.,3,pigmentation_loss
+OG0012859,PIPOX,Pipecolic acid oxidase,3,pigmentation_loss
+OG0012876,ECHDC1,methylmalonyl-CoA decarboxylase activity,3,pigmentation_loss
+OG0012936,IQCK,IQ motif containing K,3,pigmentation_loss
+OG0012956,FANCF,"Fanconi anemia, complementation group F",3,pigmentation_loss
+OG0013093,MRPL33,Mitochondrial ribosomal protein L33,3,pigmentation_loss
+OG0013142,CETP,Cholesteryl ester transfer protein,3,pigmentation_loss
+OG0013277,-,Acyclic terpene utilisation family protein AtuA,3,pigmentation_loss
+OG0013295,FBXW12,F-box-like,3,pigmentation_loss
+OG0013341,PIGV,Mannosyltransferase (PIG-V),3,pigmentation_loss
+OG0013443,VSIG10L,Immunoglobulin C-2 Type,3,pigmentation_loss
+OG0013489,CD6,Scavenger receptor Cys-rich,3,pigmentation_loss
+OG0004898,TMEFF2,Kazal-type serine protease inhibitor domain,2,pigmentation_loss
+OG0005307,SRRM3,Serine/arginine repetitive matrix protein C-terminus,2,pigmentation_loss
+OG0005371,TDRD12,Tudor domain,2,pigmentation_loss
+OG0005579,SELENBP1,Selenium-binding protein which may be involved in the sensing of reactive xenobiotics in the cytoplasm. May be involved in intra-Golgi protein transport (By similarity),2,pigmentation_loss
+OG0005608,PTPRQ,"Protein tyrosine phosphatase, catalytic domain",2,pigmentation_loss
+OG0005683,RASA1,GTPase-activator protein for Ras-like GTPases,2,pigmentation_loss
+OG0005710,ZBTB46,Zinc finger and BTB domain containing 46,2,pigmentation_loss
+OG0005717,ZC3H3,Zinc finger CCCH-type containing 3,2,pigmentation_loss
+OG0005906,ANLN,Anillin N-terminus,2,pigmentation_loss
+OG0006003,AP3D1,"Part of the AP-3 complex, an adaptor-related complex which is not clathrin-associated. The complex is associated with the Golgi region as well as more peripheral structures. It facilitates the budding of vesicles from the Golgi membrane",2,pigmentation_loss
+OG0006007,RPAP1,"RPAP1-like, N-terminal",2,pigmentation_loss
+OG0006026,HEATR1,HEAT repeat containing 1,2,pigmentation_loss
+OG0006165,SEH1L,"Component of the Nup107-160 subcomplex of the nuclear pore complex (NPC). The Nup107-160 subcomplex is required for the assembly of a functional NPC. The Nup107-160 subcomplex is also required for normal kinetochore microtubule attachment, mitotic progression and chromosome segregation. This subunit plays a role in recruitment of the Nup107-160 subcomplex to the kinetochore",2,pigmentation_loss
+OG0006186,TUBGCP3,Spc97 / Spc98 family,2,pigmentation_loss
+OG0006187,HDHD1,Haloacid dehalogenase-like hydrolase,2,pigmentation_loss
+OG0006228,CTC1,"Component of the CST complex proposed to act as a specialized replication factor promoting DNA replication under conditions of replication stress or natural replication barriers such as the telomere duplex. The CST complex binds single-stranded DNA with high affinity in a sequence-independent manner, while isolated subunits bind DNA with low affinity by themselves. Initially the CST complex has been proposed to protect telomeres from DNA degradation. However, the CST complex has been shown to be involved in several aspects of telomere replication. The CST complex inhibits telomerase and is involved in telomere length homeostasis",2,pigmentation_loss
+OG0006232,HERC2,HECT and RLD domain containing E3 ubiquitin protein ligase 2,2,pigmentation_loss
+OG0006257,ZBTB12,"Zinc finger, C2H2 type",2,pigmentation_loss
+OG0006330,VWA8,AAA domain (dynein-related subfamily),2,pigmentation_loss
+OG0006331,RIF1,Rap1-interacting factor 1 N terminal,2,pigmentation_loss
+OG0006341,ENKUR,"Enkurin, TRPC channel interacting protein",2,pigmentation_loss
+OG0006365,KNDC1,kinase non-catalytic C-lobe domain,2,pigmentation_loss
+OG0006380,C15orf39,Chromosome 15 open reading frame,2,pigmentation_loss
+OG0006384,FRK,"Tyrosine kinase, catalytic domain",2,pigmentation_loss
+OG0006389,CDHR2,Cadherin repeats.,2,pigmentation_loss
+OG0006456,CHGB,Granin (chromogranin or secretogranin),2,pigmentation_loss
+OG0006470,DUT,dUTPase,2,pigmentation_loss
+OG0006509,RNF216,Ring finger protein 216,2,pigmentation_loss
+OG0006515,DDX31,DUF4217,2,pigmentation_loss
+OG0006533,ZC3H13,Zinc finger C-x8-C-x5-C-x3-H type (and similar),2,pigmentation_loss
+OG0006538,TNFRSF11A,Tumor necrosis factor receptor / nerve growth factor receptor repeats.,2,pigmentation_loss
+OG0006540,KIAA1407,Coiled-coil domain containing 191,2,pigmentation_loss
+OG0006578,MAP7,MAP7 (E-MAP-115) family,2,pigmentation_loss
+OG0006580,KANSL2,histone H4-K16 acetylation,2,pigmentation_loss
+OG0006608,ZC3H11A,poly(A)+ mRNA export from nucleus,2,pigmentation_loss
+OG0006616,COL16A1,Thrombospondin N-terminal -like domains.,2,pigmentation_loss
+OG0006625,TICRR,Treslin N-terminus,2,pigmentation_loss
+OG0006636,DENR,translation initiation factor activity,2,pigmentation_loss
+OG0006655,TICAM1,RIP homotypic interaction motif,2,pigmentation_loss
+OG0006657,AXDND1,Axonemal dynein light chain domain containing 1,2,pigmentation_loss
+OG0006661,RPS15,ribosomal protein,2,pigmentation_loss
+OG0006668,TOLLIP,CUE domain,2,pigmentation_loss
+OG0006673,STARD9,stAR-related lipid transfer,2,pigmentation_loss
+OG0006719,DDC,Beta-eliminating lyase,2,pigmentation_loss
+OG0006722,FARS2,Ferredoxin-fold anticodon binding domain,2,pigmentation_loss
+OG0006732,RPS4X,rRNA binding,2,pigmentation_loss
+OG0006745,NOLC1,"SRP40, C-terminal domain",2,pigmentation_loss
+OG0006763,GTSE1,G-2 and S-phase expressed 1,2,pigmentation_loss
+OG0006772,SHF,Src homology 2 domain containing F,2,pigmentation_loss
+OG0006774,C2CD5,C2 calcium-dependent domain containing 5,2,pigmentation_loss
+OG0006779,COIL,protein C-terminus binding,2,pigmentation_loss
+OG0006782,SGOL1,Shugoshin C terminus,2,pigmentation_loss
+OG0006783,ZNF653,"Zinc finger, C2H2 type",2,pigmentation_loss
+OG0006787,LRRC48,Dynein regulatory complex subunit 3,2,pigmentation_loss
+OG0006798,SLC25A26,Belongs to the mitochondrial carrier (TC 2.A.29) family,2,pigmentation_loss
+OG0006857,PPAT,Phosphoribosyl pyrophosphate amidotransferase,2,pigmentation_loss
+OG0006896,CEP350,CAP_GLY,2,pigmentation_loss
+OG0006914,FER,"Fes/CIP4, and EFC/F-BAR homology domain",2,pigmentation_loss
+OG0006916,NUP88,Nuclear pore component,2,pigmentation_loss
+OG0006935,TPMT,thiopurine S-methyltransferase activity,2,pigmentation_loss
+OG0006947,IDUA,"Iduronidase, alpha-L",2,pigmentation_loss
+OG0006952,CNPY3,Canopy FGF signaling regulator 3,2,pigmentation_loss
+OG0006969,NKTR,Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD,2,pigmentation_loss
+OG0006972,MPPE1,GPI anchor binding,2,pigmentation_loss
+OG0006973,UBR5,E3 ubiquitin ligase EDD,2,pigmentation_loss
+OG0006974,PROC,Domain containing Gla (gamma-carboxyglutamate) residues.,2,pigmentation_loss
+OG0006977,ANKRD12,ankyrin repeat domain,2,pigmentation_loss
+OG0007014,KTI12,Chromatin associated protein KTI12,2,pigmentation_loss
+OG0007029,CORIN,"Corin, serine peptidase",2,pigmentation_loss
+OG0007067,MDM2,"MDM2 proto-oncogene, E3 ubiquitin protein ligase",2,pigmentation_loss
+OG0007100,GTF2H1,"TFIIH p62 subunit, N-terminal domain",2,pigmentation_loss
+OG0007129,ERBB2IP,Erbb2 interacting protein,2,pigmentation_loss
+OG0007139,SERPINC1,"Serpin peptidase inhibitor, clade C (antithrombin), member 1",2,pigmentation_loss
+OG0007142,POLRMT,DNA-directed RNA polymerase N-terminal,2,pigmentation_loss
+OG0007147,KIF14,Kinesin-associated,2,pigmentation_loss
+OG0007152,ASPM,"Asp (abnormal spindle) homolog, microcephaly associated (Drosophila)",2,pigmentation_loss
+OG0007174,DROSHA,"Drosha, ribonuclease type III",2,pigmentation_loss
+OG0007198,SCARF1,"EGF domain, unclasssified subfamily",2,pigmentation_loss
+OG0007206,CERKL,Diacylglycerol kinase catalytic domain,2,pigmentation_loss
+OG0007240,CUBN,EGF domain,2,pigmentation_loss
+OG0007250,RBM12B,RNA recognition motif,2,pigmentation_loss
+OG0007258,GBA2,"beta-glucosidase 2, glycosyl-hydrolase family 116 N-term",2,pigmentation_loss
+OG0007267,NOL7,NUC129 domain,2,pigmentation_loss
+OG0007283,STOX1,Winged helix Storkhead-box1 domain,2,pigmentation_loss
+OG0007307,TP53BP1,Tumour suppressor p53-binding protein-1 Tudor,2,pigmentation_loss
+OG0007325,TTC38,tetratricopeptide repeat,2,pigmentation_loss
+OG0007338,SNW1,regulation of vitamin D receptor signaling pathway,2,pigmentation_loss
+OG0007352,CNTNAP1,Contactin associated protein 1,2,pigmentation_loss
+OG0007356,CD2BP2,Contains conserved Gly-Tyr-Phe residues,2,pigmentation_loss
+OG0007380,MRPL18,"Ribosomal L18 of archaea, bacteria, mitoch. and chloroplast",2,pigmentation_loss
+OG0007384,CEP290,Centrosomal protein,2,pigmentation_loss
+OG0007446,REN,regulation of angiotensin levels in blood,2,pigmentation_loss
+OG0007461,CFAP61,Domain of unknown function (DUF4821),2,pigmentation_loss
+OG0007463,RNF217,"IBR domain, a half RING-finger domain",2,pigmentation_loss
+OG0007466,NUS1,Putative undecaprenyl diphosphate synthase,2,pigmentation_loss
+OG0007467,RFX6,RFX DNA-binding domain,2,pigmentation_loss
+OG0007470,AKAP12,WSK motif,2,pigmentation_loss
+OG0007500,BCL9L,B-cell lymphoma 9 protein,2,pigmentation_loss
+OG0007547,PSMD3,Proteasome regulatory subunit C-terminal,2,pigmentation_loss
+OG0007548,MRPL9,"Ribosomal protein L9, N-terminal domain",2,pigmentation_loss
+OG0007570,SRRM4,Serine/arginine repetitive matrix protein C-terminus,2,pigmentation_loss
+OG0007576,PIK3IP1,negative regulation of phosphatidylinositol 3-kinase activity,2,pigmentation_loss
+OG0007582,CNTRL,Leucine-rich repeat,2,pigmentation_loss
+OG0007590,RANBP1,RAN binding protein 1,2,pigmentation_loss
+OG0007613,DLEC1,Deleted in lung and esophageal cancer,2,pigmentation_loss
+OG0007619,RTTN,"Rotatin, an armadillo repeat protein, centriole functioning",2,pigmentation_loss
+OG0007639,VCPIP1,Valosin containing protein (p97) p47 complex interacting protein 1,2,pigmentation_loss
+OG0007646,TGS1,RNA cap guanine-N2 methyltransferase,2,pigmentation_loss
+OG0007653,ZNF532,zinc-finger C2H2-type,2,pigmentation_loss
+OG0007655,SH3PXD2B,"PhoX homologous domain, present in p47phox and p40phox.",2,pigmentation_loss
+OG0007657,NSRP1,Coiled-coil domain-containing protein 55 (DUF2040),2,pigmentation_loss
+OG0007674,HIVEP1,C2H2-type zinc-finger domain,2,pigmentation_loss
+OG0007679,DFFA,"DNA Fragmentation factor 45kDa, C terminal domain",2,pigmentation_loss
+OG0007683,ATP13A2,P5-type ATPase cation transporter,2,pigmentation_loss
+OG0007697,SALL4,Zinc-finger of C2H2 type,2,pigmentation_loss
+OG0007701,SSB,Sjogren syndrome antigen B,2,pigmentation_loss
+OG0007703,NCOA5,Nuclear receptor coactivator 5,2,pigmentation_loss
+OG0007711,FANCD2,Fanconi anaemia protein FancD2 nuclease,2,pigmentation_loss
+OG0007720,RAVER2,RNA recognition motif,2,pigmentation_loss
+OG0007724,KIF15,Pfam:Kinesin-relat_1,2,pigmentation_loss
+OG0007735,GOLGB1,Golgin subfamily B member 1,2,pigmentation_loss
+OG0007749,CCDC40,BRE1 E3 ubiquitin ligase,2,pigmentation_loss
+OG0007751,DAXX,Daxx N-terminal Rassf1C-interacting domain,2,pigmentation_loss
+OG0007755,NELFE,RNA recognition motif,2,pigmentation_loss
+OG0007763,ANKS1B,Ankyrin repeat and sterile alpha motif domain containing 1B,2,pigmentation_loss
+OG0007771,SPTY2D1,SPT2 chromatin protein,2,pigmentation_loss
+OG0007807,FNDC1,Fibronectin type 3 domain,2,pigmentation_loss
+OG0007810,PCYOX1,prenylcysteine oxidase activity,2,pigmentation_loss
+OG0007818,OGFOD1,2-oxoglutarate and iron-dependent oxygenase domain containing 1,2,pigmentation_loss
+OG0007848,ANKRD24,ankyrin repeat,2,pigmentation_loss
+OG0007851,SDC4,positive regulation of extracellular exosome assembly,2,pigmentation_loss
+OG0007860,LRRC57,Leucine Rich repeats (2 copies),2,pigmentation_loss
+OG0007885,CLN8,"TRAM, LAG1 and CLN8 homology domains.",2,pigmentation_loss
+OG0007886,ARHGEF10,Rho guanine nucleotide exchange factor,2,pigmentation_loss
+OG0007891,NGFR,Death domain,2,pigmentation_loss
+OG0007892,POLR3A,RNA polymerase I subunit A N-terminus,2,pigmentation_loss
+OG0007894,AFAP1,Pleckstrin homology domain.,2,pigmentation_loss
+OG0007899,UNC13D,Munc13 (mammalian uncoordinated) homology domain,2,pigmentation_loss
+OG0007915,SLC16A12,Major Facilitator Superfamily,2,pigmentation_loss
+OG0007932,JPH3,"Possible plasma membrane-binding motif in junctophilins, PIP-5-kinases and protein kinases.",2,pigmentation_loss
+OG0007934,GAP43,axon choice point recognition,2,pigmentation_loss
+OG0007939,NYAP2,Neuronal tyrosine-phosphorylated phosphoinositide-3-kinase adapter,2,pigmentation_loss
+OG0007943,C2CD3,Protein kinase C conserved region 2 (CalB),2,pigmentation_loss
+OG0007947,C11orf57,NF-kappa-B-activating protein,2,pigmentation_loss
+OG0007955,SPCS2,Signal peptidase complex subunit 2,2,pigmentation_loss
+OG0007958,NUDT8,NUDIX domain,2,pigmentation_loss
+OG0007978,F5,"Coagulation factor V (proaccelerin, labile factor)",2,pigmentation_loss
+OG0007988,ZNF142,Zinc finger protein 142,2,pigmentation_loss
+OG0007993,IFT88,"Anaphase-promoting complex, cyclosome, subunit 3",2,pigmentation_loss
+OG0007995,CRYL1,Crystallin lambda 1,2,pigmentation_loss
+OG0008000,PUS3,tRNA pseudouridine synthase,2,pigmentation_loss
+OG0008022,BVES,Blood vessel epicardial substance,2,pigmentation_loss
+OG0008025,TRIM71,NHL repeat,2,pigmentation_loss
+OG0008052,SH3TC1,Src homology 3 domains,2,pigmentation_loss
+OG0008060,RIPK2,Caspase recruitment domain,2,pigmentation_loss
+OG0008071,PERP,apoptosis effector,2,pigmentation_loss
+OG0008073,GPATCH11,DUF4187,2,pigmentation_loss
+OG0008074,GOLGA4,"golgin-97, RanBP2alpha,Imh1p and p230/golgin-245",2,pigmentation_loss
+OG0008079,TJAP1,Protein incorporated later into Tight Junctions,2,pigmentation_loss
+OG0008092,MAML3,Mastermind-like 3 (Drosophila),2,pigmentation_loss
+OG0008103,UACA,Ankyrin repeat,2,pigmentation_loss
+OG0008119,FNTA,Protein prenyltransferase alpha subunit repeat,2,pigmentation_loss
+OG0008120,AP1AR,AP-1 complex-associated regulatory protein,2,pigmentation_loss
+OG0008121,ENPP6,"Hydrolyzes lysophosphatidylcholine (LPC) to form monoacylglycerol and phosphorylcholine but not lysophosphatidic acid, showing it has a lysophospholipase C activity. Has a preference for LPC with short (12 0 and 14 0) or polyunsaturated (18 2 and 20 4) fatty acids. Also hydrolyzes glycerophosphorylcholine and sphingosylphosphorylcholine efficiently. Hydrolyzes the classical substrate for phospholipase C, p-nitrophenyl phosphorylcholine in vitro, while it does not hydrolyze the classical nucleotide phosphodiesterase substrate",2,pigmentation_loss
+OG0008131,ZNF423,C2H2-type zinc finger,2,pigmentation_loss
+OG0008149,BUB1,Mad3/BUB1 hoMad3/BUB1 homology region 1,2,pigmentation_loss
+OG0008154,CFAP206,Domain of unknown function,2,pigmentation_loss
+OG0008165,TTC18,Cilia and flagella associated protein 70,2,pigmentation_loss
+OG0008198,SLMAP,Forkhead associated domain,2,pigmentation_loss
+OG0008199,MCM2,Mini-chromosome maintenance protein 2,2,pigmentation_loss
+OG0008214,PRMT7,Ribosomal protein L11 methyltransferase (PrmA),2,pigmentation_loss
+OG0008235,MYOT,Myotilin,2,pigmentation_loss
+OG0008244,ZNF827,Zinc finger protein 827,2,pigmentation_loss
+OG0008282,DOK2,Phosphotyrosine-binding domain (IRS1-like),2,pigmentation_loss
+OG0008283,RTDR1,Rhabdoid tumor deletion region,2,pigmentation_loss
+OG0008343,RFC1,Replication factor RFC1 C terminal domain,2,pigmentation_loss
+OG0008388,NEXN,Immunoglobulin,2,pigmentation_loss
+OG0008391,SAP30BP,HCNGP-like protein,2,pigmentation_loss
+OG0008392,ITGB4,"Integrin, beta 4",2,pigmentation_loss
+OG0008396,UTP14A,Utp14 protein,2,pigmentation_loss
+OG0008404,SIPA1,Rap/ran-GAP,2,pigmentation_loss
+OG0008410,LRSAM1,Insulin / insulin-like growth factor / relaxin family.,2,pigmentation_loss
+OG0008411,PTCD2,Mitochondrial 28S ribosomal protein S27,2,pigmentation_loss
+OG0008418,POU2F3,Found in Pit-Oct-Unc transcription factors,2,pigmentation_loss
+OG0008442,RP9,cognition,2,pigmentation_loss
+OG0008444,TRIT1,IPP transferase,2,pigmentation_loss
+OG0008449,SUSD5,Link (Hyaluronan-binding),2,pigmentation_loss
+OG0008455,TOP3A,Bacterial DNA topoisomerase I DNA-binding domain,2,pigmentation_loss
+OG0008457,CLSPN,Claspin isoform X1,2,pigmentation_loss
+OG0008469,NOXA1,NADPH oxidase activator 1,2,pigmentation_loss
+OG0008471,TRAFD1,zinc finger,2,pigmentation_loss
+OG0008486,CDK7,Protein tyrosine kinase,2,pigmentation_loss
+OG0008493,C9orf85,Chromosome 9 open reading frame 85,2,pigmentation_loss
+OG0008498,PLK1,Protein kinase domain,2,pigmentation_loss
+OG0008527,ZFAND1,AN1-like Zinc finger,2,pigmentation_loss
+OG0008536,KIAA1429,"Virilizer, N-terminal",2,pigmentation_loss
+OG0008560,GK5,"FGGY family of carbohydrate kinases, N-terminal domain",2,pigmentation_loss
+OG0008569,SIRT6,Sirtuin 6,2,pigmentation_loss
+OG0008580,PNISR,Arginine/serine-rich protein PNISR,2,pigmentation_loss
+OG0008588,MRE11A,Mre11 DNA-binding presumed domain,2,pigmentation_loss
+OG0008593,C9orf114,Chromosome 9 open reading frame 114,2,pigmentation_loss
+OG0008607,TXNDC15,Thioredoxin domain containing 15,2,pigmentation_loss
+OG0008623,BTC,Human growth factor-like EGF,2,pigmentation_loss
+OG0008625,FYB,FYN binding protein,2,pigmentation_loss
+OG0008631,DBN1,Drebrin 1,2,pigmentation_loss
+OG0008638,KANK2,KN motif,2,pigmentation_loss
+OG0008640,HM13,Signal peptide peptidase,2,pigmentation_loss
+OG0008650,LZIC,Leucine zipper and CTNNBIP1 domain containing,2,pigmentation_loss
+OG0008653,ZBTB17,zinc-finger C2H2-type,2,pigmentation_loss
+OG0008666,TM9SF4,Belongs to the nonaspanin (TM9SF) (TC 9.A.2) family,2,pigmentation_loss
+OG0008680,SENP1,ubiquitin-like protein-specific isopeptidase activity,2,pigmentation_loss
+OG0008687,CS,citrate synthase,2,pigmentation_loss
+OG0008700,DCTN2,dynactin,2,pigmentation_loss
+OG0008703,CCDC65,Sperm tail,2,pigmentation_loss
+OG0008710,TBC1D23,embryonic brain development,2,pigmentation_loss
+OG0008711,MFI2,Antigen p97 (melanoma associated) identified by monoclonal antibodies 133.2 and 96.5,2,pigmentation_loss
+OG0008717,MYRFL,Chaperone of endosialidase,2,pigmentation_loss
+OG0008723,RPAP3,Potential Monad-binding region of RPAP3,2,pigmentation_loss
+OG0008732,TERF2,Telomeric repeat binding factor 2,2,pigmentation_loss
+OG0008752,OPTN,NF-kappa-B essential modulator NEMO,2,pigmentation_loss
+OG0008755,IGF1,Insulin/IGF/Relaxin family,2,pigmentation_loss
+OG0008762,SUCLA2,ATP-grasp domain,2,pigmentation_loss
+OG0008777,SRD5A1,"Steroid-5-alpha-reductase, alpha polypeptide 1 (3-oxo-5 alpha-steroid delta 4-dehydrogenase alpha 1)",2,pigmentation_loss
+OG0008784,MGP,Matrix Gla protein,2,pigmentation_loss
+OG0008792,ARID2,"AT rich interactive domain 2 (ARID, RFX-like)",2,pigmentation_loss
+OG0008796,PEAK1,Protein tyrosine kinase,2,pigmentation_loss
+OG0008820,MYRF,NDT80 / PhoG like DNA-binding  family,2,pigmentation_loss
+OG0008827,SH3BP2,Src homology 2 domains,2,pigmentation_loss
+OG0008851,USP25,Belongs to the peptidase C19 family,2,pigmentation_loss
+OG0008855,EXOC2,Exocyst complex component Sec5,2,pigmentation_loss
+OG0008856,SCYL3,SCY1-like 3,2,pigmentation_loss
+OG0008865,TCTN1,Tectonic family member 1,2,pigmentation_loss
+OG0008884,KARS,lysyl-tRNA synthetase,2,pigmentation_loss
+OG0008892,TBCE,post-chaperonin tubulin folding pathway,2,pigmentation_loss
+OG0008908,PIAS4,"Protein inhibitor of activated STAT, 4",2,pigmentation_loss
+OG0008922,DTD1,deacylase 1,2,pigmentation_loss
+OG0008987,ANAPC16,complex subunit 16,2,pigmentation_loss
+OG0008990,ENTHD2,ENTH domain,2,pigmentation_loss
+OG0008992,AFAP1L2,Actin filament associated protein,2,pigmentation_loss
+OG0008997,LCMT1,Leucine carboxyl methyltransferase,2,pigmentation_loss
+OG0008998,MEIOB,single-stranded DNA 3'-5' exodeoxyribonuclease activity,2,pigmentation_loss
+OG0009002,MYOCD,Myocardin,2,pigmentation_loss
+OG0009011,TNMD,Tenomodulin,2,pigmentation_loss
+OG0009023,SIK3,SIK family kinase 3,2,pigmentation_loss
+OG0009038,KIAA0753,Protein moonraker,2,pigmentation_loss
+OG0009044,SLC46A1,Major Facilitator Superfamily,2,pigmentation_loss
+OG0009055,CCDC141,Coiled-coil domain containing 141,2,pigmentation_loss
+OG0009057,SLC39A10,ZIP Zinc transporter,2,pigmentation_loss
+OG0009064,SYTL5,FYVE-type zinc finger,2,pigmentation_loss
+OG0009084,C14orf39,Six6 opposite strand transcript 1 family,2,pigmentation_loss
+OG0009086,WDR4,"Required for the formation of N(7)-methylguanine at position 46 (m7G46) in tRNA. In the complex, it is required to stabilize and induce conformational changes of the catalytic subunit",2,pigmentation_loss
+OG0009092,PIKFYVE,"Phosphoinositide kinase, FYVE finger containing",2,pigmentation_loss
+OG0009107,TSNARE1,Myb/SANT-like DNA-binding domain,2,pigmentation_loss
+OG0009121,SMPDL3B,Calcineurin-like phosphoesterase,2,pigmentation_loss
+OG0009124,ANO10,Anoctamin,2,pigmentation_loss
+OG0009129,POLR3C,RNA polymerase III subunit,2,pigmentation_loss
+OG0009133,IL6R,Interleukin 6 receptor,2,pigmentation_loss
+OG0009138,TBC1D31,Rab-GTPase-TBC domain,2,pigmentation_loss
+OG0009159,SEC62,posttranslational protein targeting to endoplasmic reticulum membrane,2,pigmentation_loss
+OG0009211,DHX57,Helicase associated domain (HA2)  Add an annotation,2,pigmentation_loss
+OG0009219,NIN,Ninein (GSK3B interacting protein),2,pigmentation_loss
+OG0009222,CEP68,Centrosomal protein,2,pigmentation_loss
+OG0009226,DNA2,DNA replication factor Dna2,2,pigmentation_loss
+OG0009241,CNEP1R1,CTD nuclear envelope phosphatase 1 regulatory subunit 1,2,pigmentation_loss
+OG0009245,METTL15,methyltransferase activity,2,pigmentation_loss
+OG0009256,BEND4,BEN,2,pigmentation_loss
+OG0009259,SCYL1,SCY1-like 1 (S. cerevisiae),2,pigmentation_loss
+OG0009260,TRPT1,tRNA phosphotransferase 1,2,pigmentation_loss
+OG0009261,PPARGC1B,RNA recognition motif,2,pigmentation_loss
+OG0009264,TMCO6,Armadillo/beta-catenin-like repeats,2,pigmentation_loss
+OG0009273,XPNPEP2,"X-prolyl aminopeptidase (aminopeptidase P) 2, membrane-bound",2,pigmentation_loss
+OG0009286,NUP205,"Nuclear pore complex scaffold, nucleoporins 186/192/205",2,pigmentation_loss
+OG0009325,HEATR2,HEAT repeat-containing protein 2,2,pigmentation_loss
+OG0009331,FBXL16,Leucine Rich repeat,2,pigmentation_loss
+OG0009332,METTL22,Methyltransferase like 22,2,pigmentation_loss
+OG0009341,CASC3,Cancer susceptibility,2,pigmentation_loss
+OG0009367,BYSL,Bystin,2,pigmentation_loss
+OG0009393,IL17RD,N-terminus of interleukin 17 receptor D,2,pigmentation_loss
+OG0009398,CASS4,Cas scaffolding protein family member 4,2,pigmentation_loss
+OG0009401,IPO9,Importin 9,2,pigmentation_loss
+OG0009407,CLP1,ATP-dependent polyribonucleotide 5'-hydroxyl-kinase activity,2,pigmentation_loss
+OG0009411,DNAJC24,"DnaJ (Hsp40) homolog, subfamily C, member 24",2,pigmentation_loss
+OG0009443,DCST1,DC-STAMP domain containing 1,2,pigmentation_loss
+OG0009448,OCA2,Arsenical pump membrane protein,2,pigmentation_loss
+OG0009498,MAK16,Mak16 protein C-terminal region,2,pigmentation_loss
+OG0009502,RENBP,N-acylglucosamine 2-epimerase (GlcNAc 2-epimerase),2,pigmentation_loss
+OG0009506,TRH,Thyrotropin-releasing hormone (TRH),2,pigmentation_loss
+OG0009515,NUDT14,Nudix (nucleoside diphosphate linked moiety X)-type motif 14,2,pigmentation_loss
+OG0009538,ILVBL,"Thiamine pyrophosphate enzyme, C-terminal TPP binding domain",2,pigmentation_loss
+OG0009539,MAP9,regulation of mitotic cytokinesis,2,pigmentation_loss
+OG0009545,LMBRD1,LMBR1-like membrane protein,2,pigmentation_loss
+OG0009574,LRRC2,Leucine Rich Repeat,2,pigmentation_loss
+OG0009585,ARIH2,Ariadne RBR E3 ubiquitin protein ligase 2,2,pigmentation_loss
+OG0009587,CEP104,Centrosomal protein,2,pigmentation_loss
+OG0009611,WDR36,Utp21 specific WD40 associated putative domain,2,pigmentation_loss
+OG0009635,FDXACB1,Domain of unknown function (DUF2431),2,pigmentation_loss
+OG0009640,IQCD,Short calmodulin-binding motif containing conserved Ile and Gln residues.,2,pigmentation_loss
+OG0009644,ANKLE1,Ankyrin repeats (many copies),2,pigmentation_loss
+OG0009651,TWISTNB,SHS2 domain found in N terminus of Rpb7p/Rpc25p/MJ0397,2,pigmentation_loss
+OG0009664,WASF2,"protein family, member 2",2,pigmentation_loss
+OG0009674,ZNF598,Zinc finger protein 598,2,pigmentation_loss
+OG0009680,ARHGAP25,Rho GTPase activating protein 25,2,pigmentation_loss
+OG0009681,KAT6A,Belongs to the MYST (SAS MOZ) family,2,pigmentation_loss
+OG0009689,KANK1,ankyrin repeats,2,pigmentation_loss
+OG0009702,KNTC1,Rough deal protein C-terminal region,2,pigmentation_loss
+OG0009713,ALKBH5,RNA demethylase,2,pigmentation_loss
+OG0009723,ATF7IP,ATF-interacting protein binding domain,2,pigmentation_loss
+OG0009737,MYD88,TIR domain binding,2,pigmentation_loss
+OG0009755,FRRS1L,Ferric-chelate reductase 1-like,2,pigmentation_loss
+OG0009759,FAM171A1,Uncharacterised protein family UPF0560,2,pigmentation_loss
+OG0009772,PIF1,"DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of both mitochondrial and nuclear genome stability. Efficiently unwinds G-quadruplex (G4) DNA structures and forked RNA-DNA hybrids. Resolves G4 structures, preventing replication pausing and double-strand breaks (DSBs) at G4 motifs. Involved in the maintenance of telomeric DNA. Inhibits telomere elongation, de novo telomere formation and telomere addition to DSBs via catalytic inhibition of telomerase. Reduces the processivity of telomerase by displacing active telomerase from DNA ends. Releases telomerase by unwinding the short telomerase RNA telomeric DNA hybrid that is the intermediate in the telomerase reaction. Possesses an intrinsic strand annealing activity",2,pigmentation_loss
+OG0009778,MIB1,Mib_herc2,2,pigmentation_loss
+OG0009784,ALG3,"Adds the first Dol-P-Man derived mannose in an alpha-1,3 linkage to Man5GlcNAc2-PP-Dol",2,pigmentation_loss
+OG0009799,REXO4,EXOIII,2,pigmentation_loss
+OG0009803,STBD1,Starch binding domain,2,pigmentation_loss
+OG0009804,IDH3B,"Plays a structural role to facilitate the assembly and ensure the full activity of the enzyme catalyzing the decarboxylation of isocitrate (ICT) into alpha-ketoglutarate. The heterodimer composed of the alpha (IDH3A) and beta (IDH3B) subunits and the heterodimer composed of the alpha (IDH3A) and gamma (IDH3G) subunits, have considerable basal activity but the full activity of the heterotetramer (containing two subunits of IDH3A, one of IDH3B and one of IDH3G) requires the assembly and cooperative function of both heterodimers",2,pigmentation_loss
+OG0009809,SLC31A2,Ctr copper transporter family,2,pigmentation_loss
+OG0009828,KLF4,"Zinc finger, C2H2 type",2,pigmentation_loss
+OG0009829,POLD3,"Polymerase (DNA-directed), delta 3, accessory subunit",2,pigmentation_loss
+OG0009842,MPP1,regulation of neutrophil chemotaxis,2,pigmentation_loss
+OG0009846,RAD50,Rad50 zinc hook motif,2,pigmentation_loss
+OG0009849,BOP1,BOP1NT (NUC169) domain,2,pigmentation_loss
+OG0009850,TAZ,cardiolipin acyl-chain remodeling,2,pigmentation_loss
+OG0009862,PLEKHN1,Pleckstrin homology domain.,2,pigmentation_loss
+OG0009878,ZBTB39,BTB/POZ domain,2,pigmentation_loss
+OG0009883,ZFP64,Zinc finger protein,2,pigmentation_loss
+OG0009889,ZRANB2,Zinc finger Ran-binding domain-containing protein 2,2,pigmentation_loss
+OG0009898,PLTP,BPI/LBP/CETP N-terminal domain,2,pigmentation_loss
+OG0009962,LRRC71,Leucine Rich repeat,2,pigmentation_loss
+OG0009967,PHF14,PHD-zinc-finger like domain,2,pigmentation_loss
+OG0009992,SMYD5,SMYD family member 5,2,pigmentation_loss
+OG0010000,LDLRAD3,Low-density lipoprotein receptor domain class A,2,pigmentation_loss
+OG0010010,KIAA1033,"WASH complex subunit 7, N-terminal",2,pigmentation_loss
+OG0010026,FAM135B,Protein FAM135,2,pigmentation_loss
+OG0010033,PHAX,PHAX RNA-binding domain,2,pigmentation_loss
+OG0010037,HYOU1,Belongs to the heat shock protein 70 family,2,pigmentation_loss
+OG0010039,IFT46,Intraflagellar transport complex B protein 46 C terminal,2,pigmentation_loss
+OG0010043,FEZ1,FEZ-like protein,2,pigmentation_loss
+OG0010050,RIPK4,Ankyrin repeat,2,pigmentation_loss
+OG0010053,SCARB1,"Scavenger receptor class B, member 1",2,pigmentation_loss
+OG0010065,EPB41L4A,Erythrocyte membrane protein band 4.1 like 4A,2,pigmentation_loss
+OG0010067,DDX56,"Type III restriction enzyme, res subunit",2,pigmentation_loss
+OG0010068,FGFR1OP,FOP N terminal dimerisation domain,2,pigmentation_loss
+OG0010078,HVCN1,"C-terminal membrane-localisation domain of ion-channel, VCN1",2,pigmentation_loss
+OG0010081,SPPL3,Signal peptide peptidase,2,pigmentation_loss
+OG0010083,SMC5,AAA ATPase domain,2,pigmentation_loss
+OG0010096,KIAA0226,DUF4206,2,pigmentation_loss
+OG0010115,AMH,"Anti-Mullerian hormone, N terminal region",2,pigmentation_loss
+OG0010129,KIF26B,Belongs to the TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family,2,pigmentation_loss
+OG0010152,UNC79,Cation-channel complex subunit UNC-79,2,pigmentation_loss
+OG0010187,ZNF518A,zinc finger,2,pigmentation_loss
+OG0010199,RNLS,Flavin containing amine oxidoreductase,2,pigmentation_loss
+OG0010215,HDX,Homeodomain,2,pigmentation_loss
+OG0010219,KLHDC4,kelch domain containing 4,2,pigmentation_loss
+OG0010250,NPHS1,CD80-like C2-set immunoglobulin domain,2,pigmentation_loss
+OG0010257,AIRE,HSR domain,2,pigmentation_loss
+OG0010263,BARD1,zf-RING of BARD1-type protein,2,pigmentation_loss
+OG0010270,STK17B,Protein tyrosine kinase,2,pigmentation_loss
+OG0010271,ACMSD,Amidohydrolase,2,pigmentation_loss
+OG0010275,MAATS1,"Solute carrier (proton/amino acid symporter), TRAMD3 or PAT1",2,pigmentation_loss
+OG0010280,SHOX,Homeobox domain,2,pigmentation_loss
+OG0010292,CCDC108,Cilia and flagella associated protein 65,2,pigmentation_loss
+OG0010294,MCM3AP,Minichromosome maintenance complex component 3 associated protein,2,pigmentation_loss
+OG0010308,DOPEY2,"Dopey, N-terminal",2,pigmentation_loss
+OG0010331,AOC1,"Copper amine oxidase, N2 domain",2,pigmentation_loss
+OG0010335,SYBU,Golgi-localised syntaxin-1-binding clamp,2,pigmentation_loss
+OG0010351,RASIP1,Ras association (RalGDS/AF-6) domain,2,pigmentation_loss
+OG0010354,NBN,"Component of the MRE11-RAD50-NBN (MRN complex) which plays a critical role in the cellular response to DNA damage and the maintenance of chromosome integrity. The complex is involved in double-strand break (DSB) repair, DNA recombination, maintenance of telomere integrity, cell cycle checkpoint control and meiosis. The complex possesses single-strand endonuclease activity and double-strand-specific 3'-5' exonuclease activity, which are provided by MRE11. RAD50 may be required to bind DNA ends and hold them in close proximity. NBN modulate the DNA damage signal sensing by recruiting PI3 PI4-kinase family members ATM, ATR, and probably DNA-PKcs to the DNA damage sites and activating their functions. It can also recruit MRE11 and RAD50 to the proximity of DSBs by an interaction with the histone H2AX. NBN also functions in telomere length maintenance by generating the 3' overhang which serves as a primer for telomerase dependent telomere elongation. NBN is a major player in the control of intra-S-phase checkpoint and there is some evidence that NBN is involved in G1 and G2 checkpoints. The roles of NBS1 MRN encompass DNA damage sensor, signal transducer, and effector, which enable cells to maintain DNA integrity and genomic stability. Forms a complex with RBBP8 to link DNA double-strand break sensing to resection. Enhances AKT1 phosphorylation possibly by association with the mTORC2 complex",2,pigmentation_loss
+OG0010355,RABAC1,PRA1 family protein,2,pigmentation_loss
+OG0010359,EIF2B5,"Domain at the C-termini of GCD6, eIF-2B epsilon, eIF-4 gamma and eIF-5",2,pigmentation_loss
+OG0010363,C1orf35,Kinase phosphorylation protein,2,pigmentation_loss
+OG0010366,NCAPG2,Condensin II non structural maintenance of chromosomes subunit,2,pigmentation_loss
+OG0010382,SNX15,Sorting nexin 15,2,pigmentation_loss
+OG0010383,SERPINE1,SERine  Proteinase INhibitors,2,pigmentation_loss
+OG0010386,TRMT44,Predicted AdoMet-dependent methyltransferase,2,pigmentation_loss
+OG0010390,MTA2,"Metastasis associated 1 family, member 2",2,pigmentation_loss
+OG0010393,PARP2,Poly (ADP-ribose) polymerase,2,pigmentation_loss
+OG0010408,PCNXL4,Pecanex protein (C-terminus),2,pigmentation_loss
+OG0010415,BSDC1,domain in transcription factors and synapse-associated proteins,2,pigmentation_loss
+OG0010444,SLC17A5,Major Facilitator Superfamily,2,pigmentation_loss
+OG0010469,CCNE1,Cyclin_C,2,pigmentation_loss
+OG0010495,CENPU,CENP-A nucleosome associated complex (NAC) subunit,2,pigmentation_loss
+OG0010496,SNX25,Sorting nexin C terminal,2,pigmentation_loss
+OG0010506,KIAA0513,kiaa0513,2,pigmentation_loss
+OG0010507,PEX16,Peroxisomal membrane protein (Pex16),2,pigmentation_loss
+OG0010511,C19orf47,Chromosome 19 open reading frame 47,2,pigmentation_loss
+OG0010513,MTIF2,Mitochondrial translational initiation factor 2,2,pigmentation_loss
+OG0010517,RPF2,Ribosome production factor 2 homolog,2,pigmentation_loss
+OG0010518,DSE,Dermatan sulfate epimerase,2,pigmentation_loss
+OG0010529,STRA13,Stimulated by retinoic acid 13,2,pigmentation_loss
+OG0010555,USP36,Ubiquitin carboxyl-terminal hydrolase,2,pigmentation_loss
+OG0010560,EPOR,Erythropoietin receptor,2,pigmentation_loss
+OG0010564,SPC24,Spc24 subunit of Ndc80,2,pigmentation_loss
+OG0010571,DDX42,helicase activity,2,pigmentation_loss
+OG0010585,DZANK1,Double zinc ribbon and ankyrin repeat domains 1,2,pigmentation_loss
+OG0010594,ZBTB40,Zinc finger and BTB domain containing 40,2,pigmentation_loss
+OG0010597,MYOG,Myogenic Basic domain,2,pigmentation_loss
+OG0010609,TSEN2,"Constitutes one of the two catalytic subunit of the tRNA-splicing endonuclease complex, a complex responsible for identification and cleavage of the splice sites in pre-tRNA. It cleaves pre-tRNA at the 5'- and 3'-splice sites to release the intron. The products are an intron and two tRNA half-molecules bearing 2',3'-cyclic phosphate and 5'-OH termini. There are no conserved sequences at the splice sites, but the intron is invariably located at the same site in the gene, placing the splice sites an invariant distance from the constant structural features of the tRNA body",2,pigmentation_loss
+OG0010636,CCDC62,Coiled-coil domain containing 62,2,pigmentation_loss
+OG0010657,IQCE,Short calmodulin-binding motif containing conserved Ile and Gln residues.,2,pigmentation_loss
+OG0010701,RCN2,EF-hand domain pair,2,pigmentation_loss
+OG0010741,RNF10,RING-type zinc-finger,2,pigmentation_loss
+OG0010745,CHMP7,late endosome to vacuole transport,2,pigmentation_loss
+OG0010746,VPS13A,"Vacuolar sorting-associated protein 13, N-terminal",2,pigmentation_loss
+OG0010768,CFAP36,The ARF-like 2 binding protein BART,2,pigmentation_loss
+OG0010769,TMEM154,TMEM154 protein family,2,pigmentation_loss
+OG0010770,ALPK1,Alpha-kinase family,2,pigmentation_loss
+OG0010783,SLC30A4,Cation efflux family,2,pigmentation_loss
+OG0010794,DNER,Follistatin-N-terminal domain-like,2,pigmentation_loss
+OG0010798,CUX2,CUT,2,pigmentation_loss
+OG0010801,ZNF367,Zinc finger protein,2,pigmentation_loss
+OG0010807,DNTTIP2,Fcf2 pre-rRNA processing,2,pigmentation_loss
+OG0010809,DALRD3,DALR anticodon binding domain containing 3,2,pigmentation_loss
+OG0010815,ABTB1,"Broad-Complex, Tramtrack and Bric a brac",2,pigmentation_loss
+OG0010830,CCDC84,Coiled coil protein 84,2,pigmentation_loss
+OG0010852,CTNNAL1,cadherin binding,2,pigmentation_loss
+OG0010863,RNF215,RING-like zinc finger,2,pigmentation_loss
+OG0010864,RHBDD3,Rhomboid family,2,pigmentation_loss
+OG0010872,GLDC,Glycine cleavage system P-protein,2,pigmentation_loss
+OG0010903,TXNL4B,Thioredoxin-like 4B,2,pigmentation_loss
+OG0010917,CCT4,Assists the folding of proteins upon ATP hydrolysis,2,pigmentation_loss
+OG0010918,KNOP1,Small acidic protein family,2,pigmentation_loss
+OG0010933,TOPBP1,twin BRCT domain,2,pigmentation_loss
+OG0010937,DHDDS,Putative undecaprenyl diphosphate synthase,2,pigmentation_loss
+OG0010987,GEMIN5,Gem (nuclear organelle) associated protein 5,2,pigmentation_loss
+OG0010998,CMTR1,cap1 mRNA methylation,2,pigmentation_loss
+OG0011025,SHQ1,SHQ1 protein,2,pigmentation_loss
+OG0011040,FKBP5,FK506 binding,2,pigmentation_loss
+OG0011064,NUP107,Nuclear pore protein 84 / 107,2,pigmentation_loss
+OG0011117,DUS3L,Dihydrouridine synthase (Dus),2,pigmentation_loss
+OG0011152,UOX,"oxidoreductase activity, acting on other nitrogenous compounds as donors, oxygen as acceptor",2,pigmentation_loss
+OG0011155,NWD1,NACHT and WD repeat,2,pigmentation_loss
+OG0011160,WBP4,U1 zinc finger,2,pigmentation_loss
+OG0011181,KTN1,Kinectin 1 (kinesin receptor),2,pigmentation_loss
+OG0011187,ATXN3,Josephin,2,pigmentation_loss
+OG0011190,KIF6,"Kinesin motor, catalytic domain. ATPase.",2,pigmentation_loss
+OG0011195,GALE,UDP-N-acetylglucosamine 4-epimerase activity,2,pigmentation_loss
+OG0011199,EXO1,Xeroderma pigmentosum G N-region,2,pigmentation_loss
+OG0011202,TUT1,Cid1 family poly A polymerase,2,pigmentation_loss
+OG0011214,MRPL43,Mitochondrial ribosomal protein L51 / S25 / CI-B8 domain,2,pigmentation_loss
+OG0011222,METTL9,DREV methyltransferase,2,pigmentation_loss
+OG0011229,ZBTB3,"Broad-Complex, Tramtrack and Bric a brac",2,pigmentation_loss
+OG0011233,FAM199X,Protein family FAM199X,2,pigmentation_loss
+OG0011243,PAF1,nucleosome positioning,2,pigmentation_loss
+OG0011246,PDGFD,platelet-derived growth factor receptor binding,2,pigmentation_loss
+OG0011249,TXNDC17,Thioredoxin domain-containing protein 17,2,pigmentation_loss
+OG0011258,RILP,Rab interacting lysosomal protein,2,pigmentation_loss
+OG0011260,XAF1,XIAP associated factor 1,2,pigmentation_loss
+OG0011264,PMS1,PMS1 postmeiotic segregation increased 1,2,pigmentation_loss
+OG0011273,TRIM45,B-Box-type zinc finger,2,pigmentation_loss
+OG0011280,FANCB,"Fanconi anemia, complementation group B",2,pigmentation_loss
+OG0011295,C18orf63,Domain of unknown function (DUF4708),2,pigmentation_loss
+OG0011297,DCTN3,dynactin,2,pigmentation_loss
+OG0011323,BCL10,Caspase recruitment domain,2,pigmentation_loss
+OG0011325,WRNIP1,Werner helicase interacting protein 1,2,pigmentation_loss
+OG0011343,LARP7,RNA binding motif,2,pigmentation_loss
+OG0011370,TNN,Fibrinogen-related domains (FReDs),2,pigmentation_loss
+OG0011383,C10orf54,Immunoglobulin V-set domain,2,pigmentation_loss
+OG0011384,GFRAL,GDNF family receptor alpha like,2,pigmentation_loss
+OG0011388,DLK2,Protein delta homolog 2,2,pigmentation_loss
+OG0011389,MANBA,"Glycosyl hydrolases family 2, sugar binding domain",2,pigmentation_loss
+OG0011393,RRP12,NUC173 domain,2,pigmentation_loss
+OG0011396,SEC23IP,SEC23 interacting protein,2,pigmentation_loss
+OG0011405,GAB1,binding protein 1,2,pigmentation_loss
+OG0011431,ZWILCH,"Essential component of the mitotic checkpoint, which prevents cells from prematurely exiting mitosis. Required for the assembly of the dynein-dynactin and MAD1-MAD2 complexes onto kinetochores. Its function related to the spindle assembly machinery is proposed to depend on its association in the mitotic RZZ complex",2,pigmentation_loss
+OG0011437,PPP1R13L,Src homology 3 domains,2,pigmentation_loss
+OG0011443,MRPL19,structural constituent of ribosome,2,pigmentation_loss
+OG0011450,SLC22A16,Sugar (and other) transporter,2,pigmentation_loss
+OG0011465,EPHA10,receptor,2,pigmentation_loss
+OG0011475,ASB16,SOCS_box,2,pigmentation_loss
+OG0011479,GPATCH8,G patch domain containing 8,2,pigmentation_loss
+OG0011500,TAMM41,Mitochondrial matrix Mmp37,2,pigmentation_loss
+OG0011505,PPCS,DNA / pantothenate metabolism flavoprotein,2,pigmentation_loss
+OG0011513,VAC14,VAC14 homolog,2,pigmentation_loss
+OG0011544,ID4,"Inhibitor of DNA binding 4, dominant negative helix-loop-helix protein",2,pigmentation_loss
+OG0011559,NAPEPLD,N-acetylphosphatidylethanolamine-hydrolysing phospholipas activity,2,pigmentation_loss
+OG0011578,STYXL1,Rhodanese Homology Domain,2,pigmentation_loss
+OG0011635,FERMT1,keratinocyte migration,2,pigmentation_loss
+OG0011639,CEBPZ,CBF/Mak21 family,2,pigmentation_loss
+OG0011642,MIXL1,Mix paired-like homeobox,2,pigmentation_loss
+OG0011648,TARBP1,TAR (HIV-1) RNA binding protein 1,2,pigmentation_loss
+OG0011654,SCLT1,Sodium channel and clathrin linker 1,2,pigmentation_loss
+OG0011677,QSOX1,thiol oxidase activity,2,pigmentation_loss
+OG0011684,SLC31A1,"Solute carrier family 31 (copper transporter), member 1",2,pigmentation_loss
+OG0011697,RECQL4,helicase superfamily c-terminal domain,2,pigmentation_loss
+OG0011710,MAPK15,Mitogen-activated protein kinase 15,2,pigmentation_loss
+OG0011711,ASCC2,Domain that may be involved in binding ubiquitin-conjugating enzymes (UBCs),2,pigmentation_loss
+OG0011713,GNB1L,"WD domain, G-beta repeat",2,pigmentation_loss
+OG0011722,TTC16,Tetratricopeptide repeat,2,pigmentation_loss
+OG0011733,MVK,GHMP kinases C terminal,2,pigmentation_loss
+OG0011735,FGB,Fibrinogen alpha/beta chain family,2,pigmentation_loss
+OG0011737,FASTKD2,mitochondrial large ribosomal subunit assembly,2,pigmentation_loss
+OG0011744,TAF5,"WD40 associated region in TFIID subunit, NTD2 domain",2,pigmentation_loss
+OG0011745,DIS3,S1 domain,2,pigmentation_loss
+OG0011777,PPP1R26,Protein phosphatase 1 regulatory subunit 26 N-terminus,2,pigmentation_loss
+OG0011794,NOP14,Nop14-like family,2,pigmentation_loss
+OG0011805,TTLL9,Tubulin-tyrosine ligase family,2,pigmentation_loss
+OG0011810,CPSF3L,"complex, a complex involved in the small nuclear RNAs (snRNA) U1 and U2 transcription and in their 3'-box-dependent processing. The Integrator complex is associated with the C-terminal domain (CTD) of RNA polymerase II largest subunit (POLR2A) and is recruited to the U1 and U2 snRNAs genes. Mediates the snRNAs 3' cleavage. Mediates recruitment of cytoplasmic dynein to the nuclear envelope, probably as component of the INT complex",2,pigmentation_loss
+OG0011814,ITIH6,Inter-alpha-trypsin inhibitor heavy chain C-terminus,2,pigmentation_loss
+OG0011832,HYI,Hydroxypyruvate isomerase,2,pigmentation_loss
+OG0011853,PPP1R12C,cGMP-dependent protein kinase interacting domain,2,pigmentation_loss
+OG0011866,FBF1,establishment of epithelial cell polarity,2,pigmentation_loss
+OG0011870,MYBPC1,"Myosin binding protein C, slow type",2,pigmentation_loss
+OG0011882,SLC35B4,UDP-xylose transmembrane transporter activity,2,pigmentation_loss
+OG0011883,STOML1,prohibitin homologues,2,pigmentation_loss
+OG0011911,MCIDAS,Multiciliate differentiation and DNA synthesis associated cell cycle protein,2,pigmentation_loss
+OG0011942,EFCAB2,"EF-hand, calcium binding motif",2,pigmentation_loss
+OG0011944,C2orf43,"Serine lipid hydrolase associated with lipid droplets. Highly expressed in macrophage-rich areas in atherosclerotic lesions, suggesting that it could promote cholesterol ester turnover in macrophages",2,pigmentation_loss
+OG0011949,CHMP3,charged multivesicular body protein 3,2,pigmentation_loss
+OG0011951,DACT1,antagonist of,2,pigmentation_loss
+OG0011955,NEK9,Regulator of chromosome condensation (RCC1) repeat,2,pigmentation_loss
+OG0011958,RBKS,Phosphomethylpyrimidine kinase,2,pigmentation_loss
+OG0011962,C16orf62,Chromosome 16 open reading frame,2,pigmentation_loss
+OG0011966,OAT,Aminotransferase class-III,2,pigmentation_loss
+OG0011969,FH,Fumarase C C-terminus,2,pigmentation_loss
+OG0011974,ACBD4,Acyl CoA binding protein,2,pigmentation_loss
+OG0011977,DCXR,KR domain,2,pigmentation_loss
+OG0011988,PRPF19,factor 19,2,pigmentation_loss
+OG0011999,CD3EAP,DNA-directed RNA polymerase I subunit RPA34.5,2,pigmentation_loss
+OG0012015,PDIA5,"OST3 / OST6 family, transporter family",2,pigmentation_loss
+OG0012017,EFHC2,"Domains in hypothetical proteins in Drosophila, C. elegans and mammals. Occurs singly in some nucleoside diphosphate kinases.",2,pigmentation_loss
+OG0012024,BCS1L,BCS1 N terminal,2,pigmentation_loss
+OG0012026,PHGDH,"Catalyzes the reversible oxidation of 3-phospho-D- glycerate to 3-phosphonooxypyruvate, the first step of the phosphorylated L-serine biosynthesis pathway. Also catalyzes the reversible oxidation of 2-hydroxyglutarate to 2-oxoglutarate and the reversible oxidation of (S)-malate to oxaloacetate",2,pigmentation_loss
+OG0012038,TAF2,Peptidase family M1 domain,2,pigmentation_loss
+OG0012039,XRCC2,X-ray repair complementing defective repair in Chinese hamster cells 2,2,pigmentation_loss
+OG0012092,GSTCD,"Glutathione S-transferase, C-terminal domain containing",2,pigmentation_loss
+OG0012102,ARHGEF6,betaPIX coiled coil,2,pigmentation_loss
+OG0012124,FDFT1,Squalene/phytoene synthase,2,pigmentation_loss
+OG0012132,ATF7IP2,Fibronectin-III type domain,2,pigmentation_loss
+OG0012133,C16orf59,Chromosome 16 open reading frame,2,pigmentation_loss
+OG0012138,HELZ,AAA domain,2,pigmentation_loss
+OG0012154,TMEM43,nuclear membrane organization,2,pigmentation_loss
+OG0012160,PPP1R15B,eIF2-alpha phosphatase phosphorylation constitutive repressor,2,pigmentation_loss
+OG0012162,ARFGAP1,factor GTPase activating protein 1,2,pigmentation_loss
+OG0012166,ALDH4A1,Aldehyde dehydrogenase family,2,pigmentation_loss
+OG0012172,SUOX,Mo-co oxidoreductase dimerisation domain,2,pigmentation_loss
+OG0012215,ZBTB48,double-stranded telomeric DNA binding,2,pigmentation_loss
+OG0012235,ASB6,protein modification by small protein conjugation,2,pigmentation_loss
+OG0012238,DDIAS,Replication factor-A C terminal domain,2,pigmentation_loss
+OG0012350,TCTN2,Protein of unknown function (DUF1619),2,pigmentation_loss
+OG0012351,C9orf142,"PAXX, PAralog of XRCC4 and XLF, also called C9orf142",2,pigmentation_loss
+OG0012355,C2orf81,Domain of unknown function (DUF4639),2,pigmentation_loss
+OG0012389,ZNF236,Zinc-finger of C2H2 type,2,pigmentation_loss
+OG0012426,CRELD2,Furin-like repeats,2,pigmentation_loss
+OG0012433,C6orf136,Uncharacterized conserved protein (DUF2358),2,pigmentation_loss
+OG0012448,EPS8L2,Phosphotyrosine-binding domain,2,pigmentation_loss
+OG0012453,KATNAL2,Severs microtubules in vitro in an ATP-dependent manner. This activity may promote rapid reorganization of cellular microtubule arrays,2,pigmentation_loss
+OG0012480,TFB1M,"rRNA (adenine-N6,N6-)-dimethyltransferase activity",2,pigmentation_loss
+OG0012485,METTL10,Putative methyltransferase,2,pigmentation_loss
+OG0012497,RPS6KL1,protein serine/threonine kinase activity,2,pigmentation_loss
+OG0012512,CCDC142,Coiled-coil protein 142,2,pigmentation_loss
+OG0012518,CHMP1A,Snf7,2,pigmentation_loss
+OG0012533,CIR1,"corepressor interacting with RBPJ, 1",2,pigmentation_loss
+OG0012549,NUDT17,NUDIX domain,2,pigmentation_loss
+OG0012558,ANKRD53,Ankyrin repeat,2,pigmentation_loss
+OG0012597,CMC2,Cytochrome c oxidase biogenesis protein Cmc1 like,2,pigmentation_loss
+OG0012617,IGSF6,Immunoglobulin V-set domain,2,pigmentation_loss
+OG0012619,NFATC2IP,Ubiquitin-2 like Rad60 SUMO-like,2,pigmentation_loss
+OG0012624,MRPL20,Ribosomal protein L20,2,pigmentation_loss
+OG0012637,CDPF1,Cysteine-rich DPF motif,2,pigmentation_loss
+OG0012667,TLDC1,domain in TBC and LysM domain containing proteins,2,pigmentation_loss
+OG0012678,ALKBH3,RNA N1-methyladenosine dioxygenase activity,2,pigmentation_loss
+OG0012733,LPCAT4,acyltransferase,2,pigmentation_loss
+OG0012746,FAAP20,Ubiquitin-binding zinc-finger,2,pigmentation_loss
+OG0012758,VAMP5,Vesicle-associated membrane protein 5,2,pigmentation_loss
+OG0012784,EPM2A,"Dual specificity phosphatase, catalytic domain",2,pigmentation_loss
+OG0012795,CKAP4,Cytoskeleton-associated protein 4,2,pigmentation_loss
+OG0012801,TAB1,TGF-beta activated kinase 1 MAP3K7 binding protein 1,2,pigmentation_loss
+OG0012804,KDM1B,HI0933-like protein,2,pigmentation_loss
+OG0012820,OVCA2,Serine hydrolase (FSH1),2,pigmentation_loss
+OG0012847,PKMYT1,"Protein kinase, membrane associated tyrosine threonine 1",2,pigmentation_loss
+OG0012860,TP53I13,Tumor protein p53 inducible protein 13,2,pigmentation_loss
+OG0012882,IPP,Kelch motif,2,pigmentation_loss
+OG0012895,LRRC27,"Leucine-rich repeats, typical (most populated) subfamily",2,pigmentation_loss
+OG0012921,SPATA4,CH-like domain in sperm protein,2,pigmentation_loss
+OG0012942,GPRC5A,7 transmembrane sweet-taste receptor of 3 GCPR,2,pigmentation_loss
+OG0012946,RGS22,Regulator of G-protein signaling 22,2,pigmentation_loss
+OG0012957,CCNDBP1,regulation of cell cycle,2,pigmentation_loss
+OG0012978,NFE2L3,basic region leucin zipper,2,pigmentation_loss
+OG0013022,C12orf43,protein C12orf43 homolog,2,pigmentation_loss
+OG0013052,CENPM,Centromere protein M,2,pigmentation_loss
+OG0013083,PDCD7,programmed cell death,2,pigmentation_loss
+OG0013095,AVL9,cell migration,2,pigmentation_loss
+OG0013108,CCDC148,Coiled-coil domain containing 148,2,pigmentation_loss
+OG0013115,LARS2,leucyl-tRNA aminoacylation,2,pigmentation_loss
+OG0013137,ATOX1,Heavy-metal-associated domain,2,pigmentation_loss
+OG0013155,C4orf45,Domain of unknown function (DUF4562),2,pigmentation_loss
+OG0013161,MALSU1,Ribosomal silencing factor during starvation,2,pigmentation_loss
+OG0013192,CYP21A2,Cytochrome P450,2,pigmentation_loss
+OG0013202,GLA,Alpha galactosidase A C-terminal beta sandwich domain,2,pigmentation_loss
+OG0013291,CD8A,Immunoglobulin V-set domain,2,pigmentation_loss
+OG0013482,TREH,Trehalase,2,pigmentation_loss
+OG0013549,DTHD1,Death domain,2,pigmentation_loss
+OG0013602,KLF1,"Erythroid krueppel-like transcription factor, transactivation 1",2,pigmentation_loss
+OG0013807,CCDC185,Coiled-coil domain containing 185,2,pigmentation_loss

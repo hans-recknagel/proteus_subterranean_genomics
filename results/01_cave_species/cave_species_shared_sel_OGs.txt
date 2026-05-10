@@ -1,0 +1,75 @@
+OG Preferred_name Description pvalue F_vs_B
+OG0004409 ALOX5 Arachidonate 5-lipoxygenase 0.025 TRUE
+OG0005477 AKAP2 Paralemmin 0.025 TRUE
+OG0005622 RASA1 GTPase-activator protein for Ras-like GTPases 0.0269230769230769 TRUE
+OG0005921 DROSHA Drosha, ribonuclease type III 0.025 TRUE
+OG0006106 Znf704 c-clamp 0.025 TRUE
+OG0006416 FGG Fibrinogen alpha/beta chain family 0.0441176470588235 TRUE
+OG0006532 KTI12 Chromatin associated protein KTI12 0.0441176470588235 TRUE
+OG0006675 VWA8 AAA domain (dynein-related subfamily) 0.00588235294117647 TRUE
+OG0006682 FARS2 Ferredoxin-fold anticodon binding domain 0.0220588235294118 TRUE
+OG0006738 SHF Src homology 2 domain containing F 0.025 TRUE
+OG0006763 RRN3 nucleic acid-templated transcription 0.0122549019607843 TRUE
+OG0006890 NUP88 Nuclear pore component 0.0220588235294118 TRUE
+OG0007062 ENOPH1 Bifunctional enzyme that catalyzes the enolization of 2,3-diketo-5-methylthiopentyl-1-phosphate (DK-MTP-1-P) into the intermediate 2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate (HK-MTPenyl-1-P), which is then dephosphorylated to form the acireductone 1,2-dihydroxy-3-keto-5-methylthiopentene (DHK- MTPene) 0.0392156862745098 TRUE
+OG0007092 SERPINC1 Serpin peptidase inhibitor, clade C (antithrombin), member 1 0.0392156862745098 TRUE
+OG0007239 LRRC1 Leucine rich repeat containing 1 0.025 TRUE
+OG0007475 GUCD1 Guanylyl cyclase domain containing 1 0.0392156862745098 TRUE
+OG0007492 CBWD1 ATP binding 0.025 TRUE
+OG0007750 MDM2 MDM2 proto-oncogene, E3 ubiquitin protein ligase 0.0441176470588235 TRUE
+OG0007891 KDM1A SWIRM domain 0.0392156862745098 TRUE
+OG0007946 JOSD1 thiol-dependent ubiquitin-specific protease activity 0.0441176470588235 TRUE
+OG0008037 PUS3 tRNA pseudouridine synthase 0.0186274509803922 TRUE
+OG0008123 C10orf11 Leucine-rich repeat 0.025 TRUE
+OG0008160 GPC3 peptidyl-dipeptidase inhibitor activity 0.0441176470588235 TRUE
+OG0008232 SP1 C2H2-type zinc finger 0.0441176470588235 TRUE
+OG0008410 DAW1 WD domain, G-beta repeat 0.00412796697626419 TRUE
+OG0008412 DNER Follistatin-N-terminal domain-like 0.0350877192982456 TRUE
+OG0008459 DPM2 Dolichol phosphate-mannose biosynthesis regulatory protein (DPM2) 0.00714285714285715 TRUE
+OG0008473 POU2F3 Found in Pit-Oct-Unc transcription factors 0.0350877192982456 TRUE
+OG0008493 HEPACAM2 Immunoglobulin like 0.0441176470588235 TRUE
+OG0008581 NUPL1 Nucleoporin FG repeated region 0.0392156862745098 TRUE
+OG0008600 KIAA1429 Virilizer, N-terminal 0.0392156862745098 TRUE
+OG0008612 UBR5 E3 ubiquitin ligase EDD 0.0392156862745098 TRUE
+OG0008700 DBN1 Drebrin 1 0.0392156862745098 TRUE
+OG0008740 TM9SF4 Belongs to the nonaspanin (TM9SF) (TC 9.A.2) family 0.0220588235294118 TRUE
+OG0008763 ZRANB2 Zinc finger Ran-binding domain-containing protein 2 0.0441176470588235 TRUE
+OG0008807 TBC1D30 TBC1 domain family member 30 0.0350877192982456 TRUE
+OG0008810 TFEC cellular response to heat 0.0392156862745098 TRUE
+OG0009426 CCDC79 SANT  SWI3, ADA2, N-CoR and TFIIIB'' DNA-binding domains 0.0441176470588235 TRUE
+OG0009454 FBXL16 Leucine Rich repeat 0.0392156862745098 TRUE
+OG0009455 METTL22 Methyltransferase like 22 0.0350877192982456 TRUE
+OG0009471 ATXN7L3 Component of the transcription regulatory histone acetylation (HAT) complex SAGA, a multiprotein complex that activates transcription by remodeling chromatin and mediating histone acetylation and deubiquitination. Within the SAGA complex, participates in a subcomplex that specifically deubiquitinates both histones H2A and H2B. The SAGA complex is recruited to specific gene promoters by activators such as MYC, where it is required for transcription. Required for nuclear receptor-mediated transactivation. Within the complex, it is required to recruit USP22 and ENY2 into the SAGA complex. Regulates H2B monoubiquitination (H2Bub1) levels. Affects subcellular distribution of ENY2, USP22 and ATXN7L3B 0.00147058823529412 TRUE
+OG0009541 ELMO3 Engulfment and cell motility 0.0350877192982456 TRUE
+OG0009651 KDM5C dioxygenase activity 0.0269230769230769 TRUE
+OG0009702 ILVBL Thiamine pyrophosphate enzyme, C-terminal TPP binding domain 0.0392156862745098 TRUE
+OG0009820 KPNB1 Karyopherin (importin) beta 1 0.0392156862745098 TRUE
+OG0009904 CFAP58 Cilia and flagella associated protein 58 0.0175438596491228 TRUE
+OG0009972 MIB1 Mib_herc2 0.0392156862745098 TRUE
+OG0009980 ALG3 Adds the first Dol-P-Man derived mannose in an alpha-1,3 linkage to Man5GlcNAc2-PP-Dol 0.0186274509803922 TRUE
+OG0010049 MPP1 regulation of neutrophil chemotaxis 0.0196078431372549 TRUE
+OG0010113 MST1 hepatocyte growth factor-like 0.0392156862745098 TRUE
+OG0010205 KIAA1467 Family with sequence similarity 234 member B 0.0269230769230769 TRUE
+OG0010217 CSPG4 Laminin G domain 0.0087719298245614 TRUE
+OG0010261 GALT Galactose-1-phosphate uridylyltransferase 0.0319917440660475 TRUE
+OG0010494 NPHS1 CD80-like C2-set immunoglobulin domain 0.011437908496732 TRUE
+OG0010525 SHOX Homeobox domain 0.0392156862745098 TRUE
+OG0010995 DCUN1D5 Defective in cullin neddylation 1 domain containing 5 0.0441176470588235 TRUE
+OG0011099 GATM Glycine amidinotransferase (L-arginine glycine amidinotransferase) 0.0150375939849624 TRUE
+OG0011345 WDR63 WD40 repeats 0.0275689223057644 TRUE
+OG0011439 WBP11 WW domain binding protein 11 0.0441176470588235 TRUE
+OG0011489 USP25 Belongs to the peptidase C19 family 0.0350877192982456 TRUE
+OG0011556 DNAJC17 DnaJ domain 0.0275689223057644 TRUE
+OG0011903 EPHA10 receptor 0.0441176470588235 TRUE
+OG0011941 MCM2 Mini-chromosome maintenance protein 2 0.0350877192982456 TRUE
+OG0012159 STIP1 Heat shock chaperonin-binding motif. 0.00714285714285715 TRUE
+OG0012339 FOXP2 putamen development 0.0441176470588235 TRUE
+OG0012366 MYBPC1 Myosin binding protein C, slow type 0.0196078431372549 TRUE
+OG0012543 ABCD4 ABC transporter transmembrane region 2 0.0087719298245614 TRUE
+OG0012645 TCF25 Transcriptional repressor TCF25 0.0457963089542037 TRUE
+OG0012952 IFT80 WD40 repeats 0.0441176470588235 TRUE
+OG0013049 EFCAB2 EF-hand, calcium binding motif 0.0476190476190476 TRUE
+OG0013169 CMC2 Cytochrome c oxidase biogenesis protein Cmc1 like 0.0350877192982456 TRUE
+OG0013204 MALSU1 Ribosomal silencing factor during starvation 0.0374097007223942 TRUE
+OG0013497 SLC38A11 Solute carrier family 38, member 11 0.00490196078431373 TRUE
+OG0013553 - Indigoidine synthase A like protein 0.0392156862745098 TRUE

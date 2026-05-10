@@ -1,0 +1,46 @@
+OG,Preferred_name,Description,pvalue,F_vs_B
+OG0004980,DUT,dUTP metabolic process,0.0365217391304348,TRUE
+OG0005419,SPECC1L,cell division,0.0365217391304348,TRUE
+OG0005590,VOPP1,nucleic acid-templated transcription,0.0344785649133475,TRUE
+OG0006101,RASA1,RAS p21 protein activator (GTPase activating protein) 1,0.0461538461538461,TRUE
+OG0006177,CTDP1,CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) phosphatase, subunit 1,0.0323076923076923,TRUE
+OG0006898,WIPF3,protein family, member 3,0.00884173297966401,TRUE
+OG0006938,CFAP54,cilium movement involved in cell motility,0.0332218506131549,TRUE
+OG0006979,ENOPH1,acireductone synthase activity,0.0366300366300367,TRUE
+OG0007189,TTC38,tetratricopeptide repeat,0.0366300366300367,TRUE
+OG0007217,MLX,DNA-binding transcription repressor activity, RNA polymerase II-specific,0.029654403567447,TRUE
+OG0007292,KDM5C,demethylase 5C,0.0461538461538461,TRUE
+OG0007301,LAMP5,Lysosome-associated membrane glycoprotein (Lamp),0.0256410256410257,TRUE
+OG0007932,VPS9D1,Vacuolar sorting protein 9 (VPS9) domain,0.041025641025641,TRUE
+OG0007968,SEZ6L2,Seizure related 6 homolog (mouse)-like 2,0.041025641025641,TRUE
+OG0008046,LNX1,Domain present in PSD-95, Dlg, and ZO-1/2.,0.0118577075098814,TRUE
+OG0008452,CCNC,cyclin-C isoform,0.041025641025641,TRUE
+OG0008458,TFEC,cellular response to heat,0.0102564102564102,TRUE
+OG0008562,RNF8,histone H2A K63-linked ubiquitination,0.0473429951690821,TRUE
+OG0008778,PUS3,mRNA pseudouridine synthesis,0.041025641025641,TRUE
+OG0009005,ATXN7L3,Component of the transcription regulatory histone acetylation (HAT) complex SAGA, a multiprotein complex that activates transcription by remodeling chromatin and mediating histone acetylation and deubiquitination. Within the SAGA complex, participates in a subcomplex that specifically deubiquitinates both histones H2A and H2B. The SAGA complex is recruited to specific gene promoters by activators such as MYC, where it is required for transcription. Required for nuclear receptor-mediated transactivation. Within the complex, it is required to recruit USP22 and ENY2 into the SAGA complex. Regulates H2B monoubiquitination (H2Bub1) levels. Affects subcellular distribution of ENY2, USP22 and ATXN7L3B,0.0287179487179487,TRUE
+OG0009166,DGCR6,biological adhesion,0.0295566502463054,TRUE
+OG0009203,LMBRD1,LMBR1 domain containing 1,0.0125975473801561,TRUE
+OG0009227,DAW1,Dynein assembly factor with WDR repeat domains 1,0.0366300366300367,TRUE
+OG0009398,UBXN7,UBX domain protein 7,0.0366300366300367,TRUE
+OG0009444,ABHD11,hydrolase activity,0.00615384615384615,TRUE
+OG0009509,RAD18,Y-form DNA binding,0.00256410256410257,TRUE
+OG0009830,ZNF414,nucleic acid-templated transcription,0.0461538461538461,TRUE
+OG0009861,RFTN2,protein transport into membrane raft,0.0102564102564102,TRUE
+OG0009871,DECR2,Auxiliary enzyme of beta-oxidation. Participates in the degradation of unsaturated fatty enoyl-CoA esters having double bonds in both even- and odd-numbered positions in peroxisome. Catalyzes the NADP-dependent reduction of 2,4-dienoyl-CoA to yield trans-3-enoyl-CoA. Has activity towards short and medium chain 2,4-dienoyl-CoAs, but also towards 2,4,7,10,13,16,19- docosaheptaenoyl-CoA, suggesting that it does not constitute a rate limiting step in the peroxisomal degradation of docosahexaenoic acid,0.0328407224958949,TRUE
+OG0010019,PANX2,Belongs to the pannexin family,0.0102564102564102,TRUE
+OG0010081,XPNPEP1,X-prolyl aminopeptidase (aminopeptidase P) 1, soluble,0.0170940170940171,TRUE
+OG0010588,IMMP1L,Mitochondrial inner membrane protease subunit,0.0266963292547275,TRUE
+OG0010594,PPP2R3C,regulation of antimicrobial humoral response,0.0367074527252502,TRUE
+OG0011061,TTC16,tetratricopeptide repeat,0.041025641025641,TRUE
+OG0011069,MVK,mevalonate kinase activity,0.0366300366300367,TRUE
+OG0011070,FGB,induction of bacterial agglutination,0.0366300366300367,TRUE
+OG0011098,KLF10,Krueppel-like factor 10,0.0461538461538461,TRUE
+OG0011151,C1orf159,Domain of unknown function (DUF4501),0.0312407898614795,TRUE
+OG0011183,MPI,mannose-6-phosphate isomerase activity,0.0472401162056334,TRUE
+OG0011623,MGP,matrix Gla protein,0.0451559934318555,TRUE
+OG0011686,PEMT,Catalyzes the three sequential steps of the methylation pathway of phosphatidylcholine biosynthesis, the SAM-dependent methylation of phosphatidylethanolamine (PE) to phosphatidylmonomethylethanolamine (PMME), PMME to phosphatidyldimethylethanolamine (PDME), and PDME to phosphatidylcholine (PC),0.00884173297966401,TRUE
+OG0011940,HECTD2,ubiquitin-protein transferase activity,0.0207336523125997,TRUE
+OG0012007,SPATA1,spermatogenesis-associated protein 1,0.0256410256410257,TRUE
+OG0012028,GLA,raffinose alpha-galactosidase activity,0.0323076923076923,TRUE
+OG0012115,SLC25A21,dicarboxylic acid transmembrane transporter activity,0.0451559934318555,TRUE

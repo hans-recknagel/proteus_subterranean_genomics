@@ -1,0 +1,1214 @@
+OG,Preferred_name,Description,count,analysis
+OG0007572,GOLGB1,Golgin subfamily B member 1,8,eye_loss
+OG0011979,EVC,endochondral bone growth,8,eye_loss
+OG0006622,RBM33,RNA recognition motif,7,eye_loss
+OG0005125,CENPE,microtubule plus-end directed mitotic chromosome migration,6,eye_loss
+OG0005582,TEP1,telomerase activity,6,eye_loss
+OG0006104,SNAPC4,Myb-like DNA-binding domain,6,eye_loss
+OG0006215,AXDND1,Axonemal dynein light chain,6,eye_loss
+OG0006268,CUBN,cobalamin catabolic process,6,eye_loss
+OG0006421,SON,RS domain binding,6,eye_loss
+OG0006835,FGA,Fibrinogen alpha chain,6,eye_loss
+OG0006938,CFAP54,cilium movement involved in cell motility,6,eye_loss
+OG0007481,SHROOM3,cellular pigment accumulation,6,eye_loss
+OG0007641,AK9,adenylate kinase,6,eye_loss
+OG0008079,GPAT2,sn-1-glycerol-3-phosphate C16:0-DCA-CoA acyl transferase activity,6,eye_loss
+OG0008266,CASC5,Cancer susceptibility candidate 5,6,eye_loss
+OG0008697,CEP164,cilium assembly,6,eye_loss
+OG0008713,NPAT,regulation of transcription involved in G1/S transition of mitotic cell cycle,6,eye_loss
+OG0008823,BCAM,CD80-like C2-set immunoglobulin domain,6,eye_loss
+OG0010451,WDR63,WD repeat-containing protein 63,6,eye_loss
+OG0010580,PRAM1,protein kinase binding,6,eye_loss
+OG0010888,LRRC29,Leucine rich repeat containing 29,6,eye_loss
+OG0011170,FBF1,establishment of epithelial cell polarity,6,eye_loss
+OG0011566,ERCC5,DNA repair protein complementing XP-G cells,6,eye_loss
+OG0011704,OFD1,Oral-facial-digital syndrome 1,6,eye_loss
+OG0005064,SPACA6,-,5,eye_loss
+OG0005419,SPECC1L,cell division,5,eye_loss
+OG0005601,PRKDC,negative regulation of response to gamma radiation,5,eye_loss
+OG0005695,ZBTB46,Zinc finger and BTB,5,eye_loss
+OG0006009,CDHR2,cadherin-related family member 2,5,eye_loss
+OG0006432,NES,Belongs to the intermediate filament family,5,eye_loss
+OG0006457,C6,Complement component,5,eye_loss
+OG0006500,CEP83,Centrosomal protein,5,eye_loss
+OG0006642,GTSE1,G2 and S phase-expressed protein 1,5,eye_loss
+OG0006879,AKNA,Transcription factor,5,eye_loss
+OG0006898,WIPF3,"protein family, member 3",5,eye_loss
+OG0007039,MIS18BP1,cell division,5,eye_loss
+OG0007189,TTC38,tetratricopeptide repeat,5,eye_loss
+OG0007191,TBXAS1,thromboxane-A synthase activity,5,eye_loss
+OG0007348,FAM208B,Family with sequence similarity 208 member B,5,eye_loss
+OG0007494,LCP2,Lymphocyte cytosolic protein 2,5,eye_loss
+OG0008072,RTDR1,Rhabdoid tumor deletion region,5,eye_loss
+OG0008167,ERICH3,Glutamate-rich 3,5,eye_loss
+OG0008202,GMIP,negative regulation of GTPase activity,5,eye_loss
+OG0008372,RAI14,spermatogenesis,5,eye_loss
+OG0008407,CCDC171,Coiled-coil domain containing 171,5,eye_loss
+OG0008562,RNF8,histone H2A K63-linked ubiquitination,5,eye_loss
+OG0008675,DLGAP5,Disks large-associated protein 5,5,eye_loss
+OG0008985,F8,"blood coagulation, intrinsic pathway",5,eye_loss
+OG0009203,LMBRD1,LMBR1 domain containing 1,5,eye_loss
+OG0009309,FLII,Gelsolin homology domain,5,eye_loss
+OG0009434,CAST,calpastatin,5,eye_loss
+OG0009704,ANKRD24,ankyrin repeat,5,eye_loss
+OG0009875,PLEKHA4,phosphatidylinositol-3-phosphate binding,5,eye_loss
+OG0010244,LEKR1,"Leucine-, glutamate- and lysine-rich protein 1",5,eye_loss
+OG0010367,MYCBPAP,MYCBP associated protein,5,eye_loss
+OG0010468,RBM19,positive regulation of embryonic development,5,eye_loss
+OG0010493,KMT2E,positive regulation of histone H3-K4 trimethylation,5,eye_loss
+OG0010513,KIAA1467,Family with sequence similarity 234 member B,5,eye_loss
+OG0010612,GALE,UDP-N-acetylglucosamine 4-epimerase activity,5,eye_loss
+OG0010672,XAF1,response to interferon-beta,5,eye_loss
+OG0010794,GAB1,GRB2-associated-binding protein 1,5,eye_loss
+OG0011070,FGB,induction of bacterial agglutination,5,eye_loss
+OG0011151,C1orf159,Domain of unknown function (DUF4501),5,eye_loss
+OG0011348,C7orf72,Domain of unknown function (DUF4540),5,eye_loss
+OG0011631,MAN2C1,"Alpha mannosidase, middle domain",5,eye_loss
+OG0011793,RGS22,GTPase activator activity,5,eye_loss
+OG0011807,MAP10,mitotic spindle midzone assembly,5,eye_loss
+OG0012340,VSIG10L,Immunoglobulin,5,eye_loss
+OG0012625,CD6,lipoteichoic acid binding,5,eye_loss
+OG0005421,FYB,FYN binding protein,4,eye_loss
+OG0005450,C5orf42,protein localization to ciliary transition zone,4,eye_loss
+OG0005592,DRC1,dynein regulatory complex,4,eye_loss
+OG0005596,DNAH2,"ATP-dependent microtubule motor activity, minus-end-directed",4,eye_loss
+OG0005697,HERC2,HECT and RLD domain containing E3 ubiquitin protein ligase 2,4,eye_loss
+OG0005741,DOT1L,"Histone-lysine N-methyltransferase, H3 lysine-79 specific",4,eye_loss
+OG0005794,HSD3B7,3 beta-hydroxysteroid dehydrogenase type 7,4,eye_loss
+OG0005798,ZNF831,Zinc finger protein 831,4,eye_loss
+OG0005888,HSPG2,basement membrane-specific heparan sulfate proteoglycan core,4,eye_loss
+OG0005900,ZC3H3,Zinc finger C-x8-C-x5-C-x3-H type (and similar),4,eye_loss
+OG0005984,NHSL2,NHS-like protein 2,4,eye_loss
+OG0006004,CFTR,intracellularly ATP-gated chloride channel activity,4,eye_loss
+OG0006065,FGG,fibrinogen gamma chain,4,eye_loss
+OG0006091,RNMT,mRNA (guanine-N7-)-methyltransferase activity,4,eye_loss
+OG0006093,C18orf21,Domain of unknown function (DUF4674),4,eye_loss
+OG0006099,AK8,Adenylate kinase 8,4,eye_loss
+OG0006116,KIAA1407,Coiled-coil domain-containing protein KIAA1407 homolog,4,eye_loss
+OG0006195,COL22A1,collagen,4,eye_loss
+OG0006301,ZDHHC24,"Zinc finger, DHHC-type containing 24",4,eye_loss
+OG0006359,AKAP12,positive regulation of protein kinase A signaling,4,eye_loss
+OG0006391,RNF43,RING finger protein 43,4,eye_loss
+OG0006407,NUP153,Nuclear pore complex protein,4,eye_loss
+OG0006409,DNAH10,heavy chain 10,4,eye_loss
+OG0006413,KANK1,KN motif and ankyrin repeat,4,eye_loss
+OG0006417,CARD9,CARD domain binding,4,eye_loss
+OG0006467,SYDE2,"Synapse defective 1, Rho GTPase, homolog 2 (C. elegans)",4,eye_loss
+OG0006495,COL16A1,integrin activation,4,eye_loss
+OG0006555,CCDC57,coiled-coil domain containing 57,4,eye_loss
+OG0006579,CARKD,ADP-dependent NAD(P)H-hydrate dehydratase activity,4,eye_loss
+OG0006582,RIF1,Replication timing regulatory factor 1,4,eye_loss
+OG0006635,CFAP43,Cilia and flagella associated protein 43,4,eye_loss
+OG0006677,SCAF1,RNA splicing,4,eye_loss
+OG0006680,LAMB3,brown fat cell differentiation,4,eye_loss
+OG0006695,OVCH2,serine-type endopeptidase activity,4,eye_loss
+OG0006784,ARHGAP31,Rho GTPase activating protein 31,4,eye_loss
+OG0006821,ABCA2,regulation of intracellular cholesterol transport,4,eye_loss
+OG0006857,NKTR,cyclosporin A binding,4,eye_loss
+OG0006902,KTI12,KTI12 homolog,4,eye_loss
+OG0006905,POFUT1,microtubule motor activity,4,eye_loss
+OG0007018,POLRMT,mitochondrial transcription,4,eye_loss
+OG0007026,PTPRC,regulation of hematopoietic stem cell migration,4,eye_loss
+OG0007069,FRMPD3,Band 4.1 homologues,4,eye_loss
+OG0007102,CCDC178,-,4,eye_loss
+OG0007138,TRIP11,Golgi organization,4,eye_loss
+OG0007151,C10orf11,occurring C-terminal to leucine-rich repeats,4,eye_loss
+OG0007185,C15orf39,Chromosome 15 open reading frame 39,4,eye_loss
+OG0007286,HPS4,Hermansky-Pudlak syndrome 4,4,eye_loss
+OG0007292,KDM5C,demethylase 5C,4,eye_loss
+OG0007306,CFAP61,cilium movement,4,eye_loss
+OG0007414,CNTRL,cell division,4,eye_loss
+OG0007519,CASZ1,zinc finger,4,eye_loss
+OG0007520,ATP13A2,cation-transporting ATPase 13A2,4,eye_loss
+OG0007553,DNAJC6,"DnaJ (Hsp40) homolog, subfamily C, member 6",4,eye_loss
+OG0007560,RSPH9,radial spoke head,4,eye_loss
+OG0007623,TERT,Telomerase reverse transcriptase,4,eye_loss
+OG0007672,TBXA2R,Thromboxane A2 receptor,4,eye_loss
+OG0007678,R3HDM4,R3H domain-containing protein 4,4,eye_loss
+OG0007695,RIN3,Rab guanyl-nucleotide exchange factor activity,4,eye_loss
+OG0007708,C15orf41,Protein of unknown function TPD sequence-motif,4,eye_loss
+OG0007722,POLR2A,DNA-directed 5'-3' RNA polymerase activity,4,eye_loss
+OG0007733,AFAP1L2,Actin filament associated protein 1-like 2,4,eye_loss
+OG0007803,WDR4,"Required for the formation of N(7)-methylguanine at position 46 (m7G46) in tRNA. In the complex, it is required to stabilize and induce conformational changes of the catalytic subunit",4,eye_loss
+OG0007853,CCDC39,epithelial cilium movement involved in determination of left/right asymmetry,4,eye_loss
+OG0007896,UACA,uveal autoantigen with coiled-coil domains and ankyrin repeats,4,eye_loss
+OG0007922,CBFB,Core-binding factor subunit beta isoform,4,eye_loss
+OG0007930,LRRIQ1,leucine-rich repeat and IQ domain-containing protein 1,4,eye_loss
+OG0007934,CCDC135,Dynein regulatory complex subunit 7,4,eye_loss
+OG0007953,ADGB,Belongs to the peptidase C2 family,4,eye_loss
+OG0007962,SGOL1,Shugoshin-like 1,4,eye_loss
+OG0008012,GNL3L,Guanine nucleotide-binding protein-like 3-like protein,4,eye_loss
+OG0008015,GAR1,snoRNA guided rRNA pseudouridine synthesis,4,eye_loss
+OG0008017,CEP290,Centrosomal protein of 290 kDa,4,eye_loss
+OG0008038,MYOT,Myotilin,4,eye_loss
+OG0008118,MAP3K4,"primary sex determination, germ-line",4,eye_loss
+OG0008136,ZBBX,zinc ion binding,4,eye_loss
+OG0008170,NUP214,Nuclear pore complex protein Nup214,4,eye_loss
+OG0008223,SRRM4,serine arginine repetitive matrix,4,eye_loss
+OG0008227,TCN2,Transcobalamin II,4,eye_loss
+OG0008247,EMB,"Plays a role in the outgrowth of motoneurons and in the formation of neuromuscular junctions. Following muscle denervation, promotes nerve terminal sprouting and the formation of additional acetylcholine receptor clusters at synaptic sites without affecting terminal Schwann cell number or morphology. Delays the retraction of terminal sprouts following re-innervation of denervated endplates",4,eye_loss
+OG0008268,TMCO3,transmembrane and coiled-coil,4,eye_loss
+OG0008280,KNOP1,Small acidic protein family,4,eye_loss
+OG0008365,CCDC11,epithelial cilium movement involved in determination of left/right asymmetry,4,eye_loss
+OG0008398,RCC2,Regulator of chromosome condensation (RCC1) repeat,4,eye_loss
+OG0008419,ZNF217,"Zinc finger, C2H2 type",4,eye_loss
+OG0008463,PODXL,positive regulation of cell-cell adhesion mediated by integrin,4,eye_loss
+OG0008484,STX8,Syntaxin-8,4,eye_loss
+OG0008524,MYRF,central nervous system myelin maintenance,4,eye_loss
+OG0008533,GALT,UDP-glucose catabolic process,4,eye_loss
+OG0008676,RSPH10B,"Possible plasma membrane-binding motif in junctophilins, PIP-5-kinases and protein kinases.",4,eye_loss
+OG0008688,TNMD,tendon cell differentiation,4,eye_loss
+OG0008716,BCAS3,Breast carcinoma amplified sequence 3,4,eye_loss
+OG0008765,C14orf39,meiotic DNA double-strand break processing involved in reciprocal meiotic recombination,4,eye_loss
+OG0008785,ICE1,snRNA transcription by RNA polymerase III,4,eye_loss
+OG0008868,NOLC1,box C/D snoRNA binding,4,eye_loss
+OG0008910,TNIP2,CD40 signaling pathway,4,eye_loss
+OG0008923,FA2H,Required for alpha-hydroxylation of free fatty acids and the formation of alpha-hydroxylated sphingolipids,4,eye_loss
+OG0008933,ATG2A,Autophagy-related protein C terminal domain,4,eye_loss
+OG0008967,MED23,Mediator of RNA polymerase II transcription subunit 23,4,eye_loss
+OG0009190,LIN9,Protein lin-9 homolog isoform,4,eye_loss
+OG0009231,CUX2,Homeobox protein cut-like 2,4,eye_loss
+OG0009235,LRIF1,Ligand-dependent nuclear receptor-interacting factor,4,eye_loss
+OG0009260,STIP1,Stress-induced phosphoprotein 1,4,eye_loss
+OG0009277,PLD2,Phospholipase D2,4,eye_loss
+OG0009313,CHEK2,Serine threonine-protein kinase Chk2,4,eye_loss
+OG0009384,ARHGEF1,Rho guanine nucleotide exchange factor,4,eye_loss
+OG0009405,SIRT6,Sir2 family,4,eye_loss
+OG0009449,KLF4,negative regulation of leukocyte adhesion to arterial endothelial cell,4,eye_loss
+OG0009470,PLEKHM2,"Pleckstrin homology domain containing, family M (with RUN domain) member 2",4,eye_loss
+OG0009472,PLEKHN1,Pleckstrin homology domain.,4,eye_loss
+OG0009527,EPS8,epidermal growth factor receptor,4,eye_loss
+OG0009572,COL9A2,Collagen alpha-2(IX) chain,4,eye_loss
+OG0009593,CFAP69,protein C7orf63 homolog,4,eye_loss
+OG0009612,CEP152,de novo centriole assembly involved in multi-ciliated epithelial cell differentiation,4,eye_loss
+OG0009828,NPHS1,glomerular basement membrane development,4,eye_loss
+OG0009833,BARD1,BRCA1-associated RING domain protein 1,4,eye_loss
+OG0009850,IFIH1,MDA-5 signaling pathway,4,eye_loss
+OG0009936,MALRD1,MAM and LDL receptor class A domain containing 1,4,eye_loss
+OG0009955,MLIP,Muscular LMNA-interacting protein,4,eye_loss
+OG0009974,NIN,Ninein (GSK3B interacting protein),4,eye_loss
+OG0009991,GPATCH1,G patch domain containing 1,4,eye_loss
+OG0010050,FAM193B,FAM193 family C-terminal,4,eye_loss
+OG0010265,DALRD3,arginyl-tRNA aminoacylation,4,eye_loss
+OG0010308,SUSD5,Link (Hyaluronan-binding),4,eye_loss
+OG0010369,GTF3C1,general transcription factor,4,eye_loss
+OG0010458,ZRANB2,Zinc finger Ran-binding domain-containing protein 2,4,eye_loss
+OG0010566,ASPSCR1,"Alveolar soft part sarcoma chromosome region, candidate 1",4,eye_loss
+OG0010588,IMMP1L,Mitochondrial inner membrane protease subunit,4,eye_loss
+OG0010671,AIRE,Autoimmune regulator,4,eye_loss
+OG0010678,ABCA12,"AAA domain, putative AbiEii toxin, Type IV TA system",4,eye_loss
+OG0010710,UBE3D,cyclin binding,4,eye_loss
+OG0010755,FAM73A,"Family with sequence similarity 73, member A",4,eye_loss
+OG0010766,C6orf203,protein C6orf203 homolog,4,eye_loss
+OG0010786,GALM,aldose 1-epimerase activity,4,eye_loss
+OG0010834,MEI4,Meiotic double-stranded break formation protein 4,4,eye_loss
+OG0010847,LYAR,erythrocyte development,4,eye_loss
+OG0010851,C16orf59,Chromosome 16 open reading frame,4,eye_loss
+OG0010876,CCDC66,post-embryonic retina morphogenesis in camera-type eye,4,eye_loss
+OG0010900,CCDC62,estrogen receptor binding,4,eye_loss
+OG0011055,FIGLA,oogenesis,4,eye_loss
+OG0011061,TTC16,tetratricopeptide repeat,4,eye_loss
+OG0011066,ARL6IP4,ADP-ribosylation factor-like protein 6-interacting protein 4,4,eye_loss
+OG0011164,CARD14,Caspase recruitment domain,4,eye_loss
+OG0011281,PDIA5,"Protein disulfide isomerase family A, member 5",4,eye_loss
+OG0011386,VWF,Von Willebrand factor,4,eye_loss
+OG0011444,LAD1,Anchoring filament protein which is a component of the basement membrane zone,4,eye_loss
+OG0011458,CENPF,Rb-binding domain of kinetochore protein Cenp-F/LEK1,4,eye_loss
+OG0011470,Theg,Testicular haploid expressed gene protein,4,eye_loss
+OG0011595,TTLL9,ligase activity,4,eye_loss
+OG0011656,C19orf44,Chromosome 19 open reading frame 44,4,eye_loss
+OG0011669,ZNF839,Domain of unknown function (DUF4764),4,eye_loss
+OG0011724,WDR65,WD40 repeats,4,eye_loss
+OG0011750,TAF1A,factor RNA polymerase I,4,eye_loss
+OG0011765,BCL2L15,regulation of apoptotic process,4,eye_loss
+OG0011768,MIIP,Migration and invasion-inhibitory,4,eye_loss
+OG0011886,KIAA2026,protein KIAA2026 homolog,4,eye_loss
+OG0011961,CCDC96,Domain of unknown function (DUF4201),4,eye_loss
+OG0011962,ANKRD53,Ankyrin repeats (many copies),4,eye_loss
+OG0011971,CCDC172,Coiled-coil domain-containing protein 172,4,eye_loss
+OG0011992,NOL8,Nucleolar protein,4,eye_loss
+OG0012007,SPATA1,spermatogenesis-associated protein 1,4,eye_loss
+OG0012085,TAF1C,RNA polymerase I CORE element sequence-specific DNA binding,4,eye_loss
+OG0012267,CCDC83,coiled-coil domain containing 83,4,eye_loss
+OG0012392,CHD1L,ATP-dependent DNA helicase activity,4,eye_loss
+OG0012539,CDYL2,Chromodomain Y-like protein 2,4,eye_loss
+OG0012763,ITGB3BP,beta 3 binding protein,4,eye_loss
+OG0004424,GSTK1,Glutathione S-transferase kappa,3,eye_loss
+OG0004776,ZNF318,Zinc finger protein 318,3,eye_loss
+OG0004783,TOPAZ1,testis- and ovary-specific PAZ domain-containing protein 1,3,eye_loss
+OG0004868,SZT2,regulation of superoxide dismutase activity,3,eye_loss
+OG0005049,MMP21,Matrix metalloproteinase-21,3,eye_loss
+OG0005066,ZNF638,RNA splicing,3,eye_loss
+OG0005100,NUMA1,Nuclear mitotic apparatus protein 1,3,eye_loss
+OG0005159,ABCC4,ABC transporter transmembrane region,3,eye_loss
+OG0005286,TDRD12,Tudor domain containing 12,3,eye_loss
+OG0005305,AKAP6,anchor protein 6,3,eye_loss
+OG0005368,FKBP15,FK506 binding protein 15,3,eye_loss
+OG0005372,SIX4,homeobox,3,eye_loss
+OG0005375,TRDN,"Contributes to the regulation of lumenal Ca2 release via the sarcoplasmic reticulum calcium release channels RYR1 and RYR2, a key step in triggering skeletal and heart muscle contraction. Required for normal organization of the triad junction, where T-tubules and the sarcoplasmic reticulum terminal cisternae are in close contact",3,eye_loss
+OG0005378,YLPM1,YLP motif containing 1,3,eye_loss
+OG0005381,NPHP4,positive regulation of bicellular tight junction assembly,3,eye_loss
+OG0005404,PIBF1,-,3,eye_loss
+OG0005477,GPRIN2,G protein-regulated inducer of neurite outgrowth C-terminus,3,eye_loss
+OG0005481,AKAP7,positive regulation of delayed rectifier potassium channel activity,3,eye_loss
+OG0005564,PRRC2A,coiled-coil 2A,3,eye_loss
+OG0005573,ASPG,60 kDa lysophospholipase,3,eye_loss
+OG0005611,CENPU,Centromere protein U,3,eye_loss
+OG0005616,NEK1,"DNA damage response, detection of DNA damage",3,eye_loss
+OG0005650,PRRC2C,coiled-coil 2C,3,eye_loss
+OG0005669,FAM83H,Family with sequence similarity 83 member H,3,eye_loss
+OG0005715,SCAF11,Ring finger,3,eye_loss
+OG0005739,CLCC1,Chloride channel CLIC-like,3,eye_loss
+OG0005791,COG1,oligomeric golgi complex,3,eye_loss
+OG0005827,CABIN1,Calcineurin-binding protein,3,eye_loss
+OG0005846,ABL1,positive regulation of actin binding,3,eye_loss
+OG0005851,ERCC6L,DNA translocase activity,3,eye_loss
+OG0005860,SMTN,smoothelin,3,eye_loss
+OG0005883,TPX2,importin-alpha family protein binding,3,eye_loss
+OG0005916,CCDC173,Trichohyalin-plectin-homology domain,3,eye_loss
+OG0005937,RTEL1,"ATP-dependent DNA helicase implicated in telomere-length regulation, DNA repair and the maintenance of genomic stability. Acts as an anti-recombinase to counteract toxic recombination and limit crossover during meiosis. Regulates meiotic recombination and crossover homeostasis by physically dissociating strand invasion events and thereby promotes noncrossover repair by meiotic synthesis dependent strand annealing (SDSA) as well as disassembly of D loop recombination intermediates. Also disassembles T loops and prevents telomere fragility by counteracting telomeric G4-DNA structures, which together ensure the dynamics and stability of the telomere",3,eye_loss
+OG0005941,RPAP1,DNA-directed 5'-3' RNA polymerase activity,3,eye_loss
+OG0005994,GOLGA4,Golgi to plasma membrane protein transport,3,eye_loss
+OG0006001,SPAG5,positive regulation of spindle assembly,3,eye_loss
+OG0006098,TPMT,thiopurine S-methyltransferase activity,3,eye_loss
+OG0006177,CTDP1,"CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) phosphatase, subunit 1",3,eye_loss
+OG0006183,CAPRIN2,positive regulation of dendritic spine morphogenesis,3,eye_loss
+OG0006196,IL11RA,receptor subunit alpha,3,eye_loss
+OG0006218,RPS15,structural constituent of ribosome,3,eye_loss
+OG0006228,TTLL5,"Tubulin tyrosine ligase-like family, member 5",3,eye_loss
+OG0006249,RPA1,"As part of the heterotrimeric replication protein A complex (RPA RP-A), binds and stabilizes single-stranded DNA intermediates, that form during DNA replication or upon DNA stress. It prevents their reannealing and in parallel, recruits and activates different proteins and complexes involved in DNA metabolism. Thereby, it plays an essential role both in DNA replication and the cellular response to DNA damage",3,eye_loss
+OG0006273,POLR2D,mRNA export from nucleus in response to heat stress,3,eye_loss
+OG0006293,PHKB,phosphorylase kinase activity,3,eye_loss
+OG0006303,ZC3H18,metal ion binding,3,eye_loss
+OG0006327,TDRD1,Tudor domain-containing protein 1,3,eye_loss
+OG0006356,PPAT,amidophosphoribosyltransferase activity,3,eye_loss
+OG0006376,CCSER1,Coiled-coil serine-rich protein 1,3,eye_loss
+OG0006383,SLC2A6,"Solute carrier family 2 (facilitated glucose transporter), member 6",3,eye_loss
+OG0006389,SREK1,"regulation of alternative mRNA splicing, via spliceosome",3,eye_loss
+OG0006422,KIAA1468,Lissencephaly type-1-like homology motif,3,eye_loss
+OG0006450,PWWP2A,histone binding,3,eye_loss
+OG0006464,BAZ2A,RNA polymerase I regulatory region sequence-specific DNA binding,3,eye_loss
+OG0006512,USPL1,ubiquitin-like protein-specific isopeptidase activity,3,eye_loss
+OG0006517,PRDM15,nucleic acid binding,3,eye_loss
+OG0006533,ASPM,"Asp (abnormal spindle) homolog, microcephaly associated (Drosophila)",3,eye_loss
+OG0006541,CTAGE5,cargo loading into vesicle,3,eye_loss
+OG0006568,LSR,tricellular tight junction assembly,3,eye_loss
+OG0006569,SCARF1,Scavenger receptor class F member 1,3,eye_loss
+OG0006575,LRCH1,negative regulation of T cell migration,3,eye_loss
+OG0006583,GPR39,G-protein coupled receptor activity,3,eye_loss
+OG0006600,FARS2,"phenylalanyl-tRNA synthetase 2, mitochondrial",3,eye_loss
+OG0006601,MAP4,"Tau and MAP protein, tubulin-binding repeat",3,eye_loss
+OG0006647,HMMR,motility receptor,3,eye_loss
+OG0006657,DDX11,Helicase,3,eye_loss
+OG0006676,SRRM2,C2H2 zinc finger domain binding,3,eye_loss
+OG0006732,SORBS3,vinculin binding,3,eye_loss
+OG0006739,KIAA1211,kiaa1211,3,eye_loss
+OG0006745,XRN2,transcription termination site DNA binding,3,eye_loss
+OG0006782,ITGB4,integrin,3,eye_loss
+OG0006797,AATF,Apoptosis antagonizing transcription factor,3,eye_loss
+OG0006863,RGL2,Ral guanine nucleotide dissociation stimulator-like 2,3,eye_loss
+OG0006871,PASK,negative regulation of glycogen biosynthetic process,3,eye_loss
+OG0006878,C18orf54,negative regulation of cell proliferation,3,eye_loss
+OG0006928,WDR78,"WD domain, G-beta repeat",3,eye_loss
+OG0006948,STX16,Belongs to the syntaxin family,3,eye_loss
+OG0006953,TBC1D5,retromer complex binding,3,eye_loss
+OG0006969,INCENP,Inner centromere protein,3,eye_loss
+OG0006973,DNAJC8,Hsp70 protein binding,3,eye_loss
+OG0006981,DMPK,DMPK coiled coil domain like,3,eye_loss
+OG0006996,APC,regulation of glutamate metabolic process,3,eye_loss
+OG0006999,ATF6,positive regulation of ATF6-mediated unfolded protein response,3,eye_loss
+OG0007014,SASS6,centriole replication,3,eye_loss
+OG0007058,ARMC4,Armadillo repeat containing 4,3,eye_loss
+OG0007064,CALCOCO2,Calcium-binding and coiled-coil domain-containing protein 2,3,eye_loss
+OG0007077,NUDT8,"Nucleoside diphosphate-linked moiety X motif 8, mitochondrial",3,eye_loss
+OG0007101,SKA3,regulation of microtubule polymerization or depolymerization,3,eye_loss
+OG0007109,ALDH5A1,succinate-semialdehyde dehydrogenase [NAD(P)+] activity,3,eye_loss
+OG0007113,THEMIS2,Thymocyte selection associated family member 2,3,eye_loss
+OG0007136,DIEXF,Digestive organ expansion factor homolog,3,eye_loss
+OG0007161,FAM193A,FAM193 family C-terminal,3,eye_loss
+OG0007172,MNS1,left/right axis specification,3,eye_loss
+OG0007192,QSER1,Domain of unknown function (DUF4211),3,eye_loss
+OG0007202,CASP8AP2,Fas signaling pathway,3,eye_loss
+OG0007213,ZNF653,Zinc finger protein 653,3,eye_loss
+OG0007240,CDT1,DNA replication factor CDT1 like,3,eye_loss
+OG0007317,SUPT16H,positive regulation of transcription elongation from RNA polymerase II promoter,3,eye_loss
+OG0007319,C10orf12,Ligand dependent nuclear receptor corepressor,3,eye_loss
+OG0007332,PPP1R15A,Protein phosphatase 1 regulatory subunit 15A,3,eye_loss
+OG0007344,WIBG,Partner of Y14 and mago,3,eye_loss
+OG0007350,MECP2,"Chromosomal protein that binds to methylated DNA. It can bind specifically to a single methyl-CpG pair. It is not influenced by sequences flanking the methyl-CpGs. Binds both 5- methylcytosine (5mC) and 5-hydroxymethylcytosine (5hmC)-containing DNA, with a preference for 5-methylcytosine (5mC)",3,eye_loss
+OG0007365,DDX54,RNA secondary structure unwinding,3,eye_loss
+OG0007371,GARNL3,GTPase activator activity,3,eye_loss
+OG0007411,RUFY3,RUN,3,eye_loss
+OG0007419,RILPL2,Rab interacting lysosomal protein-like 2,3,eye_loss
+OG0007433,FAM161A,cilium assembly,3,eye_loss
+OG0007459,TAP1,peptide antigen-transporting ATPase activity,3,eye_loss
+OG0007469,URB1,URB1 ribosome biogenesis 1 homolog (S. cerevisiae),3,eye_loss
+OG0007478,TGS1,Trimethylguanosine synthase,3,eye_loss
+OG0007479,PAXIP1,Regulator of Ty1 transposition protein 107 BRCT domain,3,eye_loss
+OG0007506,HIVEP1,Human immunodeficiency virus type I enhancer binding protein 1,3,eye_loss
+OG0007532,E2F1,Transcription factor,3,eye_loss
+OG0007534,NOL9,Nucleolar protein 9,3,eye_loss
+OG0007566,MCM10,DNA replication origin binding,3,eye_loss
+OG0007598,WBP11,"mRNA cis splicing, via spliceosome",3,eye_loss
+OG0007606,SPTY2D1,regulation of chromatin assembly,3,eye_loss
+OG0007611,ICE2,snRNA transcription by RNA polymerase III,3,eye_loss
+OG0007620,SLC39A7,"solute carrier family 39 (zinc transporter), member 7",3,eye_loss
+OG0007628,DCP2,m7G(5')pppN diphosphatase activity,3,eye_loss
+OG0007630,IFT46,Intraflagellar transport protein 46 homolog,3,eye_loss
+OG0007633,EXOSC8,U1 snRNA 3'-end processing,3,eye_loss
+OG0007647,FNDC1,Fibronectin type 3 domain,3,eye_loss
+OG0007689,KDM1A,SWIRM domain,3,eye_loss
+OG0007713,SLC4A1AP,Forkhead associated domain,3,eye_loss
+OG0007715,KIF11,mitotic centrosome separation,3,eye_loss
+OG0007739,SH3BP1,establishment of epithelial cell apical/basal polarity,3,eye_loss
+OG0007744,PLEKHM1,"pleckstrin homology domain containing, family M (with RUN domain) member 1",3,eye_loss
+OG0007746,HEATR1,rRNA processing,3,eye_loss
+OG0007754,GAP43,axon choice point recognition,3,eye_loss
+OG0007756,CWF19L2,"CWF19-like 2, cell cycle control (S. pombe)",3,eye_loss
+OG0007761,DNHD1,"Dynein heavy chain, N-terminal region 2",3,eye_loss
+OG0007799,CCDC89,Coiled-coil domain containing 89,3,eye_loss
+OG0007816,RMDN1,regulator of microtubule dynamics,3,eye_loss
+OG0007831,LENG8,SAC3/GANP family,3,eye_loss
+OG0007841,DHX30,ATP-dependent RNA helicase DHX30,3,eye_loss
+OG0007875,C20orf194,Chromosome 20 open reading frame 194,3,eye_loss
+OG0007885,DNA2,5'-flap endonuclease activity,3,eye_loss
+OG0007886,PRIM2,DNA primase activity,3,eye_loss
+OG0007895,SLC39A13,"Solute carrier family 39 (zinc transporter), member 13",3,eye_loss
+OG0007915,C4orf47,Chromosome 4 open reading frame 47,3,eye_loss
+OG0007918,AP1AR,AP-1 complex-associated regulatory protein,3,eye_loss
+OG0007919,ENPP6,glycerophosphocholine cholinephosphodiesterase activity,3,eye_loss
+OG0007927,PPCDC,Phosphopantothenoylcysteine decarboxylase,3,eye_loss
+OG0007932,VPS9D1,Vacuolar sorting protein 9 (VPS9) domain,3,eye_loss
+OG0007948,SWT1,nucleic acid-templated transcription,3,eye_loss
+OG0007951,STRA13,Stimulated by retinoic acid 13,3,eye_loss
+OG0007993,GNL3,positive regulation of protein sumoylation,3,eye_loss
+OG0008022,CDH16,Cadherin 16,3,eye_loss
+OG0008023,APRT,Adenine phosphoribosyltransferase,3,eye_loss
+OG0008078,IZUMO1,protein binding involved in heterotypic cell-cell adhesion,3,eye_loss
+OG0008099,SCFD2,vesicle docking involved in exocytosis,3,eye_loss
+OG0008115,ILVBL,thiamine pyrophosphate binding,3,eye_loss
+OG0008127,C4orf27,peptidyl-serine ADP-ribosylation,3,eye_loss
+OG0008133,KLHL36,protein modification by small protein conjugation,3,eye_loss
+OG0008149,GCLM,Glutamate--cysteine ligase,3,eye_loss
+OG0008157,GRIPAP1,regulation of modification of synaptic structure,3,eye_loss
+OG0008163,CCDC181,microtubule binding,3,eye_loss
+OG0008172,PAX8,Paired box,3,eye_loss
+OG0008197,AMER1,WTX protein,3,eye_loss
+OG0008201,PARP10,Poly (ADP-ribose) polymerase,3,eye_loss
+OG0008226,SUSD2,Sushi domain-containing protein 2,3,eye_loss
+OG0008237,TRAFD1,negative regulation of innate immune response,3,eye_loss
+OG0008285,CXorf23,THRAP3/BCLAF1 family,3,eye_loss
+OG0008295,ZFAND1,AN1-type zinc finger protein 1,3,eye_loss
+OG0008321,GK5,glycerol-3-phosphate biosynthetic process,3,eye_loss
+OG0008342,STBD1,glycophagy,3,eye_loss
+OG0008349,GTF3C4,general transcription factor,3,eye_loss
+OG0008367,WDR73,cytoplasmic microtubule organization,3,eye_loss
+OG0008370,BTC,Probetacellulin,3,eye_loss
+OG0008378,MPP1,Belongs to the MAGUK family,3,eye_loss
+OG0008400,HAUS7,thioesterase binding,3,eye_loss
+OG0008406,NFXL1,ZnF_NFX,3,eye_loss
+OG0008426,GLYCTK,Glycerate kinase,3,eye_loss
+OG0008437,H6PD,GDH 6PGL endoplasmic bifunctional protein,3,eye_loss
+OG0008452,CCNC,cyclin-C isoform,3,eye_loss
+OG0008523,RFWD3,Ring finger and WD repeat domain 3,3,eye_loss
+OG0008557,EXOC2,Exocyst complex component 2,3,eye_loss
+OG0008566,PSTPIP2,Proline-serine-threonine phosphatase-interacting protein 2,3,eye_loss
+OG0008615,WARS,tryptophan-tRNA ligase activity,3,eye_loss
+OG0008619,GCFC2,spliceosomal complex assembly,3,eye_loss
+OG0008645,PDZD8,PDZ domain-containing protein 8,3,eye_loss
+OG0008669,XRCC6,X-ray repair complementing defective repair in Chinese hamster cells 6,3,eye_loss
+OG0008689,PTCD3,ribosomal small subunit binding,3,eye_loss
+OG0008693,NUP160,Nuclear pore complex protein Nup160,3,eye_loss
+OG0008702,RELB,V-rel avian reticuloendotheliosis viral oncogene homolog B,3,eye_loss
+OG0008714,DPH1,peptidyl-diphthamide biosynthetic process from peptidyl-histidine,3,eye_loss
+OG0008732,CCDC141,Spectrin repeats,3,eye_loss
+OG0008735,ANKZF1,mitochondria-associated ubiquitin-dependent protein catabolic process,3,eye_loss
+OG0008753,F5,copper ion binding,3,eye_loss
+OG0008776,PIKFYVE,1-phosphatidylinositol-3-phosphate 5-kinase activity,3,eye_loss
+OG0008781,ST18,Suppression of tumorigenicity 18,3,eye_loss
+OG0008786,IPO4,ribosomal protein import into nucleus,3,eye_loss
+OG0008795,DCTN3,dynactin,3,eye_loss
+OG0008833,HDAC8,negative regulation of histone H3-K9 acetylation,3,eye_loss
+OG0008860,TACC3,Transforming acidic coiled-coil-containing protein (TACC),3,eye_loss
+OG0008861,PQLC3,PQ-loop repeat-containing protein 3,3,eye_loss
+OG0008892,ERCC6,Excision repair,3,eye_loss
+OG0008897,BAG3,negative regulation of protein targeting to mitochondrion,3,eye_loss
+OG0008900,CEP68,centriole-centriole cohesion,3,eye_loss
+OG0008901,PDCD2,positive regulation of hematopoietic stem cell proliferation,3,eye_loss
+OG0008906,HTT,positive regulation of aggrephagy,3,eye_loss
+OG0008920,MUC15,Cell-membrane associated Mucin15,3,eye_loss
+OG0008929,PPARGC1B,"Peroxisome proliferator-activated receptor gamma, coactivator",3,eye_loss
+OG0008955,KIFC3,Belongs to the TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family,3,eye_loss
+OG0008960,NOB1,cleavage involved in rRNA processing,3,eye_loss
+OG0009005,ATXN7L3,"Component of the transcription regulatory histone acetylation (HAT) complex SAGA, a multiprotein complex that activates transcription by remodeling chromatin and mediating histone acetylation and deubiquitination. Within the SAGA complex, participates in a subcomplex that specifically deubiquitinates both histones H2A and H2B. The SAGA complex is recruited to specific gene promoters by activators such as MYC, where it is required for transcription. Required for nuclear receptor-mediated transactivation. Within the complex, it is required to recruit USP22 and ENY2 into the SAGA complex. Regulates H2B monoubiquitination (H2Bub1) levels. Affects subcellular distribution of ENY2, USP22 and ATXN7L3B",3,eye_loss
+OG0009006,MRC2,collagen binding,3,eye_loss
+OG0009016,RRN3,RNA polymerase I-specific transcription initiation factor RRN3,3,eye_loss
+OG0009038,SMUG1,single-strand selective uracil DNA N-glycosylase activity,3,eye_loss
+OG0009079,MDC1,Mediator of DNA damage checkpoint,3,eye_loss
+OG0009154,KANSL3,KAT8 regulatory NSL complex subunit 3,3,eye_loss
+OG0009166,DGCR6,biological adhesion,3,eye_loss
+OG0009170,NUDT14,Nudix (nucleoside diphosphate linked moiety X)-type motif 14,3,eye_loss
+OG0009189,NUS1,dolichol biosynthetic process,3,eye_loss
+OG0009227,DAW1,Dynein assembly factor with WDR repeat domains 1,3,eye_loss
+OG0009330,NOL6,tRNA export from nucleus,3,eye_loss
+OG0009354,PDCD11,Programmed cell death 11,3,eye_loss
+OG0009390,TBRG4,Transforming growth factor beta regulator 4,3,eye_loss
+OG0009398,UBXN7,UBX domain protein 7,3,eye_loss
+OG0009408,CACTIN,Conserved mid region of cactin,3,eye_loss
+OG0009409,MTERF4,mitochondrial transcription,3,eye_loss
+OG0009410,ALG3,"Adds the first Dol-P-Man derived mannose in an alpha-1,3 linkage to Man5GlcNAc2-PP-Dol",3,eye_loss
+OG0009461,BOP1,"Component of the PeBoW complex, which is required for maturation of 28S and 5.8S ribosomal RNAs and formation of the 60S ribosome",3,eye_loss
+OG0009462,TAZ,Tafazzin,3,eye_loss
+OG0009488,RABGGTA,Rab geranylgeranyltransferase activity,3,eye_loss
+OG0009503,RNF219,metal ion binding,3,eye_loss
+OG0009509,RAD18,Y-form DNA binding,3,eye_loss
+OG0009514,TBC1D23,Rab-GTPase-TBC domain,3,eye_loss
+OG0009516,LRRC7,PDZ domain (Also known as DHR or GLGF),3,eye_loss
+OG0009626,TNIP1,modulation by symbiont of host I-kappaB kinase/NF-kappaB cascade,3,eye_loss
+OG0009643,FEZ1,positive regulation of anterograde axonal transport of mitochondrion,3,eye_loss
+OG0009712,LUZP1,neural fold bending,3,eye_loss
+OG0009717,DNAAF2,cilium-dependent cell motility,3,eye_loss
+OG0009718,EIF2AK4,induction by virus of host autophagy,3,eye_loss
+OG0009734,AHI1,pronephric nephron tubule morphogenesis,3,eye_loss
+OG0009743,KIAA1598,endoplasmic reticulum polarization,3,eye_loss
+OG0009749,NPHP1,Nephronophthisis 1 (juvenile),3,eye_loss
+OG0009756,ZBTB4,Zinc finger and BTB domain-containing protein 4,3,eye_loss
+OG0009762,NPLOC4,negative regulation of RIG-I signaling pathway,3,eye_loss
+OG0009776,STX4,Belongs to the syntaxin family,3,eye_loss
+OG0009849,TBR1,amygdala development,3,eye_loss
+OG0009851,CCDC108,coiled-coil domain-containing protein 108,3,eye_loss
+OG0009859,DOPEY2,Golgi to endosome transport,3,eye_loss
+OG0009861,RFTN2,protein transport into membrane raft,3,eye_loss
+OG0009871,DECR2,"Auxiliary enzyme of beta-oxidation. Participates in the degradation of unsaturated fatty enoyl-CoA esters having double bonds in both even- and odd-numbered positions in peroxisome. Catalyzes the NADP-dependent reduction of 2,4-dienoyl-CoA to yield trans-3-enoyl-CoA. Has activity towards short and medium chain 2,4-dienoyl-CoAs, but also towards 2,4,7,10,13,16,19- docosaheptaenoyl-CoA, suggesting that it does not constitute a rate limiting step in the peroxisomal degradation of docosahexaenoic acid",3,eye_loss
+OG0009891,PLEKHA8,glycolipid transporter activity,3,eye_loss
+OG0009893,DCST2,DC-STAMP-like protein,3,eye_loss
+OG0009917,ARAP2,"phosphatidylinositol-3,4,5-trisphosphate binding",3,eye_loss
+OG0009919,SH3TC1,SH3 domain and tetratricopeptide,3,eye_loss
+OG0009935,LRRCC1,cell division,3,eye_loss
+OG0009957,SLC29A3,"Solute carrier family 29 (equilibrative nucleoside transporter), member 3",3,eye_loss
+OG0010019,PANX2,Belongs to the pannexin family,3,eye_loss
+OG0010053,FBXL16,Leucine Rich Repeat,3,eye_loss
+OG0010056,SGSM3,Small G protein signaling modulator 3,3,eye_loss
+OG0010076,ACE2,peptidyl-dipeptidase activity,3,eye_loss
+OG0010083,SLC26A11,"Solute carrier family 26 (anion exchanger), member 11",3,eye_loss
+OG0010085,BAP1,macrophage homeostasis,3,eye_loss
+OG0010094,TSEN2,tRNA-type intron splice site recognition and cleavage,3,eye_loss
+OG0010115,HSD17B8,hydroxysteroid (17-beta) dehydrogenase 8,3,eye_loss
+OG0010132,CRYZL1,oxidoreductase activity,3,eye_loss
+OG0010133,ALOX5AP,Arachidonate 5-lipoxygenase-activating protein,3,eye_loss
+OG0010144,CYP21A2,"Cytochrome P450, family 21, subfamily A, polypeptide",3,eye_loss
+OG0010156,ARMC2,Armadillo repeat containing 2,3,eye_loss
+OG0010205,VPS13A,social behavior,3,eye_loss
+OG0010212,PLXND1,Plexin D1,3,eye_loss
+OG0010217,GPCPD1,glycerophosphocholine phosphodiesterase activity,3,eye_loss
+OG0010262,FANCE,Fanconi Anaemia group E protein FANCE,3,eye_loss
+OG0010297,CPSF1,CPSF A subunit region,3,eye_loss
+OG0010303,RECQL4,ATP-dependent DNA helicase Q4,3,eye_loss
+OG0010320,MAPK15,Mitogen-activated protein kinase 15,3,eye_loss
+OG0010362,UBAC2,"negative regulation of retrograde protein transport, ER to cytosol",3,eye_loss
+OG0010366,MRI1,Belongs to the eIF-2B alpha beta delta subunits family,3,eye_loss
+OG0010372,LRRC31,leucine rich repeat containing 31,3,eye_loss
+OG0010378,CFAP44,Cilia and flagella associated protein 44,3,eye_loss
+OG0010383,ANKS6,Sterile alpha motif.,3,eye_loss
+OG0010390,HPN,pilomotor reflex,3,eye_loss
+OG0010416,MAMDC4,Probably involved in the sorting and selective transport of receptors and ligands across polarized epithelia,3,eye_loss
+OG0010427,C11orf70,Domain of unknown function (DUF4498),3,eye_loss
+OG0010435,LARS,Belongs to the class-I aminoacyl-tRNA synthetase family,3,eye_loss
+OG0010452,TMEM27,positive regulation of SNARE complex assembly,3,eye_loss
+OG0010453,C1orf52,Domain of unknown function (DUF4660),3,eye_loss
+OG0010539,PIDD1,Peptidase S68,3,eye_loss
+OG0010548,SMYD4,SET and MYND,3,eye_loss
+OG0010565,NADSYN1,NAD synthetase 1,3,eye_loss
+OG0010577,TDRD5,"maternal determination of anterior/posterior axis, embryo",3,eye_loss
+OG0010590,KIAA1731,positive regulation of organelle assembly,3,eye_loss
+OG0010594,PPP2R3C,regulation of antimicrobial humoral response,3,eye_loss
+OG0010599,SCFD1,SEC1 family,3,eye_loss
+OG0010606,TRERF1,factor 1,3,eye_loss
+OG0010607,PAPLN,"Papilin, proteoglycan-like sulfated glycoprotein",3,eye_loss
+OG0010628,RNLS,amine oxidase,3,eye_loss
+OG0010673,BRCA2,breast cancer type 2 susceptibility protein,3,eye_loss
+OG0010675,WDR75,WD repeat-containing protein 75,3,eye_loss
+OG0010693,PLA1A,phospholipase A1 member A,3,eye_loss
+OG0010724,leng9,Leukocyte receptor cluster member 9,3,eye_loss
+OG0010725,RUSC1,RUN and SH3 domain containing 1,3,eye_loss
+OG0010728,SLC50A1,glucoside transmembrane transporter activity,3,eye_loss
+OG0010745,SEMA4F,retinal ganglion cell axon guidance,3,eye_loss
+OG0010754,TROVE2,60 kDa SS-A Ro ribonucleoprotein,3,eye_loss
+OG0010761,KIF9,regulation of podosome assembly,3,eye_loss
+OG0010780,MANBA,beta-mannosidase activity,3,eye_loss
+OG0010783,ALMS1,Alstrom syndrome,3,eye_loss
+OG0010788,PHACTR2,"Repeat in Drosophila CG10860, human KIAA0680 and C. elegans F26H9.2",3,eye_loss
+OG0010790,UNC93B1,Unc-93 homolog B1,3,eye_loss
+OG0010800,TSSC4,Tumour suppressing sub-chromosomal transferable candidate 4,3,eye_loss
+OG0010802,CCDC113,cilium assembly,3,eye_loss
+OG0010817,SPATA2L,Spermatogenesis-associated protein 2-like protein,3,eye_loss
+OG0010838,MPV17,cellular response to reactive oxygen species,3,eye_loss
+OG0010843,WDR1,WD repeat-containing protein 1,3,eye_loss
+OG0010844,CLNK,Cytokine-dependent hematopoietic cell linker,3,eye_loss
+OG0010849,NAA60,N-terminal peptidyl-methionine acetylation,3,eye_loss
+OG0010865,SYT17,Protein kinase C conserved region 2 (CalB),3,eye_loss
+OG0010889,VAC14,phosphatidylinositol biosynthetic process,3,eye_loss
+OG0010922,ZBTB48,zinc finger and BTB,3,eye_loss
+OG0010982,NPC1L1,intestinal cholesterol absorption,3,eye_loss
+OG0011018,DNTTIP2,Deoxynucleotidyltransferase terminal interacting protein 2,3,eye_loss
+OG0011032,GFM2,Mitochondrial GTPase that mediates the disassembly of ribosomes from messenger RNA at the termination of mitochondrial protein biosynthesis. Acts in collaboration with MRRF. GTP hydrolysis follows the ribosome disassembly and probably occurs on the ribosome large subunit. Not involved in the GTP-dependent ribosomal translocation step during translation elongation,3,eye_loss
+OG0011037,IQCD,IQ motif containing D,3,eye_loss
+OG0011045,WDYHV1,protein-N-terminal glutamine amidohydrolase activity,3,eye_loss
+OG0011053,PAQR7,oogenesis,3,eye_loss
+OG0011058,C9orf142,"PAXX, PAralog of XRCC4 and XLF, also called C9orf142",3,eye_loss
+OG0011069,MVK,mevalonate kinase activity,3,eye_loss
+OG0011077,DUSP27,protein tyrosine/serine/threonine phosphatase activity,3,eye_loss
+OG0011093,TOPBP1,mitotic DNA replication checkpoint,3,eye_loss
+OG0011103,IL20RB,Interleukin-20 receptor subunit beta,3,eye_loss
+OG0011113,DMGDH,dimethylglycine dehydrogenase activity,3,eye_loss
+OG0011116,TMPRSS15,"Transmembrane protease, serine 15",3,eye_loss
+OG0011172,TMEM173,cyclic-GMP-AMP binding,3,eye_loss
+OG0011175,IRF7,Interferon-regulatory factor 3,3,eye_loss
+OG0011207,TRIP4,intracellular estrogen receptor signaling pathway,3,eye_loss
+OG0011214,ANKMY1,Ankyrin repeat and MYND,3,eye_loss
+OG0011243,RLF,Rearranged L-myc fusion,3,eye_loss
+OG0011247,ERICH1,Glutamate-rich protein 1,3,eye_loss
+OG0011249,GHDC,GH3 domain containing,3,eye_loss
+OG0011261,ACBD4,Acyl-CoA-binding domain-containing protein 4,3,eye_loss
+OG0011264,LRRC45,Leucine-rich repeat-containing protein 45,3,eye_loss
+OG0011270,ZFC3H1,zinc finger,3,eye_loss
+OG0011274,RNF169,Ring finger protein 169,3,eye_loss
+OG0011287,BCS1L,Belongs to the AAA ATPase family,3,eye_loss
+OG0011339,WDR35,"Component of the IFT complex A (IFT-A), a complex required for retrograde ciliary transport. Required for ciliogenesis. May promote CASP3 activation and TNF-stimulated apoptosis",3,eye_loss
+OG0011347,SLC25A16,mitochondrial transport,3,eye_loss
+OG0011360,TMEM134,Eukaryotic protein of unknown function (DUF872),3,eye_loss
+OG0011372,DNAJC4,homolog subfamily C member 4,3,eye_loss
+OG0011377,RLTPR,negative regulation of barbed-end actin filament capping,3,eye_loss
+OG0011380,LONP2,ATP-dependent peptidase activity,3,eye_loss
+OG0011397,DGKQ,Diacylglycerol kinase theta,3,eye_loss
+OG0011424,MYBL2,V-myb avian myeloblastosis viral oncogene homolog-like 2,3,eye_loss
+OG0011435,TMEM81,transmembrane protein 81,3,eye_loss
+OG0011447,FBLN5,elastic fiber assembly,3,eye_loss
+OG0011463,AMER2,ectoderm development,3,eye_loss
+OG0011466,HPS6,"May regulate the synthesis and function of lysosomes and of highly specialized organelles, such as melanosomes and platelet dense granules",3,eye_loss
+OG0011472,C16orf89,protein homodimerization activity,3,eye_loss
+OG0011479,ALKBH3,alkB homolog 3,3,eye_loss
+OG0011519,IFT122,intraflagellar transport,3,eye_loss
+OG0011523,PEX7,peroxisome matrix targeting signal-2 binding,3,eye_loss
+OG0011528,SCLT1,clustering of voltage-gated sodium channels,3,eye_loss
+OG0011555,FBXW8,F-box and WD repeat domain containing 8,3,eye_loss
+OG0011561,GPR98,G protein-coupled receptor,3,eye_loss
+OG0011590,NOP14,snoRNA binding,3,eye_loss
+OG0011638,ALDH7A1,belongs to the aldehyde dehydrogenase family,3,eye_loss
+OG0011660,SLC6A5,glycine import across plasma membrane,3,eye_loss
+OG0011661,NUFIP1,box C/D snoRNP assembly,3,eye_loss
+OG0011662,KIF28P,organelle transport along microtubule,3,eye_loss
+OG0011667,ACP7,acid phosphatase activity,3,eye_loss
+OG0011680,AQR,helicase activity,3,eye_loss
+OG0011681,C10orf88,identical protein binding,3,eye_loss
+OG0011684,COA3,mitochondrial respiratory chain complex IV assembly,3,eye_loss
+OG0011686,PEMT,"Catalyzes the three sequential steps of the methylation pathway of phosphatidylcholine biosynthesis, the SAM-dependent methylation of phosphatidylethanolamine (PE) to phosphatidylmonomethylethanolamine (PMME), PMME to phosphatidyldimethylethanolamine (PDME), and PDME to phosphatidylcholine (PC)",3,eye_loss
+OG0011690,RNF212,meiotic gene conversion,3,eye_loss
+OG0011695,KLC3,kinesin binding,3,eye_loss
+OG0011697,PARP9,ADP-D-ribose binding,3,eye_loss
+OG0011702,CMSS1,Cms1 ribosomal small subunit homolog (yeast),3,eye_loss
+OG0011706,RGS22,GTPase activator activity,3,eye_loss
+OG0011708,WDR90,Protein of unknown function (DUF667),3,eye_loss
+OG0011710,RBBP8,organism emergence from protective structure,3,eye_loss
+OG0011748,FIG4,FIG4 phosphoinositide 5-phosphatase,3,eye_loss
+OG0011754,TSEN54,tRNA-type intron splice site recognition and cleavage,3,eye_loss
+OG0011805,FANCF,DNA repair,3,eye_loss
+OG0011806,CCNDBP1,cyclin-D1-binding protein 1,3,eye_loss
+OG0011853,NVL,preribosome binding,3,eye_loss
+OG0011875,NFAM1,NFAT activating protein with ITAM motif 1,3,eye_loss
+OG0011888,NOC4L,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",3,eye_loss
+OG0011919,FOXRED1,FAD-dependent oxidoreductase domain-containing protein 1,3,eye_loss
+OG0011925,PEX11G,regulation of peroxisome size,3,eye_loss
+OG0011933,METTL10,Protein-lysine methyltransferase that selectively catalyzes the trimethylation of EEF1A at 'Lys-318',3,eye_loss
+OG0011934,RPS6KL1,protein serine/threonine kinase activity,3,eye_loss
+OG0011947,MFRP,Membrane frizzled-related protein,3,eye_loss
+OG0011954,COG3,Conserved oligomeric Golgi complex subunit 3,3,eye_loss
+OG0011994,CCDC73,Coiled-coil domain-containing protein 73 family,3,eye_loss
+OG0012008,IQCK,IQ motif containing K,3,eye_loss
+OG0012094,TNFRSF18,Tumor necrosis factor receptor superfamily member 18,3,eye_loss
+OG0012105,MRPS35,structural constituent of ribosome,3,eye_loss
+OG0012110,TMEM44,Transmembrane protein 44,3,eye_loss
+OG0012118,JMJD7,jmjC domain-containing protein 7,3,eye_loss
+OG0012121,TRMT61B,tRNA methyltransferase 61 homolog B (S. cerevisiae),3,eye_loss
+OG0012126,ACRC,Acidic repeat-containing protein,3,eye_loss
+OG0012145,MAN2B2,Epididymis-specific alpha-mannosidase,3,eye_loss
+OG0012151,RSRP1,Arginine serine-rich protein 1,3,eye_loss
+OG0012169,WDR76,regulation of DNA damage checkpoint,3,eye_loss
+OG0012193,GPR143,G-protein coupled receptor 143,3,eye_loss
+OG0012259,CNTROB,mitotic cytokinetic process,3,eye_loss
+OG0012273,FAM161B,Family with sequence similarity 161 member B,3,eye_loss
+OG0012283,NEK5,NIMA-related kinase 5,3,eye_loss
+OG0012286,CCDC148,Coiled-coil domain containing 148,3,eye_loss
+OG0012295,DTHD1,Death domain,3,eye_loss
+OG0012298,LRRC27,Leucine rich repeat containing 27,3,eye_loss
+OG0012424,EFCAB12,calcium ion binding,3,eye_loss
+OG0012443,C2orf61,protein C2orf61 homolog,3,eye_loss
+OG0012635,SMAGP,Small cell adhesion glycoprotein,3,eye_loss
+OG0005107,RASGRP2,guanyl-nucleotide exchange factor activity,2,eye_loss
+OG0005119,SEH1L,cytokine production involved in inflammatory response,2,eye_loss
+OG0005181,GPR132,receptor 132,2,eye_loss
+OG0005186,UROS,uroporphyrinogen III biosynthetic process,2,eye_loss
+OG0005209,DXO,Decapping and exoribonuclease protein,2,eye_loss
+OG0005267,SMPD2,Sphingomyelin phosphodiesterase 2,2,eye_loss
+OG0005340,SLC6A14,neurotransmitter:sodium symporter activity,2,eye_loss
+OG0005386,F11R,Junctional adhesion molecule,2,eye_loss
+OG0005531,IER3,Immediate early response 3,2,eye_loss
+OG0005557,UTP20,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",2,eye_loss
+OG0005559,SLC35E3,carbohydrate transport,2,eye_loss
+OG0005572,CCDC176,Coiled-coil domain containing 176,2,eye_loss
+OG0005579,ARAP1,"Arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 1",2,eye_loss
+OG0005604,NINL,calcium ion binding,2,eye_loss
+OG0005608,TAPBP,peptide stabilization,2,eye_loss
+OG0005621,C17orf104,Meiosis specific with coiled-coil domain,2,eye_loss
+OG0005628,GPNMB,syndecan binding,2,eye_loss
+OG0005664,ZC4H2,Zinc finger C4H2,2,eye_loss
+OG0005665,LAS1L,endonucleolytic cleavage involved in rRNA processing,2,eye_loss
+OG0005686,PRAG1,positive regulation of Rho protein signal transduction,2,eye_loss
+OG0005692,TRPC4AP,Transient receptor potential cation channel subfamily C member 4 associated protein,2,eye_loss
+OG0005711,ABCF1,"ATP-binding cassette, subfamily F",2,eye_loss
+OG0005729,TTC28,Tetratricopeptide repeat,2,eye_loss
+OG0005744,ZFYVE28,negative regulation of epidermal growth factor-activated receptor activity,2,eye_loss
+OG0005761,RNF17,spermatogenesis,2,eye_loss
+OG0005770,DFNA5,pyroptosis,2,eye_loss
+OG0005772,DOK1,macrophage colony-stimulating factor signaling pathway,2,eye_loss
+OG0005783,IMMP2L,Mitochondrial inner membrane protease subunit,2,eye_loss
+OG0005830,VPRBP,DDB1 and CUL4 associated factor 1,2,eye_loss
+OG0005841,DCLRE1B,telomeric loop formation,2,eye_loss
+OG0005861,DAO,"Regulates the level of the neuromodulator D-serine in the brain. Has high activity towards D-DOPA and contributes to dopamine synthesis. Could act as a detoxifying agent which removes D-amino acids accumulated during aging. Acts on a variety of D- amino acids with a preference for those having small hydrophobic side chains followed by those bearing polar, aromatic, and basic groups. Does not act on acidic amino acids",2,eye_loss
+OG0005891,GPR84,galanin receptor activity,2,eye_loss
+OG0005901,ARHGEF39,rho guanine nucleotide exchange factor,2,eye_loss
+OG0005927,TPCN2,Ion transport protein,2,eye_loss
+OG0005935,NKPD1,KAP family P-loop domain,2,eye_loss
+OG0005936,HYLS1,cilium assembly,2,eye_loss
+OG0005944,BAZ1A,DNA-dependent DNA replication,2,eye_loss
+OG0005945,KIAA0586,kiaa0586,2,eye_loss
+OG0005951,KIAA1462,positive regulation of vascular endothelial growth factor signaling pathway,2,eye_loss
+OG0005956,ARID5B,fat pad development,2,eye_loss
+OG0005961,FANCA,regulation of CD40 signaling pathway,2,eye_loss
+OG0005963,RHBDD1,"membrane protein proteolysis involved in retrograde protein transport, ER to cytosol",2,eye_loss
+OG0005965,KMT2A,Histone-lysine N-methyltransferase,2,eye_loss
+OG0005970,GPR161,negative regulation of smoothened signaling pathway involved in dorsal/ventral neural tube patterning,2,eye_loss
+OG0005979,MEF2D,enhancer factor 2D,2,eye_loss
+OG0005992,FAM83B,phosphatidylinositol 3-kinase catalytic subunit binding,2,eye_loss
+OG0006060,MCM9,Belongs to the MCM family,2,eye_loss
+OG0006073,ZNF335,histone H3-K4 trimethylation,2,eye_loss
+OG0006087,EDA,death receptor agonist activity,2,eye_loss
+OG0006090,RFX5,"Regulatory factor X, 5 (influences HLA class II expression)",2,eye_loss
+OG0006097,CARD11,"Caspase recruitment domain family, member 11",2,eye_loss
+OG0006108,VPS8,endosomal vesicle fusion,2,eye_loss
+OG0006120,RFTN1,positive regulation of growth rate,2,eye_loss
+OG0006122,AZI2,5-azacytidine-induced protein 2,2,eye_loss
+OG0006127,ERMP1,metallopeptidase activity,2,eye_loss
+OG0006145,SPRYD3,SPRY domain containing 3,2,eye_loss
+OG0006147,KANSL2,histone H4-K16 acetylation,2,eye_loss
+OG0006190,DLD,Dehydrogenase,2,eye_loss
+OG0006193,EPS8L2,Epidermal growth factor receptor kinase substrate 8-like protein 2,2,eye_loss
+OG0006224,PSMF1,proteasome binding,2,eye_loss
+OG0006233,PGAP3,Post-GPI attachment to proteins,2,eye_loss
+OG0006238,DNMBP,Rho guanyl-nucleotide exchange factor activity,2,eye_loss
+OG0006245,NXN,protein-disulfide reductase activity,2,eye_loss
+OG0006246,SPA17,Sperm surface zona pellucida binding protein. Helps to bind spermatozoa to the zona pellucida with high affinity. Might function in binding zona pellucida and carbohydrates,2,eye_loss
+OG0006269,GPATCH4,hematopoietic progenitor cell differentiation,2,eye_loss
+OG0006282,NA,NA,2,eye_loss
+OG0006286,LRPPRC,"Leucine-rich PPR motif-containing protein, mitochondrial",2,eye_loss
+OG0006307,TBC1D16,"TBC1 domain family, member 16",2,eye_loss
+OG0006348,ADAMTS13,A disintegrin and metalloproteinase with thrombospondin motifs 13,2,eye_loss
+OG0006368,TIPARP,NAD+ ADP-ribosyltransferase activity,2,eye_loss
+OG0006377,FANCC,nucleotide-excision repair,2,eye_loss
+OG0006382,CENPH,kinetochore binding,2,eye_loss
+OG0006410,CDCA2,cell division,2,eye_loss
+OG0006445,ZNF407,U1-like zinc finger,2,eye_loss
+OG0006456,SMPD4,sphingomyelin phosphodiesterase D activity,2,eye_loss
+OG0006475,PDE6D,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta",2,eye_loss
+OG0006477,LEPR,negative regulation of locomotor rhythm,2,eye_loss
+OG0006484,CPM,Carboxypeptidase M,2,eye_loss
+OG0006501,ANKS1B,Ankyrin repeat and sterile alpha motif,2,eye_loss
+OG0006505,TICRR,checkpoint and replication regulator,2,eye_loss
+OG0006511,PAM,protein amidation,2,eye_loss
+OG0006514,DEPDC1B,GTPase activator activity,2,eye_loss
+OG0006521,ITGA2,"Integrin, alpha 2 (CD49B, alpha 2 subunit of VLA-2 receptor)",2,eye_loss
+OG0006531,KIF14,Belongs to the TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family,2,eye_loss
+OG0006542,C14orf80,Domain of unknown function (DUF4510),2,eye_loss
+OG0006548,PSMA3,Proteasome subunit alpha,2,eye_loss
+OG0006556,VTI1A,Vesicle transport v-SNARE protein N-terminus,2,eye_loss
+OG0006559,RSL1D1,regulation of cellular senescence,2,eye_loss
+OG0006574,SSFA2,antigen 2,2,eye_loss
+OG0006602,PI4KB,Phosphatidylinositol 4-kinase,2,eye_loss
+OG0006613,SHE,SH3/SH2 adaptor activity,2,eye_loss
+OG0006615,NOM1,Nucleolar MIF4G domain-containing protein 1,2,eye_loss
+OG0006617,RIPK1,regulation of ATP:ADP antiporter activity,2,eye_loss
+OG0006621,CMPK1,pyrimidine ribonucleoside diphosphate biosynthetic process,2,eye_loss
+OG0006643,BEND4,BEN,2,eye_loss
+OG0006646,MRPL11,ribosomal large subunit assembly,2,eye_loss
+OG0006688,KIF17,Belongs to the TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family,2,eye_loss
+OG0006690,DRAXIN,commissural neuron differentiation in spinal cord,2,eye_loss
+OG0006694,TMTC3,positive regulation of proteasomal protein catabolic process,2,eye_loss
+OG0006735,MFSD2B,major facilitator superfamily,2,eye_loss
+OG0006762,WDR19,myotome development,2,eye_loss
+OG0006783,H1FOO,Domain in histone families 1 and 5,2,eye_loss
+OG0006804,CCHCR1,cell differentiation,2,eye_loss
+OG0006816,GATAD1,chromatin assembly,2,eye_loss
+OG0006826,SART3,regulation of histone deubiquitination,2,eye_loss
+OG0006832,MYBBP1A,MYB binding protein (P160) 1a,2,eye_loss
+OG0006845,ZC3H13,Zinc finger CCCH domain-containing protein 13,2,eye_loss
+OG0006858,CCDC58,Caffeine-induced death protein 2,2,eye_loss
+OG0006876,RWDD1,RWD domain-containing protein 1,2,eye_loss
+OG0006896,DKC1,H ACA ribonucleoprotein complex subunit,2,eye_loss
+OG0006897,BRCC3,histone H2A K63-linked deubiquitination,2,eye_loss
+OG0006915,NCKAP5L,microtubule depolymerization,2,eye_loss
+OG0006918,PTGER3,Prostaglandin E receptor 3 (subtype EP3),2,eye_loss
+OG0006919,TATDN2,deoxyribonuclease TATDN2,2,eye_loss
+OG0006920,SSB,nuclear histone mRNA catabolic process,2,eye_loss
+OG0006921,FAM183A,FAM183A and FAM183B related,2,eye_loss
+OG0006940,FBXO18,"F-box protein, helicase, 18",2,eye_loss
+OG0006978,ROR2,Tyrosine-protein kinase transmembrane receptor,2,eye_loss
+OG0006983,LTN1,protein autoubiquitination,2,eye_loss
+OG0006989,MPHOSPH9,M-phase phosphoprotein 9,2,eye_loss
+OG0006993,HTATSF1,factor 1,2,eye_loss
+OG0007009,OGFOD1,peptidyl-proline 3-dioxygenase activity,2,eye_loss
+OG0007017,STIL,floor plate development,2,eye_loss
+OG0007036,DLK1,Human growth factor-like EGF,2,eye_loss
+OG0007051,TONSL,"Tonsoku-like, DNA repair protein",2,eye_loss
+OG0007066,KIF22,Kinesin-like protein KIF22,2,eye_loss
+OG0007075,MRPL28,structural constituent of ribosome,2,eye_loss
+OG0007076,BRIP1,BRCA1 interacting protein C-terminal helicase 1,2,eye_loss
+OG0007082,NDC1,NDC1 transmembrane nucleoporin,2,eye_loss
+OG0007095,DLX1,Homeobox protein DLX-1,2,eye_loss
+OG0007180,NKRF,"proximal promoter DNA-binding transcription activator activity, RNA polymerase II-specific",2,eye_loss
+OG0007197,C2CD5,C2 calcium-dependent domain containing 5,2,eye_loss
+OG0007198,BUB1,BUB1 mitotic checkpoint serine threonine kinase,2,eye_loss
+OG0007209,DDX41,DEAD/DEAH box helicase,2,eye_loss
+OG0007217,MLX,"DNA-binding transcription repressor activity, RNA polymerase II-specific",2,eye_loss
+OG0007219,KAT8,histone acetyltransferase activity (H4-K5 specific),2,eye_loss
+OG0007221,ZRANB3,DNA rewinding,2,eye_loss
+OG0007226,SOX13,SRY (sex determining region Y)-box 13,2,eye_loss
+OG0007227,HP1BP3,regulation of nucleus size,2,eye_loss
+OG0007239,PRMT7,"such methylation being required for the assembly and biogenesis of snRNP core particles. Specifically mediates the symmetric dimethylation of histone H4 'Arg-3' to form H4R3me2s. Plays a role in gene imprinting by being recruited by CTCFL at the H19 imprinted control region (ICR) and methylating histone H4 to form H4R3me2s, possibly leading to recruit DNA methyltransferases at these sites. May also play a role in embryonic stem cell (ESC) pluripotency. Also able to mediate the arginine methylation of histone H2A and myelin basic protein (MBP) in vitro",2,eye_loss
+OG0007241,NUDT19,signaling receptor binding,2,eye_loss
+OG0007257,FLT3,pro-B cell differentiation,2,eye_loss
+OG0007296,OGG1,8-oxoguanine DNA glycosylase,2,eye_loss
+OG0007309,IGF2R,insulin-like growth factor II binding,2,eye_loss
+OG0007333,BLM,forked DNA-dependent helicase activity,2,eye_loss
+OG0007334,PRDM10,methyltransferase activity,2,eye_loss
+OG0007336,CCDC64,BICD family like cargo adaptor 1,2,eye_loss
+OG0007337,ATOH1,positive regulation of inner ear auditory receptor cell differentiation,2,eye_loss
+OG0007340,TRAF3IP3,TRAF3 interacting protein 3,2,eye_loss
+OG0007342,OSBPL9,Belongs to the OSBP family,2,eye_loss
+OG0007354,SPAG17,axonemal central apparatus assembly,2,eye_loss
+OG0007360,SLC25A46,mitochondrial membrane fission,2,eye_loss
+OG0007378,AIFM1,cellular response to aldosterone,2,eye_loss
+OG0007382,PRCC,"Mitotic checkpoint regulator, MAD2B-interacting",2,eye_loss
+OG0007391,GALNT12,polypeptide N-acetylgalactosaminyltransferase activity,2,eye_loss
+OG0007393,TRIT1,tRNA dimethylallyltransferase activity,2,eye_loss
+OG0007398,RNF216,E3 ubiquitin-protein ligase RNF216,2,eye_loss
+OG0007407,DDX31,DEAD (Asp-Glu-Ala-Asp) box polypeptide 31,2,eye_loss
+OG0007417,SETBP1,SET binding protein 1,2,eye_loss
+OG0007446,QTRTD1,"Non-catalytic subunit of the queuine tRNA- ribosyltransferase (TGT) that catalyzes the base-exchange of a guanine (G) residue with queuine (Q) at position 34 (anticodon wobble position) in tRNAs with GU(N) anticodons (tRNA-Asp, -Asn, - His and -Tyr), resulting in the hypermodified nucleoside queuosine (7-(((4,5-cis-dihydroxy-2-cyclopenten-1-yl)amino)methyl)-7- deazaguanosine)",2,eye_loss
+OG0007457,KIAA1429,Protein virilizer homolog,2,eye_loss
+OG0007489,SH3PXD2B,SH3 and PX domain-containing protein 2B,2,eye_loss
+OG0007495,C17orf85,RNA 7-methylguanosine cap binding,2,eye_loss
+OG0007497,NFRKB,Nuclear factor related to,2,eye_loss
+OG0007500,IL7R,negative regulation of T cell mediated cytotoxicity,2,eye_loss
+OG0007522,CA6,carbonic anhydrase,2,eye_loss
+OG0007541,NCOA5,nuclear receptor coactivator 5,2,eye_loss
+OG0007554,RAVER2,RNA recognition motif,2,eye_loss
+OG0007574,MRPS9,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",2,eye_loss
+OG0007578,ZC3H11A,poly(A)+ mRNA export from nucleus,2,eye_loss
+OG0007584,UTP6,U3 small nucleolar RNA-associated protein 6 homolog,2,eye_loss
+OG0007589,TCF19,regulation of gene expression,2,eye_loss
+OG0007593,INTS3,Integrator complex subunit 3,2,eye_loss
+OG0007600,GCC1,GRIP and coiled-coil domain-containing protein 1,2,eye_loss
+OG0007603,PTDSS2,Phosphatidyl serine synthase,2,eye_loss
+OG0007621,ATF6B,activating transcription factor 6 beta,2,eye_loss
+OG0007632,ALG5,dolichyl-phosphate beta-glucosyltransferase activity,2,eye_loss
+OG0007674,PIAS4,positive regulation of keratinocyte apoptotic process,2,eye_loss
+OG0007679,DAZAP1,DAZ-associated protein 1,2,eye_loss
+OG0007688,RBL1,RB transcriptional corepressor like 1,2,eye_loss
+OG0007714,CNKSR1,Connector enhancer of kinase suppressor of ras,2,eye_loss
+OG0007719,PATL2,negative regulation of cytoplasmic mRNA processing body assembly,2,eye_loss
+OG0007720,POLR3A,RNA polymerase I subunit A N-terminus,2,eye_loss
+OG0007742,NRBF2,"Nuclear receptor-binding factor 2, autophagy regulator",2,eye_loss
+OG0007747,BCORL1,chromatin organization,2,eye_loss
+OG0007766,SCN3B,"Sodium channel, voltage-gated, type III, beta subunit",2,eye_loss
+OG0007774,APLP1,Amyloid beta (A4) precursor-like protein 1,2,eye_loss
+OG0007784,PDZK1,scavenger receptor binding,2,eye_loss
+OG0007800,SLC12A8,potassium:chloride symporter activity,2,eye_loss
+OG0007817,NUB1,positive regulation of proteasomal ubiquitin-dependent protein catabolic process,2,eye_loss
+OG0007832,LPCAT3,Belongs to the membrane-bound acyltransferase family,2,eye_loss
+OG0007834,GBA,beta-glucoside metabolic process,2,eye_loss
+OG0007840,KIAA0232,ATP binding,2,eye_loss
+OG0007842,SVEP1,"Sushi, von Willebrand factor type A, EGF and pentraxin",2,eye_loss
+OG0007843,EFS,Embryonal Fyn-associated substrate,2,eye_loss
+OG0007845,ACADVL,acyl-CoA dehydrogenase,2,eye_loss
+OG0007851,AHSG,Belongs to the fetuin family,2,eye_loss
+OG0007862,FAM204A,"Family with sequence similarity 204, member A",2,eye_loss
+OG0007888,HHIP,Glucose / Sorbosone dehydrogenase,2,eye_loss
+OG0007897,DIS3L,Belongs to the RNR ribonuclease family,2,eye_loss
+OG0007936,LUZP2,leucine zipper protein,2,eye_loss
+OG0007952,MYCN,N-myc proto-oncogene protein,2,eye_loss
+OG0007956,COIL,protein C-terminus binding,2,eye_loss
+OG0007970,CCDC43,Coiled-coil domain-containing protein 43,2,eye_loss
+OG0007974,DDX42,helicase activity,2,eye_loss
+OG0007987,ELF3,mammary gland involution,2,eye_loss
+OG0007988,BYSL,Bystin-like,2,eye_loss
+OG0008006,BLOC1S1,biogenesis of lysosome-related organelles complex 1 subunit,2,eye_loss
+OG0008008,SEC13,positive regulation of TORC1 signaling,2,eye_loss
+OG0008031,C11orf16,Chromosome 11 open reading frame 16,2,eye_loss
+OG0008032,HOMEZ,Homeobox and leucine zipper,2,eye_loss
+OG0008034,CIITA,positive regulation of MHC class I biosynthetic process,2,eye_loss
+OG0008082,RMI1,reduction of food intake in response to dietary excess,2,eye_loss
+OG0008105,REPS1,RALBP1 associated Eps domain containing 1,2,eye_loss
+OG0008126,CFAP97,KIAA1430 homologue,2,eye_loss
+OG0008131,GAN,Gigaxonin,2,eye_loss
+OG0008175,PIGL,"Phosphatidylinositol glycan anchor biosynthesis, class L",2,eye_loss
+OG0008182,LRSAM1,E3 ubiquitin-protein ligase LRSAM1,2,eye_loss
+OG0008204,HGS,"Involved in intracellular signal transduction mediated by cytokines and growth factors. When associated with STAM, it suppresses DNA signaling upon stimulation by IL-2 and GM-CSF. Could be a direct effector of PI3-kinase in vesicular pathway via early endosomes and may regulate trafficking to early and late endosomes by recruiting clathrin. May concentrate ubiquitinated receptors within clathrin-coated regions. Involved in down- regulation of receptor tyrosine kinase via multivesicular body (MVBs) when complexed with STAM (ESCRT-0 complex). The ESCRT-0 complex binds ubiquitin and acts as sorting machinery that recognizes ubiquitinated receptors and transfers them to further sequential lysosomal sorting trafficking processes. May contribute to the efficient recruitment of SMADs to the activin receptor complex. Involved in receptor recycling via its association with the CART complex, a multiprotein complex required for efficient transferrin receptor recycling but not for EGFR degradation",2,eye_loss
+OG0008212,PPP1R9A,Protein phosphatase 1 regulatory subunit 9A,2,eye_loss
+OG0008215,MATN1,chondrocyte morphogenesis,2,eye_loss
+OG0008218,CLSPN,anaphase-promoting complex binding,2,eye_loss
+OG0008231,PPIL2,Peptidyl-prolyl cis-trans isomerase-like 2,2,eye_loss
+OG0008258,MMAB,Methylmalonic aciduria (cobalamin deficiency) cblB type,2,eye_loss
+OG0008272,PWP2,ribosomal small subunit assembly,2,eye_loss
+OG0008276,CPB2,positive regulation of extracellular matrix constituent secretion,2,eye_loss
+OG0008277,GPALPP1,GPALPP motifs containing 1,2,eye_loss
+OG0008281,CC2D1A,Coiled-coil and C2,2,eye_loss
+OG0008283,MVB12A,Multivesicular body subunit 12A,2,eye_loss
+OG0008292,MTRR,5-methyltetrahydrofolate-homocysteine methyltransferase reductase,2,eye_loss
+OG0008300,CDH17,proton-dependent oligopeptide secondary active transmembrane transporter activity,2,eye_loss
+OG0008315,MEX3A,K homology RNA-binding domain,2,eye_loss
+OG0008320,CEP85,regulation of mitotic centrosome separation,2,eye_loss
+OG0008328,VWA5B2,Vault protein inter-alpha-trypsin domain,2,eye_loss
+OG0008334,PNISR,PNN-interacting serine arginine-rich protein,2,eye_loss
+OG0008348,KIAA1328,Uncharacterised protein KIAA1328,2,eye_loss
+OG0008368,NADK2,Mitochondrial NAD( ) kinase that phosphorylates NAD( ) to yield NADP( ). Can use both ATP or inorganic polyphosphate as the phosphoryl donor,2,eye_loss
+OG0008388,TBPL1,"Transcription factor TFIID (or TATA-binding protein, TBP)",2,eye_loss
+OG0008391,LZIC,Leucine zipper and CTNNBIP1 domain containing,2,eye_loss
+OG0008401,LRRC23,Leucine-rich repeat,2,eye_loss
+OG0008440,MTMR14,phosphatidylinositol-3-phosphatase activity,2,eye_loss
+OG0008454,ITIH5,hyaluronan metabolic process,2,eye_loss
+OG0008458,TFEC,cellular response to heat,2,eye_loss
+OG0008462,BRAF,trehalose metabolism in response to stress,2,eye_loss
+OG0008475,DNPEP,aminopeptidase activity,2,eye_loss
+OG0008478,MBD5,PWWP domain,2,eye_loss
+OG0008481,CCDC40,Coiled-coil domain containing 40,2,eye_loss
+OG0008485,PALM3,Paralemmin 3,2,eye_loss
+OG0008493,C5orf49,Domain of unknown function (DUF4541),2,eye_loss
+OG0008495,PCTP,phosphatidylcholine transporter activity,2,eye_loss
+OG0008540,MPZL1,signal transduction,2,eye_loss
+OG0008545,ATG10,Atg12 transferase activity,2,eye_loss
+OG0008559,ALLC,allantoin catabolic process,2,eye_loss
+OG0008602,C6orf120,apoptotic process,2,eye_loss
+OG0008629,KIZ,Centrosomal protein,2,eye_loss
+OG0008634,MIPOL1,identical protein binding,2,eye_loss
+OG0008638,TTC8,Tetratricopeptide repeat,2,eye_loss
+OG0008639,NDC80,"NDC80, kinetochore complex component",2,eye_loss
+OG0008665,ENTHD2,ENTH domain,2,eye_loss
+OG0008667,NRAP,Nebulin-related anchoring protein,2,eye_loss
+OG0008668,SRCAP,HSA,2,eye_loss
+OG0008683,CD79B,B cell receptor signaling pathway,2,eye_loss
+OG0008684,COPS3,COP9 signalosome complex subunit 3,2,eye_loss
+OG0008723,DUSP12,positive regulation of glucokinase activity,2,eye_loss
+OG0008726,HFM1,resolution of meiotic recombination intermediates,2,eye_loss
+OG0008734,CERKL,Ceramide kinase-like,2,eye_loss
+OG0008738,NDUFA10,"mitochondrial electron transport, NADH to ubiquinone",2,eye_loss
+OG0008743,GPR156,G-protein coupled GABA receptor activity,2,eye_loss
+OG0008750,DNAJC28,Golgi vesicle prefusion complex stabilization,2,eye_loss
+OG0008779,PSME1,endopeptidase activator activity,2,eye_loss
+OG0008789,TELO2,Telomere length regulation protein,2,eye_loss
+OG0008790,MASTL,female meiosis II,2,eye_loss
+OG0008798,GNL2,GTPase that associates with pre-60S ribosomal subunits in the nucleolus and is required for their nuclear export and maturation,2,eye_loss
+OG0008808,ZYX,stress fiber assembly,2,eye_loss
+OG0008810,RASIP1,Ras interacting protein 1,2,eye_loss
+OG0008811,ITGA10,Integrin alpha,2,eye_loss
+OG0008817,NRROS,Negative regulator of reactive oxygen species,2,eye_loss
+OG0008829,GBA2,Non-lysosomal glucosylceramidase that catalyzes the conversion of glucosylceramide to free glucose and ceramide,2,eye_loss
+OG0008834,RELL1,Tumour necrosis factor receptor superfamily member 19,2,eye_loss
+OG0008850,ZBTB41,nucleic acid-templated transcription,2,eye_loss
+OG0008853,SCRIB,Scribbled planar cell polarity protein,2,eye_loss
+OG0008886,ENPEP,angiotensin maturation,2,eye_loss
+OG0008911,GPRIN3,G protein-regulated inducer of neurite outgrowth 3,2,eye_loss
+OG0008935,ATP1B4,nucleic acid-templated transcription,2,eye_loss
+OG0008952,NUP205,"Nuclear pore complex scaffold, nucleoporins 186/192/205",2,eye_loss
+OG0008971,LRP11,MANEC,2,eye_loss
+OG0008994,CCNF,re-entry into mitotic cell cycle,2,eye_loss
+OG0008998,SPC24,Spc24 subunit of Ndc80,2,eye_loss
+OG0009042,IL17RD,receptor D,2,eye_loss
+OG0009051,UTP3,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",2,eye_loss
+OG0009059,FMR1,positive regulation of intracellular transport of viral material,2,eye_loss
+OG0009067,CEP89,Centrosomal protein,2,eye_loss
+OG0009068,PTPMT1,"Dual specificity phosphatase, catalytic domain",2,eye_loss
+OG0009082,ENKD1,Calmodulin-binding,2,eye_loss
+OG0009108,CCDC125,negative regulation of Rho protein signal transduction,2,eye_loss
+OG0009109,GKAP1,G kinase anchoring protein 1,2,eye_loss
+OG0009152,TTI2,Tti2 family,2,eye_loss
+OG0009160,PEX10,Pex2 / Pex12 amino terminal region,2,eye_loss
+OG0009161,ARHGEF16,Guanine nucleotide exchange factor for Rho/Rac/Cdc42-like GTPases,2,eye_loss
+OG0009163,KIAA1751,Kiaa1751,2,eye_loss
+OG0009191,SERAC1,Serine active site containing 1,2,eye_loss
+OG0009196,MAP9,regulation of mitotic cytokinesis,2,eye_loss
+OG0009205,TASP1,threonine aspartase 1,2,eye_loss
+OG0009225,TAT,Tyrosine aminotransferase,2,eye_loss
+OG0009232,LRRC2,Leucine-rich repeat-containing protein 2,2,eye_loss
+OG0009243,CEP104,thienylcyclohexylpiperidine binding,2,eye_loss
+OG0009255,MRPS31,structural constituent of ribosome,2,eye_loss
+OG0009273,RABEP1,"Rabaptin, RAB GTPase binding effector protein 1",2,eye_loss
+OG0009286,PGLS,6-phosphogluconolactonase activity,2,eye_loss
+OG0009289,TWISTNB,DNA-directed RNA polymerase I subunit,2,eye_loss
+OG0009298,CTNNAL1,cadherin binding,2,eye_loss
+OG0009304,CYHR1,Cysteine and histidine-rich protein 1 isoform,2,eye_loss
+OG0009305,CD164L2,CD164 sialomucin-like 2,2,eye_loss
+OG0009312,HIRA,regulation of chromatin silencing,2,eye_loss
+OG0009339,KNTC1,kinetochore-associated protein 1,2,eye_loss
+OG0009370,MBTPS2,Membrane-bound transcription factor,2,eye_loss
+OG0009372,PPP1R42,protein phosphatase 1 regulatory subunit 42,2,eye_loss
+OG0009415,GLTSCR2,Glioma tumor suppressor candidate region gene 2,2,eye_loss
+OG0009420,SMC4,Structural maintenance of chromosomes,2,eye_loss
+OG0009424,DNAJC1,chaperone binding,2,eye_loss
+OG0009444,ABHD11,hydrolase activity,2,eye_loss
+OG0009451,TMEM38B,calcium-activated potassium channel activity,2,eye_loss
+OG0009459,RAD50,RAD50 homolog (S. cerevisiae),2,eye_loss
+OG0009469,TMEM201,Transmembrane protein 201,2,eye_loss
+OG0009471,TTLL10,Protein polyglycylase TTLL10-like,2,eye_loss
+OG0009480,SAC3D1,SAC3 domain-containing protein 1,2,eye_loss
+OG0009483,ZNF512B,Zinc finger protein 512B,2,eye_loss
+OG0009484,TFR2,Transferrin receptor,2,eye_loss
+OG0009486,TTI1,regulation of TOR signaling,2,eye_loss
+OG0009491,CPSF3L,Integrator complex subunit 11,2,eye_loss
+OG0009493,KLHL21,chromosome passenger complex localization to spindle midzone,2,eye_loss
+OG0009498,CS,citrate synthase,2,eye_loss
+OG0009506,CDH22,"Cadherin 22, type 2",2,eye_loss
+OG0009532,ITIH2,hyaluronan metabolic process,2,eye_loss
+OG0009536,METTL25,methyltransferase activity,2,eye_loss
+OG0009546,OPTN,TFIIIA-class transcription factor binding,2,eye_loss
+OG0009561,IQCB1,IQ calmodulin-binding motif-containing protein 1,2,eye_loss
+OG0009562,CCDC14,protein localization to microtubule organizing center,2,eye_loss
+OG0009568,HAX1,interleukin-1 binding,2,eye_loss
+OG0009574,SRFBP1,maturation of SSU-rRNA,2,eye_loss
+OG0009576,ACN9,mitochondrial respiratory chain complex II assembly,2,eye_loss
+OG0009584,PICK1,Protein interacting with PRKCA 1,2,eye_loss
+OG0009590,FBXO7,positive regulation of autophagy of mitochondrion,2,eye_loss
+OG0009596,MARS2,Belongs to the class-I aminoacyl-tRNA synthetase family,2,eye_loss
+OG0009613,POT1,positive regulation of DNA helicase activity,2,eye_loss
+OG0009617,CCDC77,Coiled-coil domain containing 77,2,eye_loss
+OG0009638,C11orf63,ciliary basal body organization,2,eye_loss
+OG0009654,RABGEF1,exchange factor,2,eye_loss
+OG0009656,AP4M1,AP-4 complex subunit mu-1,2,eye_loss
+OG0009658,WDR70,enzyme binding,2,eye_loss
+OG0009679,CENPT,centromere protein T,2,eye_loss
+OG0009691,AQP12B,Aquaporins facilitate the transport of water and small neutral solutes across cell membranes,2,eye_loss
+OG0009693,LONP1,"ATP-dependent serine protease that mediates the selective degradation of misfolded, unassembled or oxidatively damaged polypeptides as well as certain short-lived regulatory proteins in the mitochondrial matrix. May also have a chaperone function in the assembly of inner membrane protein complexes. Participates in the regulation of mitochondrial gene expression and in the maintenance of the integrity of the mitochondrial genome. Binds to mitochondrial promoters and RNA in a single- stranded, site-specific, and strand-specific manner. May regulate mitochondrial DNA replication and or gene expression using site- specific, single-stranded DNA binding to target the degradation of regulatory proteins binding to adjacent sites in mitochondrial promoters",2,eye_loss
+OG0009716,FAM149B1,"Family with sequence similarity 149, member B1",2,eye_loss
+OG0009724,TPP1,tripeptidyl-peptidase activity,2,eye_loss
+OG0009733,KRTCAP3,Beta-casein like protein,2,eye_loss
+OG0009740,TSSC1,tumor suppressing subtransferable candidate 1,2,eye_loss
+OG0009761,SYDE1,GTPase-activator protein for Rho-like GTPases,2,eye_loss
+OG0009764,PIGF,"biosynthesis, class F",2,eye_loss
+OG0009770,GALK1,Galactokinase,2,eye_loss
+OG0009775,SNF8,regulation of multivesicular body size involved in endosome transport,2,eye_loss
+OG0009785,TFAM,"transcription factor A, mitochondrial",2,eye_loss
+OG0009787,A1CF,cytidine to uridine editing,2,eye_loss
+OG0009812,TXNDC17,Eukaryotic protein of unknown function (DUF953),2,eye_loss
+OG0009820,WDR81,aggrephagy,2,eye_loss
+OG0009837,MYO16,Neuronal tyrosine-phosphorylated phosphoinositide-3-kinase adapter,2,eye_loss
+OG0009841,VGLL3,Transcription cofactor vestigial-like protein,2,eye_loss
+OG0009843,EVX2,Homeobox even-skipped homolog protein 2,2,eye_loss
+OG0009856,TRIM45,Tripartite motif containing 45,2,eye_loss
+OG0009874,TMEM241,Transmembrane protein 241,2,eye_loss
+OG0009894,FLAD1,Catalyzes the adenylation of flavin mononucleotide (FMN) to form flavin adenine dinucleotide (FAD) coenzyme,2,eye_loss
+OG0009918,ADAD2,adenosine deaminase,2,eye_loss
+OG0009920,ACOX3,Peroxisomal acyl-coenzyme A oxidase 3,2,eye_loss
+OG0009922,TNFSF12,TNF(Tumour Necrosis Factor) family,2,eye_loss
+OG0009925,FOCAD,Focadhesin,2,eye_loss
+OG0009940,RFWD2,zinc-RING finger domain,2,eye_loss
+OG0009941,EIF2B3,oligodendrocyte development,2,eye_loss
+OG0009943,L2HGDH,2-hydroxyglutarate dehydrogenase activity,2,eye_loss
+OG0009952,RNASET2,Ribonuclease T2,2,eye_loss
+OG0009981,VPS37C,endosome transport via multivesicular body sorting pathway,2,eye_loss
+OG0009989,IGDCC4,Immunoglobulin superfamily DCC subclass member 4,2,eye_loss
+OG0009998,ACTR6,chromatin remodeling,2,eye_loss
+OG0010004,SCYL1,N-terminal kinase-like protein,2,eye_loss
+OG0010012,SNX25,Sorting nexin C terminal,2,eye_loss
+OG0010017,C16orf70,Chromosome 16 open reading frame 70,2,eye_loss
+OG0010026,SIPA1L3,establishment of epithelial cell polarity,2,eye_loss
+OG0010029,CMC2,Cytochrome c oxidase biogenesis protein Cmc1 like,2,eye_loss
+OG0010035,RPS6KC1,phosphatidylinositol binding,2,eye_loss
+OG0010060,RAPGEFL1,Rap guanine nucleotide exchange,2,eye_loss
+OG0010069,SYT3,Synaptotagmin-3,2,eye_loss
+OG0010082,NCF4,PB1 domain,2,eye_loss
+OG0010084,DSTYK,positive regulation of fibroblast growth factor receptor signaling pathway,2,eye_loss
+OG0010092,CCDC51,Coiled-coil domain containing 51,2,eye_loss
+OG0010106,SLC22A18,"Solute carrier family 22, member 18",2,eye_loss
+OG0010113,CMC1,metal ion binding,2,eye_loss
+OG0010117,TM2D2,TM2 domain,2,eye_loss
+OG0010226,FBXO16,F-box only protein 16,2,eye_loss
+OG0010241,SMC2,Structural maintenance of chromosomes,2,eye_loss
+OG0010251,DNER,Delta and Notch-like epidermal growth factor-related receptor,2,eye_loss
+OG0010258,HSD17B4,"3alpha,7alpha,12alpha-trihydroxy-5beta-cholest-24-enoyl-CoA hydratase activity",2,eye_loss
+OG0010259,COMMD10,COMM domain-containing protein 10,2,eye_loss
+OG0010278,YTHDC2,ATP-dependent RNA helicase YTHDC2,2,eye_loss
+OG0010325,RTN4R,ganglioside GM1 binding,2,eye_loss
+OG0010331,SLC2A8,carbohydrate:proton symporter activity,2,eye_loss
+OG0010341,TANGO2,Transport and Golgi organization,2,eye_loss
+OG0010354,CFAP221,Cilia and flagella associated protein 221,2,eye_loss
+OG0010393,NGEF,Ephexin-1,2,eye_loss
+OG0010396,PIF1,"DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of both mitochondrial and nuclear genome stability. Efficiently unwinds G-quadruplex (G4) DNA structures and forked RNA-DNA hybrids. Resolves G4 structures, preventing replication pausing and double-strand breaks (DSBs) at G4 motifs. Involved in the maintenance of telomeric DNA. Inhibits telomere elongation, de novo telomere formation and telomere addition to DSBs via catalytic inhibition of telomerase. Reduces the processivity of telomerase by displacing active telomerase from DNA ends. Releases telomerase by unwinding the short telomerase RNA telomeric DNA hybrid that is the intermediate in the telomerase reaction. Possesses an intrinsic strand annealing activity",2,eye_loss
+OG0010407,MBP,myelin basic protein,2,eye_loss
+OG0010433,MRPL22,structural constituent of ribosome,2,eye_loss
+OG0010441,CMTR1,cap1 mRNA methylation,2,eye_loss
+OG0010459,CRBN,cereblon,2,eye_loss
+OG0010462,SHQ1,box H/ACA snoRNP assembly,2,eye_loss
+OG0010486,CCDC59,Thyroid transcription factor 1-associated protein 26,2,eye_loss
+OG0010491,CPSF6,Cleavage and polyadenylation specificity factor subunit,2,eye_loss
+OG0010496,TMPRSS6,Transmembrane protease serine 6,2,eye_loss
+OG0010503,TEKT2,cilium movement involved in cell motility,2,eye_loss
+OG0010512,MEI1,chromosome localization to nuclear envelope involved in homologous chromosome segregation,2,eye_loss
+OG0010520,PROSER2,Proline and serine rich 2,2,eye_loss
+OG0010522,SNX33,WASP-binding domain of Sorting nexin protein,2,eye_loss
+OG0010530,LDLRAD3,lipoprotein receptor class A,2,eye_loss
+OG0010535,MON2,MON2 homolog,2,eye_loss
+OG0010547,PIGP,phosphatidylinositol N-acetylglucosaminyltransferase activity,2,eye_loss
+OG0010549,CNNM3,Cyclin and CBS domain divalent metal cation transport mediator 3,2,eye_loss
+OG0010552,MDH2,malate dehydrogenase (NADP+) activity,2,eye_loss
+OG0010554,NUP155,Nuclear pore complex protein Nup155,2,eye_loss
+OG0010561,VRK3,Inactive serine threonine-protein kinase VRK3,2,eye_loss
+OG0010567,AFMID,arylformamidase activity,2,eye_loss
+OG0010572,FAH,fumarylacetoacetase activity,2,eye_loss
+OG0010582,TAX1BP3,negative regulation of protein localization to cell surface,2,eye_loss
+OG0010584,LY75,carbohydrate binding,2,eye_loss
+OG0010585,PSMD14,26S proteasome non-ATPase regulatory subunit 14,2,eye_loss
+OG0010593,CCDC175,Coiled-coil domain containing 175,2,eye_loss
+OG0010626,DMC1,strand invasion,2,eye_loss
+OG0010631,C10orf107,Chromosome 10 open reading frame 107,2,eye_loss
+OG0010633,METTL9,DREV methyltransferase,2,eye_loss
+OG0010634,MAPK7,Mitogen-activated protein kinase 7,2,eye_loss
+OG0010636,MMS19,positive regulation of double-strand break repair via homologous recombination,2,eye_loss
+OG0010644,FAM199X,Protein family FAM199X,2,eye_loss
+OG0010647,POLR1A,negative regulation of protein localization to nucleolus,2,eye_loss
+OG0010648,MXD3,MAX dimerization protein 3,2,eye_loss
+OG0010653,PDGFD,positive regulation of monocyte extravasation,2,eye_loss
+OG0010656,ANKK1,ankyrin repeat and protein kinase domain-containing protein 1,2,eye_loss
+OG0010661,CD3EAP,DNA-directed RNA polymerase I subunit RPA34,2,eye_loss
+OG0010684,MAATS1,testis expressed 1,2,eye_loss
+OG0010685,EFHC2,EF-hand domain-containing family member,2,eye_loss
+OG0010709,C18orf63,Domain of unknown function (DUF4708),2,eye_loss
+OG0010717,CNOT10,CCR4-NOT transcription complex subunit 10,2,eye_loss
+OG0010735,C1orf35,Multiple myeloma tumor-associated protein 2,2,eye_loss
+OG0010742,LRP10,lipoprotein receptor-related protein 10,2,eye_loss
+OG0010764,DCAF5,DDB1 and CUL4 associated factor 5,2,eye_loss
+OG0010774,PCSK2,islet amyloid polypeptide processing,2,eye_loss
+OG0010779,DLK2,Human growth factor-like EGF,2,eye_loss
+OG0010804,ZNF277,Zinc finger protein 277,2,eye_loss
+OG0010824,TALDO1,Transaldolase is important for the balance of metabolites in the pentose-phosphate pathway,2,eye_loss
+OG0010854,TBL3,Transducin beta-like protein 3,2,eye_loss
+OG0010884,SUOX,sulfite oxidase activity,2,eye_loss
+OG0010903,CFAP45,Trichohyalin-plectin-homology domain,2,eye_loss
+OG0010909,C6orf47,protein C6orf47 homolog,2,eye_loss
+OG0010981,TGOLN2,trans-Golgi network,2,eye_loss
+OG0010984,PLAT,plasminogen activation,2,eye_loss
+OG0010997,FAM135A,Family with sequence similarity 135 member A,2,eye_loss
+OG0011002,SPATA5L1,Spermatogenesis-associated protein 5-like protein 1,2,eye_loss
+OG0011003,DHX36,ATP-dependent RNA helicase DHX36,2,eye_loss
+OG0011012,GLE1,GLE1 RNA export mediator,2,eye_loss
+OG0011016,PRDM6,PR domain containing 6,2,eye_loss
+OG0011017,CCDC112,Coiled-coil domain-containing protein 112,2,eye_loss
+OG0011034,CCDC15,Coiled-coil domain containing 15,2,eye_loss
+OG0011041,ATP13A1,haloacid dehalogenase-like hydrolase,2,eye_loss
+OG0011043,NUDCD1,CS domain,2,eye_loss
+OG0011059,PMPCA,protein processing involved in protein targeting to mitochondrion,2,eye_loss
+OG0011067,NAALADL1,acidic dipeptidase-like,2,eye_loss
+OG0011071,ALKBH5,oxidative single-stranded RNA demethylation,2,eye_loss
+OG0011080,C11orf73,Hsp70 protein binding,2,eye_loss
+OG0011084,DIS3,exosome endoribonuclease and 3'-5' exoribonuclease,2,eye_loss
+OG0011099,GPSM3,positive regulation of cytokine production involved in inflammatory response,2,eye_loss
+OG0011110,HAUS1,spindle assembly,2,eye_loss
+OG0011121,POLQ,DNA polymerase theta,2,eye_loss
+OG0011125,HEATR6,HEAT repeat containing 6,2,eye_loss
+OG0011233,RTKN2,Rhotekin 2,2,eye_loss
+OG0011241,VASH1,negative regulation of lymphangiogenesis,2,eye_loss
+OG0011288,VTCN1,positive regulation of interleukin-2 secretion,2,eye_loss
+OG0011301,RNPC3,U12 snRNA binding,2,eye_loss
+OG0011308,CPQ,metallodipeptidase activity,2,eye_loss
+OG0011310,NOP2,rRNA (cytosine-C5-)-methyltransferase activity,2,eye_loss
+OG0011317,WDR60,WD repeat-containing protein 60,2,eye_loss
+OG0011328,FASTKD3,regulation of mitochondrial mRNA stability,2,eye_loss
+OG0011335,TYMS,Thymidylate,2,eye_loss
+OG0011352,URB2,Urb2/Npa2 family,2,eye_loss
+OG0011358,GSTCD,rRNA small subunit methyltransferase G,2,eye_loss
+OG0011376,SYCE3,synaptonemal complex assembly,2,eye_loss
+OG0011401,SYCE2,Synaptonemal complex central element protein 2,2,eye_loss
+OG0011412,WDR77,methyl-CpG binding,2,eye_loss
+OG0011414,TMEM43,Transmembrane protein 43,2,eye_loss
+OG0011420,FAM213B,Prostamide prostaglandin F synthase,2,eye_loss
+OG0011423,ACOT8,thioesterase 8,2,eye_loss
+OG0011440,HDC,histidine decarboxylase activity,2,eye_loss
+OG0011442,CDPF1,Cysteine-rich domain,2,eye_loss
+OG0011468,ZNF592,nucleic acid-templated transcription,2,eye_loss
+OG0011514,POLD2,DNA strand elongation involved in DNA replication,2,eye_loss
+OG0011515,ARID5A,cellular response to estrogen stimulus,2,eye_loss
+OG0011525,CAAP1,Caspase activity and apoptosis inhibitor 1,2,eye_loss
+OG0011526,C11orf68,UPF0696 protein C11orf68 homolog,2,eye_loss
+OG0011536,XPC,"XPC complex subunit, DNA damage recognition and repair factor",2,eye_loss
+OG0011553,GNB1L,"Guanine nucleotide binding protein (G protein), beta polypeptide 1-like",2,eye_loss
+OG0011556,TCTN2,Tectonic family member 2,2,eye_loss
+OG0011564,SPEF2,Sperm flagellar,2,eye_loss
+OG0011567,CENPQ,positive regulation of protein localization to kinetochore,2,eye_loss
+OG0011568,SETDB2,histone methyltransferase activity (H3-K9 specific),2,eye_loss
+OG0011580,FAM151A,Uncharacterized conserved protein (DUF2181),2,eye_loss
+OG0011586,ZNF236,Zinc-finger of C2H2 type,2,eye_loss
+OG0011589,TMEM223,Transmembrane protein 223,2,eye_loss
+OG0011597,ZNF341,Zinc finger protein 341,2,eye_loss
+OG0011605,SFI1,negative regulation of phosphatase activity,2,eye_loss
+OG0011607,LRRC41,protein homodimerization activity,2,eye_loss
+OG0011609,C1orf146,Chromosome 1 open reading frame 146,2,eye_loss
+OG0011611,TMEM214,Transmembrane protein 214,2,eye_loss
+OG0011630,NUDT22,Nudix (nucleoside diphosphate linked moiety X)-type motif 22,2,eye_loss
+OG0011636,PARM1,positive regulation of telomerase activity,2,eye_loss
+OG0011651,C21orf2,Protein C21orf2 homolog,2,eye_loss
+OG0011654,LINS,Lines homolog,2,eye_loss
+OG0011658,PEX6,"protein import into peroxisome matrix, translocation",2,eye_loss
+OG0011666,MOK,cyclin-dependent protein serine/threonine kinase activity,2,eye_loss
+OG0011671,CMPK2,UMP kinase activity,2,eye_loss
+OG0011696,TP53I13,response to UV,2,eye_loss
+OG0011717,TMIE,Transmembrane inner ear,2,eye_loss
+OG0011740,TSNAXIP1,spermatogenesis,2,eye_loss
+OG0011757,KIAA0141,extrinsic apoptotic signaling pathway via death domain receptors,2,eye_loss
+OG0011758,STK31,RNA catabolic process,2,eye_loss
+OG0011764,NCKIPSD,protein with SH3 domain,2,eye_loss
+OG0011772,NEIL3,bubble DNA binding,2,eye_loss
+OG0011776,TMEM119,TMEM119 family,2,eye_loss
+OG0011782,PGM1,phosphoglucomutase activity,2,eye_loss
+OG0011812,TIRAP,positive regulation of interleukin-15 production,2,eye_loss
+OG0011847,IL17RB,receptor B,2,eye_loss
+OG0011850,TTC32,tetratricopeptide repeat,2,eye_loss
+OG0011857,INTS4,snRNA processing,2,eye_loss
+OG0011859,PTPN18,non-membrane spanning protein tyrosine phosphatase activity,2,eye_loss
+OG0011864,MRM1,enzyme-directed rRNA 2'-O-methylation,2,eye_loss
+OG0011872,ANKRD32,protein localization to site of double-strand break,2,eye_loss
+OG0011873,MSH3,DNA mismatch repair protein Msh3,2,eye_loss
+OG0011874,PCID2,posttranscriptional tethering of RNA polymerase II gene DNA at nuclear periphery,2,eye_loss
+OG0011878,NEK11,NIMA-related kinase 11,2,eye_loss
+OG0011885,PPP1R26,Protein phosphatase 1 regulatory subunit 26,2,eye_loss
+OG0011895,EPM2A,"Dual specificity phosphatase, catalytic domain",2,eye_loss
+OG0011899,ALG12,"alpha-1,6-mannosyltransferase activity",2,eye_loss
+OG0011977,BBS10,chaperone-mediated protein complex assembly,2,eye_loss
+OG0011987,PUSL1,synthase-like 1,2,eye_loss
+OG0012003,AMN,Amnionless,2,eye_loss
+OG0012019,ANO6,phosphatidylserine exposure on blood platelet,2,eye_loss
+OG0012072,C9orf116,UPF0691 protein C9orf116 homolog,2,eye_loss
+OG0012074,C11orf88,Chromosome 11 open reading frame 88,2,eye_loss
+OG0012080,REXO5,exonuclease activity,2,eye_loss
+OG0012119,C8orf74,Chromosome 8 open reading frame 74,2,eye_loss
+OG0012127,CCDC142,Coiled-coil domain containing 142,2,eye_loss
+OG0012170,PPP1R32,phosphatase binding,2,eye_loss
+OG0012185,P4HA3,Prolyl 4-hydroxylase,2,eye_loss
+OG0012237,STON1,regulation of endocytosis,2,eye_loss
+OG0012243,XBP1,basic region leucin zipper,2,eye_loss
+OG0012282,LYRM9,Complex 1 protein (LYR family),2,eye_loss
+OG0012305,METTL21B,Methyltransferase,2,eye_loss
+OG0012323,VSIG1,V-set and immunoglobulin,2,eye_loss
+OG0012330,NPVF,Neuropeptide VF,2,eye_loss
+OG0012423,WDR93,"oxidoreductase activity, acting on NAD(P)H",2,eye_loss
+OG0012436,C1orf233,Fibronectin type-III domain-containing transmembrane protein C1orf233 homolog,2,eye_loss
+OG0012564,TTC6,tetratricopeptide repeat,2,eye_loss
+OG0012574,ATP4B,"This is the non-catalytic component of the active enzyme, which catalyzes the hydrolysis of ATP coupled with the exchange of Na( ) and K( ) ions across the plasma membrane",2,eye_loss
+OG0012637,Smkr1,"endonucleolytic cleavage to generate mature 3'-end of SSU-rRNA from (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",2,eye_loss
