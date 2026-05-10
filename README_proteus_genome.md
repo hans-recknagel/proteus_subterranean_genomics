@@ -50,11 +50,11 @@ The analyses follow a modular comparative genomics pipeline:
 
 ---
 
-1. Preprocessing of coding sequences
+# 1. Preprocessing of coding sequences
 
 Stop codons were manually removed from CDS sequences prior to downstream analyses.
 
-2. Orthology inference
+# 2. Orthology inference
 
 Orthologous gene groups were inferred using OrthoFinder
 
@@ -65,7 +65,7 @@ orthofinder.sh
 Output: 
 orthogroups, gene trees, and orthogroup sequence sets
 
-3. Orthogroup filtering
+# 3. Orthogroup filtering
 
 Orthogroups were filtered based on completeness criteria and presence across taxa.
 
@@ -75,7 +75,7 @@ missing_data_percentage_in_75_percent.R
 Output: 
 curated orthogroup sets for downstream analyses
 
-4. CDS–protein backtranslation
+# 4. CDS–protein backtranslation
 
 Protein sequences were matched to corresponding CDS sequences to generate codon-resolved orthologs.
 
@@ -92,7 +92,7 @@ CDS sequences (stop-codon cleaned)
 Output:
 codon-aware ortholog alignments
 
-5. Multiple sequence alignment
+# 5. Multiple sequence alignment
 
 Alignments were generated using:
 MAFFT
@@ -101,7 +101,7 @@ of_result_alignment2.sh
 Output:
 amino acid alignments per orthogroup
 
-6. Codon-aware alignment reconstruction
+# 6. Codon-aware alignment reconstruction
 
 Codon alignments were generated using:
 pal2nal
@@ -111,13 +111,14 @@ pal2nal_back_script2.sh
 Output:
 codon-resolved alignments for downstream analyses
 
-7. Alignment cleaning
+# 7. Alignment cleaning
+
 FASTA headers were standardised and cleaned.
 
 Script:
 clean_double_names_fa.sh
 
-8. Gene tree inference (per orthogroup)
+# 8. Gene tree inference (per orthogroup)
 
 Maximum likelihood gene trees were inferred using:
 RAxML
@@ -129,7 +130,7 @@ best-scoring ML trees per orthogroup
 
 These trees are reused across selection, convergence, and comparative analyses.
 
-9. Gene family expansion and contraction analyses
+# 9. Gene family expansion and contraction analyses
 
 Gene family size evolution was inferred from orthogroup counts.
 
@@ -139,7 +140,7 @@ Output:
 expanded and contracted gene families
 summary statistics of gene family evolution
 
-10. Selection analyses 
+# 10. Selection analyses 
 
 Foreground and background lineages were defined for hypothesis-driven analyses:
 
@@ -164,7 +165,7 @@ Post-processing:
 rerun_empty_relax_results.sh
 rerun_nan_relax_results.sh
 
-11. Genome mapping and coordinate-based analyses
+# 11. Genome mapping and coordinate-based analyses
 
 Read mapping and coordinate-based analyses were performed using:
 BWA
@@ -178,7 +179,7 @@ bwa_mem_og_to_genome_alignments_to_table.R
 split_by_GB.sh
 gff_for_split_genome.R
 
-12. Amino acid convergence analyses
+# 12. Amino acid convergence analyses
 
 Pipeline:
 FASTA header standardisation
@@ -196,7 +197,7 @@ tdg09_timeout.sh
 Result parsing
 tdg09_results.R
 
-13. Downstream statistical analyses and figure generation
+# 13. Downstream statistical analyses and figure generation
 
 All statistical analyses and figure/table generation were performed in R.
 
@@ -209,22 +210,21 @@ all figures and statistical results presented in the manuscript stored in the re
 
 ---
 
-Reproducibility
+# Reproducibility
 
 All analyses were conducted using relative file paths anchored to the repository root to ensure portability across systems.
 
 The workflow was executed on Linux-based HPC systems. Computationally intensive steps (e.g. HyPhy analyses and convergence inference) were parallelised where appropriate.
-Software requirements
 
 ---
 
-Software requirements
+# Software requirements
 
 All required R libraries are specified at the beginning of each R script.
 
 ---
 
-Contact
+# Contact
 
 Hans Recknagel
 University of Trier
