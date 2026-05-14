@@ -134,6 +134,12 @@ These trees are reused across selection, convergence, and comparative analyses.
 
 Gene family size evolution was inferred from orthogroup counts.
 
+Genome was split first in order for long sequences to work
+split_by_GB.sh
+gff_for_split_genome.R
+Output:
+Split genome and adjusted GFF file.
+
 Scripts:
 backtranslation_cleaned_files_exp_con_results_for_bwa.R
 rename_backtranslated_files.sh
@@ -181,8 +187,7 @@ filter_for_prang.sh
 bwa_mem.sh
 sam_to_bam.sh
 bwa_mem_og_to_genome_alignments_to_table.R
-split_by_GB.sh
-gff_for_split_genome.R
+
 
 ## 12. Amino acid convergence analyses
 
