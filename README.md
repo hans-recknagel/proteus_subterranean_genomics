@@ -36,17 +36,16 @@ The analyses follow a modular comparative genomics pipeline:
 
 1. Preprocessing of coding sequences
 2. Orthology inference
-3. Orthogroup filtering
-4. CDS–protein backtranslation
-5. Multiple sequence alignment
-6. Codon-aware alignment reconstruction
-7. Alignment cleaning and standardisation
-8. Gene tree inference
-9. Gene family expansion and contraction analyses
-10. Selection analyses (HyPhy)
-11. Genome mapping and coordinate-based analyses
-12. Amino acid convergence analyses
-13. Downstream statistical analyses and figure generation
+3. Orthogroup filtering and CDS–protein backtranslation
+4. Multiple sequence alignment
+5. Codon-aware alignment reconstruction
+6. Alignment cleaning and standardisation
+7. Gene tree inference
+8. Gene family expansion and contraction analyses
+9. Selection analyses (HyPhy)
+10. Genome mapping and coordinate-based analyses
+11. Amino acid convergence analyses
+12. Downstream statistical analyses and figure generation
 
 ---
 
