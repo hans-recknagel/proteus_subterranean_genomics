@@ -65,18 +65,9 @@ orthofinder.sh
 Output: 
 orthogroups, gene trees, and orthogroup sequence sets
 
-## 3. Orthogroup filtering
+## 3. Orthogroup filtering and CDS–protein backtranslation
 
 Orthogroups were filtered based on completeness criteria and presence across taxa.
-
-Script: 
-orthogroups_filter.R
-missing_data_percentage_in_75_percent.R
-Output: 
-curated orthogroup sets for downstream analyses
-
-## 4. CDS–protein backtranslation
-
 Protein sequences were matched to corresponding CDS sequences to generate codon-resolved orthologs.
 
 Scripts: 
@@ -90,9 +81,14 @@ orthogroups
 protein FASTA sequences
 CDS sequences (stop-codon cleaned)
 Output:
+curated orthogroup sets for downstream analyses
 codon-aware ortholog alignments
 
-## 5. Multiple sequence alignment
+For calculating the proportion of missing data:
+orthogroups_filter.R
+missing_data_percentage_in_75_percent.R
+
+## 4. Multiple sequence alignment
 
 Alignments were generated using:
 MAFFT
@@ -101,7 +97,7 @@ of_result_alignment2.sh
 Output:
 amino acid alignments per orthogroup
 
-## 6. Codon-aware alignment reconstruction
+## 5. Codon-aware alignment reconstruction
 
 Codon alignments were generated using:
 pal2nal
@@ -111,14 +107,14 @@ pal2nal_back_script2.sh
 Output:
 codon-resolved alignments for downstream analyses
 
-## 7. Alignment cleaning
+## 6. Alignment cleaning
 
 FASTA headers were standardised and cleaned.
 
 Script:
 clean_double_names_fa.sh
 
-## 8. Gene tree inference (per orthogroup)
+## 7. Gene tree inference (per orthogroup)
 
 Maximum likelihood gene trees were inferred using:
 RAxML
@@ -130,7 +126,7 @@ best-scoring ML trees per orthogroup
 
 These trees are reused across selection, convergence, and comparative analyses.
 
-## 9. Gene family expansion and contraction analyses
+## 8. Gene family expansion and contraction analyses
 
 Gene family size evolution was inferred from orthogroup counts.
 
@@ -151,7 +147,7 @@ Output:
 expanded and contracted gene families
 summary statistics of gene family evolution
 
-## 10. Selection analyses 
+## 9. Selection analyses 
 
 Foreground and background lineages were defined for hypothesis-driven analyses:
 
@@ -176,7 +172,7 @@ rerun_empty_relax_results.sh
 rerun_nan_relax_results.sh
 hyphy_*_results.R
 
-## 11. Genome mapping and coordinate-based analyses
+## 10. Genome mapping and coordinate-based analyses
 
 Read mapping and coordinate-based analyses were performed using:
 BWA
@@ -189,7 +185,7 @@ sam_to_bam.sh
 bwa_mem_og_to_genome_alignments_to_table.R
 
 
-## 12. Amino acid convergence analyses
+## 11. Amino acid convergence analyses
 
 Pipeline:
 FASTA header standardisation
@@ -207,7 +203,7 @@ tdg09_timeout.sh
 Result parsing
 tdg09_results.R
 
-## 13. Downstream statistical analyses and figure generation
+## 12. Downstream statistical analyses and figure generation
 
 All statistical analyses and figure/table generation were performed in R.
 
