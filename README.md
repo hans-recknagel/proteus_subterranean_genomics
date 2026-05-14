@@ -135,6 +135,11 @@ These trees are reused across selection, convergence, and comparative analyses.
 Gene family size evolution was inferred from orthogroup counts.
 
 Scripts:
+backtranslation_cleaned_files_exp_con_results_for_bwa.R
+rename_backtranslated_files.sh
+bwa_mem_exp_com.sh
+sam_to_bam.sh
+bwa_mem_alignments_to_table_analysis.R
 contracted_expanded_gene_groups_filtering2_all_OGs.R
 Output:
 expanded and contracted gene families
