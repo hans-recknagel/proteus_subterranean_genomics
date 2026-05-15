@@ -1,5 +1,5 @@
+#Functions in this script are called by other scripts, it is not run by itself.
 #getting OG fiter in function
-
 
 #orthogroups_filter
 
