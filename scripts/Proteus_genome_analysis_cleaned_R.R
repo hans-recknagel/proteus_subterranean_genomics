@@ -43,47 +43,46 @@ library(zoo)
 ### prepare ultrametric trees, downloaded from timetree
 
 ### CAVE SPECIES ### 
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/01_cave_species")
+setwd("data/01_cave_species")
 cav.spec <- phytools::read.newick("cave_species_list_mod.tre")
 new.tree <- force.ultrametric(cav.spec, method=c("extend"))
 plot(new.tree)
 plot(cav.spec)
 is.ultrametric(new.tree)
-write.tree(new.tree, file="cave_species_list_mod_corr_R.tre")
-cav.spec <- phytools::read.newick("cave_species_list_mod_corr_newick.txt")
+#write.tree(new.tree, file="../../results/01_cave_species/cave_species_list_mod_corr_R.tre")
 cav.spec <- phytools::read.newick("cave_species_list_mod_corr_newick_asty_mod.txt")
 plot(cav.spec)
 is.ultrametric(cav.spec)
 new.tree <- force.ultrametric(cav.spec, method=c("extend"))
-write.tree(new.tree, file="cave_species_list_mod_corr_newick_asty_mod.tre")
+#write.tree(new.tree, file="../../results/01_cave_species/cave_species_list_mod_corr_newick_asty_mod.tre")
 cav.spec <- phytools::read.newick("cave_species_list_mod_corr_newick_asty_mod.tre")
 plot(cav.spec)
 is.ultrametric(cav.spec)
 
 ### PIGMENTATION LOSS ### 
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/02_pigmentation_loss")
+setwd("data/02_pigmentation_loss")
 pigm.loss <- phytools::read.newick("pigmentation_species_list_mod.tre")
 is.ultrametric(pigm.loss)
 new.tree <- force.ultrametric(pigm.loss, method=c("extend"))
 plot(new.tree)
 plot(pigm.loss)
 is.ultrametric(new.tree)
-write.tree(new.tree, file="pigmentation_species_list_mod_corr_R.tre")
+#write.tree(new.tree, file="../../results/02_pigmentation_loss/pigmentation_species_list_mod_corr_R.tre")
 
 ### EYE LOSS ### 
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/03_eye_loss")
+setwd("data/03_eye_loss")
 eye.loss <- phytools::read.newick("eye_loss_species_list.tre")
 is.ultrametric(eye.loss)
 
 ### LONGEVITY ### 
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/04_longevity")
+setwd("data/04_longevity")
 longevity <- phytools::read.newick("longevity_species_list_abbrev.tre")
 is.ultrametric(longevity)
 plot(longevity)
 new.tree <- force.ultrametric(longevity, method=c("extend"))
 plot(new.tree)
 is.ultrametric(new.tree)
-write.tree(new.tree, file="longevity_species_list_abbrev_corr_R.tre")
+#write.tree(new.tree, file="../../results/04_longevity/longevity_species_list_abbrev_corr_R.tre")
 
 ### test different lambdas for sharks, fishes, tetrapods, salamanders, mammals
 ## choose model with lowest likelihood value
@@ -96,12 +95,11 @@ write.tree(new.tree, file="longevity_species_list_abbrev_corr_R.tre")
 #### EXPANSION VS CONTRACTION DIFFERENCES (PER SE) #### 
 ### CAVE SPECIES ###
 # remove hashtag (#) before Taxon_ID before loading table
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/01_cave_species/03_filtered_50_lambda3")
+setwd("data/01_cave_species")
 data <- read.table("Base_clade_results.txt", header=TRUE)
 data$Taxon_ID <- sub("^<+", "", data$Taxon_ID)
 data$Taxon_ID <- gsub("<.*", "", data$Taxon_ID)
 data$Taxon_ID <- sub(">", "", data$Taxon_ID)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/01_cave_species/")
 FvsB <- read.csv("F_vs_B_cave_species.csv", header=TRUE)
 data <- merge(data,FvsB,by="Taxon_ID")
 data$DvsI<-data$Decrease/data$Increase
@@ -109,13 +107,13 @@ t.test(Increase~F.node, var.equal = FALSE, data=data)
 t.test(Decrease~F.node, var.equal = FALSE, data=data)
 t.test(DvsI~F.node, var.equal = FALSE, data=data) #*0.02349
 data <- data[order(data$F.node, decreasing = TRUE),]
-#write.csv(data, "summary_tree_cave_species_leaf_nodes_overview.csv", row.names=F)
+#write.csv(data, "../../results/01_cave_species/summary_tree_cave_species_leaf_nodes_overview.csv", row.names=F)
 # extract mean
 data.sum.cave.leaf <- data %>% group_by(F.node) %>% 
   summarise_at(vars("Increase", "Decrease", "DvsI"), mean)
 ### create boxplot
 # grouped boxplot of absolute difference
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/01_cave_species/")
+setwd("data/01_cave_species/")
 FvsB <- read.csv("summary_tree_cave_species_leaf_nodes_overview_for_R_no_outliers.csv", header=TRUE)
 str(FvsB)
 p1 <- ggplot(FvsB, aes(x=cave_or_not, y=Number, fill=gene_family_fate)) + 
@@ -124,7 +122,6 @@ p1 <- ggplot(FvsB, aes(x=cave_or_not, y=Number, fill=gene_family_fate)) +
   scale_y_continuous(name = "Number of gene families", limits = c(0, 4000)) +
   theme_classic()
 # difference in ratio of expanded/contracted
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/01_cave_species/")
 FvsB <- read.csv("summary_tree_cave_species_leaf_nodes_overview.csv", header=TRUE)
 str(FvsB)
 p2 <- ggplot(FvsB, aes(x=F.node, y=IvsD, fill=F.node)) + 
@@ -139,14 +136,13 @@ grid.arrange(p1,p2, ncol=2)
 ### PIGMENTATION LOSS ###
 ## pigmentation:378324, 376598, 370388;  lambda 3
 # remove hashtag (#) before Taxon_ID before loading table
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/02_pigmentation_loss/04_filtered_50_lambda3")
+setwd("data/02_pigmentation_loss/")
 data <- read.table("Base_clade_results.txt", header=TRUE)
 str(data)
 data$Taxon_ID <- sub("^<+", "", data$Taxon_ID)
 data$Taxon_ID <- gsub("<.*", "", data$Taxon_ID)
 data$Taxon_ID <- sub(">", "", data$Taxon_ID)
 str(data)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/02_pigmentation_loss/")
 FvsB <- read.csv("F_vs_B_pigmentation_loss.csv", header=TRUE)
 str(FvsB)
 data <- merge(data,FvsB,by="Taxon_ID")
@@ -157,7 +153,7 @@ t.test(Increase~F.node, var.equal = FALSE, data=data)
 t.test(Decrease~F.node, var.equal = FALSE, data=data)
 t.test(DvsI~F.node, var.equal = FALSE, data=data) #*0.0121
 data <- data[order(data$F.node, decreasing = TRUE),]
-#write.csv(data, "summary_tree_pigmentation_loss_leaf_nodes_overview.csv", row.names=F)
+#write.csv(data, "../../results/02_pigmentation_loss/summary_tree_pigmentation_loss_leaf_nodes_overview.csv", row.names=F)
 # extract mean
 data.sum.pig.leaf <- data %>% group_by(F.node) %>% 
   summarise_at(vars("Increase", "Decrease", "DvsI"), mean)
@@ -165,14 +161,13 @@ data.sum.pig.leaf <- data %>% group_by(F.node) %>%
 ### EYE LOSS ###
 ## eye loss: 407743, 404792, 403945, 398884; lambda 4
 # remove hashtag (#) before Taxon_ID before loading table
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/03_eye_loss/05_filtered_50_lambda4")
+setwd("data/03_eye_loss/")
 data <- read.table("Base_clade_results.txt", header=TRUE)
 str(data)
 data$Taxon_ID <- sub("^<+", "", data$Taxon_ID)
 data$Taxon_ID <- gsub("<.*", "", data$Taxon_ID)
 data$Taxon_ID <- sub(">", "", data$Taxon_ID)
 str(data)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/03_eye_loss/")
 FvsB <- read.csv("F_vs_B_eye_loss.csv", header=TRUE)
 str(FvsB)
 data <- merge(data,FvsB,by="Taxon_ID")
@@ -183,7 +178,7 @@ t.test(Increase~F.node, var.equal = FALSE, data=data)
 t.test(Decrease~F.node, var.equal = FALSE, data=data)
 t.test(DvsI~F.node, var.equal = FALSE, data=data) 
 data <- data[order(data$F.node, decreasing = TRUE),]
-#write.csv(data, "summary_tree_eye_loss_leaf_nodes_overview.csv", row.names=F)
+#write.csv(data, "../../results/03_eye_loss/summary_tree_eye_loss_leaf_nodes_overview.csv", row.names=F)
 # extract mean
 data.sum.eye.leaf <- data %>% group_by(F.node) %>% 
   summarise_at(vars("Increase", "Decrease", "DvsI"), mean)
@@ -191,14 +186,13 @@ data.sum.eye.leaf <- data %>% group_by(F.node) %>%
 ### LONGEVITY ###
 ## longevity: 255284, 254601, 251561, 253678; lambda 3
 # remove hashtag (#) before Taxon_ID before loading table
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/04_longevity/04_filtered_50_lambda3")
+setwd("data/04_longevity/")
 data <- read.table("Base_clade_results.txt", header=TRUE)
 str(data)
 data$Taxon_ID <- sub("^<+", "", data$Taxon_ID)
 data$Taxon_ID <- gsub("<.*", "", data$Taxon_ID)
 data$Taxon_ID <- sub(">", "", data$Taxon_ID)
 str(data)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/04_longevity/")
 FvsB <- read.csv("F_vs_B_longevity.csv", header=TRUE)
 str(FvsB)
 data <- merge(data,FvsB,by="Taxon_ID")
@@ -209,7 +203,7 @@ t.test(Increase~F.node, var.equal = FALSE, data=data)
 t.test(Decrease~F.node, var.equal = FALSE, data=data)
 t.test(DvsI~F.node, var.equal = FALSE, data=data) 
 data <- data[order(data$F.node, decreasing = TRUE),]
-#write.csv(data, "summary_tree_longevity_leaf_nodes_overview.csv", row.names=F)
+#write.csv(data, "../../results/04_longevity/summary_tree_longevity_leaf_nodes_overview.csv", row.names=F)
 # extract mean
 data.sum.long.leaf <- data %>% group_by(F.node) %>% 
   summarise_at(vars("Increase", "Decrease", "DvsI"), mean)
@@ -218,11 +212,11 @@ data.sum.long.leaf <- data %>% group_by(F.node) %>%
 ## summarize all mean values in one table
 summary.all.traits.leaf.nodes <- bind_rows(data.sum.cave.leaf, data.sum.pig.leaf, data.sum.eye.leaf, data.sum.long.leaf)
 
+
 #### EXPANSION VS CONTRACTION DIFFERENCES IN FAST EVOLVING FAMILIES #### 
 ### combine results and put into table averages for all values and analyses + significance
-
 ### CAVE SPECIES: FAST EVOLVING GENE FAMILIES ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/01_cave_species/03_filtered_50_lambda3")
+setwd("data/01_cave_species/")
 # Probability of rapid change
 cavspec.prob.L3 <- read.table("Base_branch_probabilities.tab", header=TRUE)
 names(cavspec.prob.L3) <- gsub("X\\.|\\..*", '', names(cavspec.prob.L3))
@@ -324,10 +318,9 @@ surface <- surface[,-c(2:3)]
 expanded.OGs.significance.ratios <- merge(expanded.table.3, cave, by="FamilyID")
 expanded.OGs.significance.ratios.2 <- merge(expanded.OGs.significance.ratios, surface, by="FamilyID")
 str(expanded.OGs.significance.ratios.2)
-#write.table(expanded.OGs.significance.ratios.2,"fisher_expanded_OGs_ratios_cave_surface.csv", sep=",", quote=FALSE, row.names=FALSE)
+#write.table(expanded.OGs.significance.ratios.2,"../../results/01_cave_species/fisher_expanded_OGs_ratios_cave_surface.csv", sep=",", quote=FALSE, row.names=FALSE)
 ### check if sharing in cave is higher than in surface species
 ## load data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/07_main_results")
 shared.OGs.expanded.cave.species <- read.csv("fisher_expanded_OGs_ratios_cave_surface.csv")
 # Convert significance to logical
 shared.OGs.expanded.cave.species$significant <- shared.OGs.expanded.cave.species$significant == "yes"
@@ -412,9 +405,8 @@ surface <- surface[,-c(2:3)]
 contracted.OGs.significance.ratios <- merge(contracted.table.3, cave, by="FamilyID")
 contracted.OGs.significance.ratios.2 <- merge(contracted.OGs.significance.ratios, surface, by="FamilyID")
 str(contracted.OGs.significance.ratios.2)
-#write.table(contracted.OGs.significance.ratios.2,"fisher_contracted_OGs_ratios_cave_surface.csv", sep=",", quote=FALSE, row.names=FALSE)
+#write.table(contracted.OGs.significance.ratios.2,"../../results/01_cave_species/fisher_contracted_OGs_ratios_cave_surface.csv", sep=",", quote=FALSE, row.names=FALSE)
 ## load data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/07_main_results")
 shared.OGs.contracted.cave.species <- read.csv("fisher_contracted_OGs_ratios_cave_surface.csv")
 # Convert significance to logical
 shared.OGs.contracted.cave.species$significant <- shared.OGs.contracted.cave.species$significant == "yes"
@@ -449,7 +441,7 @@ ggplot(df, aes(x = environment, y = values, fill = genefam)) +
 ### PIGMENTATION LOSS ### 
 ## pigmentation:378324, 376598, 370388;  lambda 3
 ### Probability of rapid change (expansion OR contraction)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/02_pigmentation_loss/04_filtered_50_lambda3")
+setwd("data/02_pigmentation_loss/")
 pigm.prob.L3 <- read.table("Base_branch_probabilities.tab", header=TRUE)
 str(pigm.prob.L3)
 ## remove unwanted  characters
@@ -497,7 +489,7 @@ str(expanded.table)
 # only extract columns with leaf nodes 
 exp.table.leaves <- expanded.table[,1:26]
 str(exp.table.leaves)
-#write.table(comb, file="expanded_fast_evolving_OGs.csv", sep=",", row.names=F)
+#write.table(comb, file="../../results/02_pigmentation_loss/expanded_fast_evolving_OGs.csv", sep=",", row.names=F)
 ## write file with all contracted gene families
 comb = new.tab
 for (i in 1:nrow(new.tab)) {
@@ -506,7 +498,7 @@ for (i in 1:nrow(new.tab)) {
       comb[i,j] = expa.contr[i,j]}}}
 comb[comb == "EXP"] <- "NO"
 contracted.table <- comb
-write.table(comb, file="contracted_fast_evolving_OGs.csv", sep=",", row.names=F)
+#write.table(comb, file="../../results/02_pigmentation_loss/contracted_fast_evolving_OGs.csv", sep=",", row.names=F)
 str(contracted.table)
 # only extract columns with leaf nodes 
 contr.table.leaves <- contracted.table[,1:26]
@@ -568,7 +560,7 @@ pigm <- pigm[,-c(2:3)]
 expanded.OGs.significance.ratios <- merge(expanded.table.3, pigm_loss, by="FamilyID")
 expanded.OGs.significance.ratios.2 <- merge(expanded.OGs.significance.ratios, pigm, by="FamilyID")
 str(expanded.OGs.significance.ratios.2)
-#write.table(expanded.OGs.significance.ratios.2,"fisher_expanded_OGs_ratios_pigmentation_loss.csv", sep=",", quote=FALSE, row.names=FALSE)
+#write.table(expanded.OGs.significance.ratios.2,"../../results/02_pigmentation_loss/fisher_expanded_OGs_ratios_pigmentation_loss.csv", sep=",", quote=FALSE, row.names=FALSE)
 
 #### FOR CONTRACTED OGs ####
 data.trans = pivot_longer(contr.table.leaves, cols = 2:ncol(contr.table.leaves), names_to = "species", values_to = "contr")
@@ -624,12 +616,12 @@ pigm <- pigm[,-c(2:3)]
 contracted.OGs.significance.ratios <- merge(contracted.table.3, pigm_loss, by="FamilyID")
 contracted.OGs.significance.ratios.2 <- merge(contracted.OGs.significance.ratios, pigm, by="FamilyID")
 str(contracted.OGs.significance.ratios.2)
-#write.table(contracted.OGs.significance.ratios.2,"fisher_contracted_OGs_ratios_pigmentation_loss_check.csv", sep=",", quote=FALSE, row.names=FALSE)
+#write.table(contracted.OGs.significance.ratios.2,"../../results/02_pigmentation_loss/fisher_contracted_OGs_ratios_pigmentation_loss_check.csv", sep=",", quote=FALSE, row.names=FALSE)
 
 ### EYE LOSS ###
 ## eye loss: 407743, 404792, 403945, 398884; lambda 4
 ### Probability of rapid change (expansion OR contraction)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/03_eye_loss/05_filtered_50_lambda4")
+setwd("data/03_eye_loss/")
 eyeloss.prob.L3 <- read.table("Base_branch_probabilities.tab", header=TRUE)
 str(eyeloss.prob.L3)
 ## remove unwanted  characters
@@ -677,7 +669,7 @@ str(expanded.table)
 # only extract columns with leaf nodes 
 exp.table.leaves <- expanded.table[,1:33]
 str(exp.table.leaves)
-#write.table(comb, file="expanded_fast_evolving_OGs.csv", sep=",", row.names=F)
+#write.table(comb, file="../../results/03_eye_loss/expanded_fast_evolving_OGs.csv", sep=",", row.names=F)
 ## write file with all contracted gene families
 comb = new.tab
 for (i in 1:nrow(new.tab)) {
@@ -686,7 +678,7 @@ for (i in 1:nrow(new.tab)) {
       comb[i,j] = expa.contr[i,j]}}}
 comb[comb == "EXP"] <- "NO"
 contracted.table <- comb
-#write.table(comb, file="contracted_fast_evolving_OGs.csv", sep=",", row.names=F)
+#write.table(comb, file="../../results/03_eye_loss/contracted_fast_evolving_OGs.csv", sep=",", row.names=F)
 str(contracted.table)
 # only extract columns with leaf nodes 
 contr.table.leaves <- contracted.table[,1:33]
@@ -705,7 +697,7 @@ new.table.exp.chi <- new.table.exp[-c(2)]
 # convert new.table.con.chi to data.table
 final.table.exp.chi <- as.data.frame(table(new.table.exp.chi))
 str(final.table.exp.chi)
-#write.table(final.table.exp.chi,"contingency_tests_table_expanded.csv", sep=",")
+#write.table(final.table.exp.chi,"../../results/03_eye_loss/contingency_tests_table_expanded.csv", sep=",")
 ### across all families
 overall <- new.table.exp[,3:4]
 str(overall)
@@ -749,7 +741,7 @@ eye <- eye[,-c(2:3)]
 expanded.OGs.significance.ratios <- merge(expanded.table.3, eye_loss, by="FamilyID")
 expanded.OGs.significance.ratios.2 <- merge(expanded.OGs.significance.ratios, eye, by="FamilyID")
 str(expanded.OGs.significance.ratios.2)
-#write.table(expanded.OGs.significance.ratios.2,"fisher_expanded_OGs_ratios_eye_loss.csv", sep=",", quote=FALSE, row.names=FALSE)
+#write.table(expanded.OGs.significance.ratios.2,"../../results/03_eye_loss/fisher_expanded_OGs_ratios_eye_loss.csv", sep=",", quote=FALSE, row.names=FALSE)
 
 #### FOR CONTRACTED OGs ####
 data.trans = pivot_longer(contr.table.leaves, cols = 2:ncol(contr.table.leaves), names_to = "species", values_to = "contr")
@@ -805,12 +797,12 @@ eye <- eye[,-c(2:3)]
 contracted.OGs.significance.ratios <- merge(contracted.table.3, eye_loss, by="FamilyID")
 contracted.OGs.significance.ratios.2 <- merge(contracted.OGs.significance.ratios, eye, by="FamilyID")
 str(contracted.OGs.significance.ratios.2)
-#write.table(contracted.OGs.significance.ratios.2,"fisher_contracted_OGs_ratios_eye_loss.csv", sep=",", quote=FALSE, row.names=FALSE)
+#write.table(contracted.OGs.significance.ratios.2,"../../results/03_eye_loss/fisher_contracted_OGs_ratios_eye_loss.csv", sep=",", quote=FALSE, row.names=FALSE)
 
 ### LONGEVITY
 ## longevity: 255284, 254601, 251561, 253678; lambda 3
 ### Probability of rapid change (expansion OR contraction)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/04_longevity/04_filtered_50_lambda3")
+setwd("data/04_longevity/")
 longev.prob.L3 <- read.table("Base_branch_probabilities.tab", header=TRUE)
 str(longev.prob.L3)
 ## remove unwanted  characters
@@ -858,7 +850,7 @@ str(expanded.table)
 # only extract columns with leaf nodes 
 exp.table.leaves <- expanded.table[,1:26]
 str(exp.table.leaves)
-#write.table(comb, file="expanded_fast_evolving_OGs.csv", sep=",", row.names=F)
+#write.table(comb, file="../../results/04_longevity/expanded_fast_evolving_OGs.csv", sep=",", row.names=F)
 ## write file with all contracted gene families
 comb = new.tab
 for (i in 1:nrow(new.tab)) {
@@ -867,7 +859,7 @@ for (i in 1:nrow(new.tab)) {
       comb[i,j] = expa.contr[i,j]}}}
 comb[comb == "EXP"] <- "NO"
 contracted.table <- comb
-#write.table(comb, file="contracted_fast_evolving_OGs.csv", sep=",", row.names=F)
+#write.table(comb, file="../../results/04_longevity/contracted_fast_evolving_OGs.csv", sep=",", row.names=F)
 str(contracted.table)
 # only extract columns with leaf nodes 
 contr.table.leaves <- contracted.table[,1:26]
@@ -942,7 +934,7 @@ short.life <- short.life[,-c(2:3)]
 expanded.OGs.significance.ratios <- merge(expanded.table.3, long.life, by="FamilyID")
 expanded.OGs.significance.ratios.2 <- merge(expanded.OGs.significance.ratios, short.life, by="FamilyID")
 str(expanded.OGs.significance.ratios.2)
-#write.table(expanded.OGs.significance.ratios.2,"fisher_expanded_OGs_ratios_longevity.csv", sep=",", quote=FALSE, row.names=FALSE)
+#write.table(expanded.OGs.significance.ratios.2,"../../results/04_longevity/fisher_expanded_OGs_ratios_longevity.csv", sep=",", quote=FALSE, row.names=FALSE)
 
 #### FOR CONTRACTED OGs ####
 data.trans = pivot_longer(contr.table.leaves, cols = 2:ncol(contr.table.leaves), names_to = "species", values_to = "contr")
@@ -1012,10 +1004,10 @@ short.life <- short.life[,-c(2:3)]
 contracted.OGs.significance.ratios <- merge(contracted.table.3, long.life, by="FamilyID")
 contracted.OGs.significance.ratios.2 <- merge(contracted.OGs.significance.ratios, short.life, by="FamilyID")
 str(contracted.OGs.significance.ratios.2)
-#write.table(contracted.OGs.significance.ratios.2,"fisher_contracted_OGs_ratios_longevity.csv", sep=",", quote=FALSE, row.names=FALSE)
+#write.table(contracted.OGs.significance.ratios.2,"../../results/04_longevity/fisher_contracted_OGs_ratios_longevity.csv", sep=",", quote=FALSE, row.names=FALSE)
 
 
-#### COMPARE IF CAVE SPECIES HAVE RELATIVELY MORE EXPANDED / CONTRCTED OGs THAN EYE LOSS AND PIGMENTATION LOSS SPECIES ####
+#### COMPARE IF CAVE SPECIES HAVE RELATIVELY MORE EXPANDED/CONTRCTED OGs THAN EYE LOSS AND PIGMENTATION LOSS SPECIES ####
 analysis_table <- data.frame(
   trait = c("cave_vs_surface","cave_vs_surface",
             "eye_loss_vs_eyes","eye_loss_vs_eyes",
@@ -1055,37 +1047,25 @@ analysis_counts <- data.frame(
   N_control_total = c(244368, 300825, 256683))
 ## compute proportions and odds ratios
 analysis_counts <- analysis_counts %>%
-  mutate(
-    p_focal = N_focal / N_focal_total,
-    p_control = N_control / N_control_total,
-    diff_prop = p_focal - p_control,
-    odds_ratio = (p_focal / (1 - p_focal)) / (p_control / (1 - p_control)),
-    log_or = log(odds_ratio))
+  mutate(p_focal = N_focal / N_focal_total, p_control = N_control / N_control_total, diff_prop = p_focal - p_control,
+    odds_ratio = (p_focal / (1 - p_focal)) / (p_control / (1 - p_control)), log_or = log(odds_ratio))
 analysis_counts
 ## compare the *effect sizes* (log odds ratios) across analyses
-# We’ll test if cave vs surface has a significantly larger log odds ratio
-# than eye_loss or pigment_loss.
+# We’ll test if cave vs surface has a significantly larger log odds ratio than eye_loss or pigment_loss
 # Compute standard errors for log odds ratios using prop.test data
 get_logor_se <- function(success1, total1, success2, total2) {
   p1 <- success1 / total1
   p2 <- success2 / total2
   1/success1 + 1/(total1 - success1) + 1/success2 + 1/(total2 - success2)}
-analysis_counts$se_logor <- sqrt(mapply(get_logor_se,
-                                        analysis_counts$N_focal,
-                                        analysis_counts$N_focal_total,
-                                        analysis_counts$N_control,
-                                        analysis_counts$N_control_total))
+analysis_counts$se_logor <- sqrt(mapply(get_logor_se, analysis_counts$N_focal, analysis_counts$N_focal_total, analysis_counts$N_control,analysis_counts$N_control_total))
 ## Z-tests comparing cave vs the other traits
 compare_effects <- function(df, trait1, trait2) {
   diff <- df$log_or[df$trait == trait1] - df$log_or[df$trait == trait2]
   se <- sqrt(df$se_logor[df$trait == trait1]^2 + df$se_logor[df$trait == trait2]^2)
   z <- diff / se
   p <- 2 * (1 - pnorm(abs(z)))
-  data.frame(compare = paste(trait1, "vs", trait2),
-             logOR_diff = diff, z_value = z, p_value = p)}
-comparison_results <- rbind(
-  compare_effects(analysis_counts, "cave", "eye_loss"),
-  compare_effects(analysis_counts, "cave", "pigment_loss"))
+  data.frame(compare = paste(trait1, "vs", trait2), logOR_diff = diff, z_value = z, p_value = p)}
+comparison_results <- rbind(compare_effects(analysis_counts, "cave", "eye_loss"), compare_effects(analysis_counts, "cave", "pigment_loss"))
 comparison_results
 
 
@@ -1099,20 +1079,12 @@ analysis_counts_sel <- data.frame(
   N_control_total = c(83539, 81551, 101128))
 ## compute proportions and odds ratios
 analysis_counts_sel <- analysis_counts_sel %>%
-  mutate(
-    p_focal = N_focal / N_focal_total,
-    p_control = N_control / N_control_total,
-    odds_ratio = (p_focal / (1 - p_focal)) / (p_control / (1 - p_control)),
-    log_or = log(odds_ratio))
+  mutate(p_focal = N_focal / N_focal_total, p_control = N_control / N_control_total,
+         odds_ratio = (p_focal / (1 - p_focal)) / (p_control / (1 - p_control)), log_or = log(odds_ratio))
 ## compute standard errors for log-odds ratios
 get_logor_se <- function(success1, total1, success2, total2) {
   1/success1 + 1/(total1 - success1) + 1/success2 + 1/(total2 - success2)}
-analysis_counts_sel$se_logor <- sqrt(mapply(
-  get_logor_se,
-  analysis_counts_sel$N_focal,
-  analysis_counts_sel$N_focal_total,
-  analysis_counts_sel$N_control,
-  analysis_counts_sel$N_control_total))
+analysis_counts_sel$se_logor <- sqrt(mapply(get_logor_se, analysis_counts_sel$N_focal, analysis_counts_sel$N_focal_total, analysis_counts_sel$N_control, analysis_counts_sel$N_control_total))
 ## compare effect sizes between traits (Z-tests)
 compare_effects <- function(df, trait1, trait2) {
   diff <- df$log_or[df$trait == trait1] - df$log_or[df$trait == trait2]
@@ -1129,7 +1101,7 @@ comparison_sel
 ######### SELECTION ANALYSES ######### 
 ######### ABSREL ######### 
 ### CAVE SPECIES ### 
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/01_cave_species")
+setwd("data/01_cave_species")
 cave.sel.unfil <- read.csv("cave_species_absrel.csv") 
 str(cave.sel.unfil)
 cave.sel.unfil.1 <- cave.sel.unfil %>%
@@ -1142,8 +1114,6 @@ cave.sel <- cave.sel.unfil.2 %>%
 str(cave.sel)
 cave.sel <- cave.sel %>% 
   dplyr::rename("OG" = "og", "F_sel" = "selectionF","B_sel" = "selectionB")
-str(cave.sel)
-#cave.sel <- read.csv("cave_species_absrel_cont.csv")
 str(cave.sel)
 cave.sel.fisher <- pivot_longer(cave.sel, cols = 2:5, names_to = "name",
              values_to = "Freq", values_drop_na = FALSE)
@@ -1264,7 +1234,7 @@ chisq.test(table)
 
 ## combine with eggnog annotations
 # read the data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/09_eggnog_annotation")
+setwd("data/01_cave_species")
 eggnog <- read.csv("all_OGs_cave_species_MM_9n4wx4so.emapper.annotations.tsv", header = TRUE, sep = "\t")
 str(eggnog)
 # add a new column with OG, gene symbol, description and GO and KEGG annotations
@@ -1275,16 +1245,15 @@ str(eggnog)
 sel.OGs.annot.significance.ratios <- merge(eggnog, sel.OGs.significance.ratios, by="OG", all.y=TRUE)
 str(sel.OGs.annot.significance.ratios)
 ## write file with shared genes and their annotations
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/01_cave_species")
-#write.csv(sel.OGs.annot.significance.ratios,"fisher_selected_OGs_ratios_cave_species.csv", quote=TRUE, row.names=FALSE)
+#write.csv(sel.OGs.annot.significance.ratios,"../../results/01_cave_species/fisher_selected_OGs_ratios_cave_species.csv", quote=TRUE, row.names=FALSE)
 ## write file with shared genes significantly selected in F branches
 str(sel.OGs.annot.significance.ratios)
 cave.species.shared.sel <- sel.OGs.annot.significance.ratios %>%
   filter(pvalue<=0.05) %>%
   filter(F_vs_B=="TRUE")
 cave.species.shared.sel.OGs <- cave.species.shared.sel[,c("OG","Preferred_name","Description","pvalue","F_vs_B")]
-#write.table(cave.species.shared.sel.OGs,"cave_species_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
-#write.csv(cave.species.shared.sel.OGs,"cave_species_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
+#write.table(cave.species.shared.sel.OGs,"../../results/01_cave_species/cave_species_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
+#write.csv(cave.species.shared.sel.OGs,"../../results/01_cave_species/cave_species_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
 ### make a Figure for OGs that are shared 
 environment <- c("cave","surface")
 values <- c(77, 3)
@@ -1302,7 +1271,7 @@ ggplot(data = df, aes(x = environment, y = values, fill = environment)) +
   theme_classic()
 
 ### PIGMENTATION LOSS ### 
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/02_pigmentation_loss")
+setwd("data/02_pigmentation_loss")
 cave.sel.unfil <- read.csv("pigmentation_loss_absrel.csv") 
 str(cave.sel.unfil)
 cave.sel.unfil.1 <- cave.sel.unfil %>%
@@ -1385,7 +1354,6 @@ sel.OGs.significance.ratios <- sel.OGs.significance.ratios %>%
   mutate(significance = pvalue<=0.05)
 ## combine with eggnog annotations
 # read the data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/09_eggnog_annotation")
 eggnog <- read.csv("all_OGs_pigmentation_loss_MM_fe2v4rjm.emapper.annotations.csv", header = TRUE)
 str(eggnog)
 # add a new column with OG, gene symbol, description and GO and KEGG annotations
@@ -1396,19 +1364,18 @@ str(eggnog)
 sel.OGs.annot.significance.ratios <- merge(eggnog, sel.OGs.significance.ratios, by="OG", all.y=TRUE)
 str(sel.OGs.annot.significance.ratios)
 ## write file with shared genes and their annotations
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/02_pigmentation_loss")
-#write.csv(sel.OGs.annot.significance.ratios,"fisher_selected_OGs_ratios_pigmentation_loss.csv", quote=TRUE, row.names=FALSE)
+#write.csv(sel.OGs.annot.significance.ratios,"../../results/02_pigmentation_loss/fisher_selected_OGs_ratios_pigmentation_loss.csv", quote=TRUE, row.names=FALSE)
 ## write file with shared genes significantly selected in F branches
 str(sel.OGs.annot.significance.ratios)
 cave.species.shared.sel <- sel.OGs.annot.significance.ratios %>%
   filter(pvalue<=0.05) %>%
   filter(F_vs_B=="TRUE")
 cave.species.shared.sel.OGs <- cave.species.shared.sel[,c("OG","Preferred_name","Description","pvalue","F_vs_B")]
-#write.table(cave.species.shared.sel.OGs,"pigmentation_loss_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
-#write.csv(cave.species.shared.sel.OGs,"pigmentation_loss_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
+#write.table(cave.species.shared.sel.OGs,"../../results/02_pigmentation_loss/pigmentation_loss_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
+#write.csv(cave.species.shared.sel.OGs,"../../results/02_pigmentation_loss/pigmentation_loss_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
 
 ### EYE LOSS ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/03_eye_loss")
+setwd("data/03_eye_loss")
 cave.sel.unfil <- read.csv("eye_loss_absrel.csv") 
 str(cave.sel.unfil)
 cave.sel.unfil.1 <- cave.sel.unfil %>%
@@ -1437,7 +1404,7 @@ overall <- xtabs(total_counts ~ branch+selection,
 str(overall)
 chisq.test(overall)
 prop.table(overall, 1)*100
-# cave species contain significantly more genes that are under selection (x2 = 9.5, P > 0.002, 7.9% vs. 7.5%)
+# species with reduced eyes contain significantly more genes that are under selection (x2 = 9.5, P > 0.002, 7.9% vs. 7.5%)
 ### Do F branches share significantly more genes under selection than B branches?
 ## Assess for each OG individually
 cave.sel.fisher <- cave.sel.fisher %>% 
@@ -1491,7 +1458,6 @@ sel.OGs.significance.ratios <- sel.OGs.significance.ratios %>%
   mutate(significance = pvalue<=0.05)
 ## combine with eggnog annotations
 # read the data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/09_eggnog_annotation")
 eggnog <- read.csv("all_OGs_eye_loss_MM_fe2v4rjm.emapper.annotations.csv", header = TRUE)
 str(eggnog)
 # add a new column with OG, gene symbol, description and GO and KEGG annotations
@@ -1502,19 +1468,18 @@ str(eggnog)
 sel.OGs.annot.significance.ratios <- merge(eggnog, sel.OGs.significance.ratios, by="OG", all.y=TRUE)
 str(sel.OGs.annot.significance.ratios)
 ## write file with shared genes and their annotations
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/03_eye_loss")
-#write.csv(sel.OGs.annot.significance.ratios,"fisher_selected_OGs_ratios_eye_loss.csv", quote=TRUE, row.names=FALSE)
+#write.csv(sel.OGs.annot.significance.ratios,"../../results/03_eye_loss/fisher_selected_OGs_ratios_eye_loss.csv", quote=TRUE, row.names=FALSE)
 ## write file with shared genes significantly selected in F branches
 str(sel.OGs.annot.significance.ratios)
 cave.species.shared.sel <- sel.OGs.annot.significance.ratios %>%
   filter(pvalue<=0.05) %>%
   filter(F_vs_B=="TRUE")
 cave.species.shared.sel.OGs <- cave.species.shared.sel[,c("OG","Preferred_name","Description","pvalue","F_vs_B")]
-#write.table(cave.species.shared.sel.OGs,"eye_loss_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
-#write.csv(cave.species.shared.sel.OGs,"eye_loss_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
+#write.table(cave.species.shared.sel.OGs,"../../results/03_eye_loss/eye_loss_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
+#write.csv(cave.species.shared.sel.OGs,"../../results/03_eye_loss/eye_loss_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
 
 ### LONGEVITY ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/04_longevity")
+setwd("data/04_longevity")
 cave.sel.unfil <- read.csv("longevity_absrel.csv") 
 str(cave.sel.unfil)
 cave.sel.unfil.1 <- cave.sel.unfil %>%
@@ -1612,7 +1577,6 @@ sel.OGs.significance.ratios <- sel.OGs.significance.ratios %>%
   mutate(significance = pvalue<=0.05)
 ## combine with eggnog annotations
 # read the data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/09_eggnog_annotation")
 eggnog <- read.csv("all_OGs_longevity_MM_j29p4hp0.emapper.annotations.csv", header = TRUE)
 str(eggnog)
 # add a new column with OG, gene symbol, description and GO and KEGG annotations
@@ -1623,23 +1587,22 @@ str(eggnog)
 sel.OGs.annot.significance.ratios <- merge(eggnog, sel.OGs.significance.ratios, by="OG", all.y=TRUE)
 str(sel.OGs.annot.significance.ratios)
 ## write file with shared genes and their annotations
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/04_longevity")
-#write.csv(sel.OGs.annot.significance.ratios,"fisher_selected_OGs_ratios_longevity.csv", quote=TRUE, row.names=FALSE)
+#write.csv(sel.OGs.annot.significance.ratios,"../../results/04_longevity/fisher_selected_OGs_ratios_longevity.csv", quote=TRUE, row.names=FALSE)
 ## write file with shared genes significantly selected in F branches
 str(sel.OGs.annot.significance.ratios)
 cave.species.shared.sel <- sel.OGs.annot.significance.ratios %>%
   filter(pvalue<=0.05) %>%
   filter(F_vs_B=="TRUE")
 cave.species.shared.sel.OGs <- cave.species.shared.sel[,c("OG","Preferred_name","Description","pvalue","F_vs_B")]
-#write.table(cave.species.shared.sel.OGs,"longevity_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
-#write.csv(cave.species.shared.sel.OGs,"longevity_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
+#write.table(cave.species.shared.sel.OGs,"../../results/04_longevity/longevity_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
+#write.csv(cave.species.shared.sel.OGs,"../../results/04_longevity/longevity_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
 
 
 ######### PAML POSITIVE SELECTION ######### 
 ## perform hypergeometric tests as provided in SuperExactTest to test for overlap in selcted genes between species
 # input files are lists of selected genes for each species
 ### CAVE SPECIES ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/07_PAML/02_cave_species")
+setwd("data/01_cave_species/")
 Asmec <- read.table("Asmec.txt", header=TRUE)
 Prang <- read.table("Prang.txt", header=TRUE)
 Trros <- read.table("Trros.txt", header=TRUE)
@@ -1664,7 +1627,7 @@ fit$p.value
 res_all=supertest(cave_list, n=total)
 plot(res_all, sort.by="size", margin=c(2,2,2,2), color.scale.pos=c(0.85,1), legend.pos=c(0.9,0.15),keep.empty.intersections=FALSE)
 plot(res_all, Layout="landscape", degree=2:6, sort.by="size", margin=c(0.5,5,1,2), keep.empty.intersections=FALSE,show.overlap.size=FALSE,minMinusLog10PValue=4)
-#write.csv(summary(res_all)$Table, file="res_all.csv", row.names=FALSE)
+#write.csv(summary(res_all)$Table, file="../../results/01_cave_species/res_all.csv", row.names=FALSE)
 summary(res_all)
 ## extract all significantly shared OGs and all shared by at least 2 species
 shared.N <- read.table("cave_species_shared_count.txt", header=TRUE)
@@ -1675,7 +1638,6 @@ shared.sign.N <- merge(shared.N, shared.sign, by="OG")
 str(shared.sign.N)
 ## combine with eggnog annotations
 # read the data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/09_eggnog_annotation")
 eggnog <- read.csv("all_OGs_cave_species_MM_9n4wx4so.emapper.annotations.tsv", header = TRUE, sep = "\t")
 str(eggnog)
 # add a new column with OG, gene symbol, description and GO and KEGG annotations
@@ -1686,11 +1648,10 @@ str(eggnog)
 sel.shared.sign.N <- merge(eggnog, shared.sign.N, by="OG", all.y=TRUE)
 str(sel.shared.sign.N)
 ## write file with shared genes and their annotations
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/07_PAML/02_cave_species")
-#write.csv(sel.shared.sign.N,"cave_species_sign_shared_genes_PAML.csv", quote=TRUE, row.names=FALSE)
+#write.csv(sel.shared.sign.N,"../../results/01_cave_species/cave_species_sign_shared_genes_PAML.csv", quote=TRUE, row.names=FALSE)
 
 ### PIGMENTATION LOSS ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/07_PAML/03_pigmentation_loss")
+setwd("data/02_pigmentation_loss/")
 Ammex <- read.table("Ammex.txt", header=TRUE)
 Asmec <- read.table("Asmec.txt", header=TRUE)
 Hegla <- read.table("Hegla.txt", header=TRUE)
@@ -1719,7 +1680,7 @@ fit$p.value
 res_all=supertest(cave_list, n=total)
 plot(res_all, sort.by="size", margin=c(2,2,2,2), color.scale.pos=c(0.85,1), legend.pos=c(0.9,0.15),keep.empty.intersections=FALSE)
 plot(res_all, Layout="landscape", degree=3:8, sort.by="size", margin=c(0.5,5,1,2), keep.empty.intersections=FALSE,show.overlap.size=FALSE,minMinusLog10PValue=4)
-#write.csv(summary(res_all)$Table, file="res_all.csv", row.names=FALSE)
+#write.csv(summary(res_all)$Table, file="../../results/02_pigmentation_loss/res_all.csv", row.names=FALSE)
 summary(res_all)
 ## extract all significantly shared OGs and all shared by at least 2 species
 shared.N <- read.table("pigmentation_loss_shared_count.txt", header=TRUE)
@@ -1730,7 +1691,6 @@ shared.sign.N <- merge(shared.N, shared.sign, by="OG")
 str(shared.sign.N)
 ## combine with eggnog annotations
 # read the data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/09_eggnog_annotation")
 eggnog <- read.csv("all_OGs_pigmentation_loss_MM_fe2v4rjm.emapper.annotations.csv", header = TRUE)
 str(eggnog)
 # add a new column with OG, gene symbol, description and GO and KEGG annotations
@@ -1741,11 +1701,10 @@ str(eggnog)
 sel.shared.sign.N <- merge(eggnog, shared.sign.N, by="OG", all.y=TRUE)
 str(sel.shared.sign.N)
 ## write file with shared genes and their annotations
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/07_PAML/03_pigmentation_loss")
-#write.csv(sel.shared.sign.N,"pigmentation_loss_sign_shared_genes_PAML.csv", quote=TRUE, row.names=FALSE)
+#write.csv(sel.shared.sign.N,"../../results/02_pigmentation_loss/pigmentation_loss_sign_shared_genes_PAML.csv", quote=TRUE, row.names=FALSE)
 
 ### EYE LOSS ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/07_PAML/04_eye_loss")
+setwd("data/03_eye_loss/")
 Asmec <- read.table("Asmec.txt", header=TRUE)
 Chasi <- read.table("Chasi.txt", header=TRUE)
 Cocri <- read.table("Cocri.txt", header=TRUE)
@@ -1782,7 +1741,7 @@ fit$p.value
 res_all=supertest(cave_list, n=total)
 plot(res_all, sort.by="size", margin=c(2,2,2,2), color.scale.pos=c(0.85,1), legend.pos=c(0.9,0.15),keep.empty.intersections=FALSE)
 plot(res_all, Layout="landscape", degree=6:11, sort.by="size", margin=c(0.5,5,1,2), keep.empty.intersections=FALSE,show.overlap.size=FALSE,minMinusLog10PValue=4)
-#write.csv(summary(res_all)$Table, file="res_all.csv", row.names=FALSE)
+#write.csv(summary(res_all)$Table, file="../../results/03_eye_loss/res_all.csv", row.names=FALSE)
 summary(res_all)
 ## extract all significantly shared OGs and all shared by at least 2 species
 shared.N <- read.table("eye_loss_shared_count.txt", header=TRUE)
@@ -1793,7 +1752,6 @@ shared.sign.N <- merge(shared.N, shared.sign, by="OG")
 str(shared.sign.N)
 ## combine with eggnog annotations
 # read the data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/09_eggnog_annotation")
 eggnog <- read.csv("all_OGs_eye_loss_MM_fe2v4rjm.emapper.annotations.csv", header = TRUE)
 str(eggnog)
 # add a new column with OG, gene symbol, description and GO and KEGG annotations
@@ -1804,11 +1762,10 @@ str(eggnog)
 sel.shared.sign.N <- merge(eggnog, shared.sign.N, by="OG", all.y=TRUE)
 str(sel.shared.sign.N)
 ## write file with shared genes and their annotations
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/07_PAML/04_eye_loss")
-#write.csv(sel.shared.sign.N,"eye_loss_sign_shared_genes_PAML.csv", quote=TRUE, row.names=FALSE)
+#write.csv(sel.shared.sign.N,"../../results/03_eye_loss/eye_loss_sign_shared_genes_PAML.csv", quote=TRUE, row.names=FALSE)
 
 ### LONGEVITY ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/07_PAML/05_longevity")
+setwd("data/04_longevity/")
 Acbae <- read.table("Acbae.txt", header=TRUE)
 Cacar <- read.table("Cacar.txt", header=TRUE)
 Elmax <- read.table("Elmax.txt", header=TRUE)
@@ -1841,10 +1798,9 @@ fit$p.value
 res_all=supertest(cave_list, n=total)
 plot(res_all, sort.by="size", margin=c(2,2,2,2), color.scale.pos=c(0.85,1), legend.pos=c(0.9,0.15),keep.empty.intersections=FALSE)
 plot(res_all, Layout="landscape", degree=6:11, sort.by="size", margin=c(0.5,5,1,2), keep.empty.intersections=FALSE,show.overlap.size=FALSE,minMinusLog10PValue=4)
-#write.csv(summary(res_all)$Table, file="longevity_res_all.csv", row.names=FALSE)
+#write.csv(summary(res_all)$Table, file="../../results/04_longevity/longevity_res_all.csv", row.names=FALSE)
 summary(res_all)
 ## extract all significantly shared OGs and all shared by at least 2 species
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/07_PAML/05_longevity")
 shared.N <- read.table("longevity_shared_count.txt", header=TRUE)
 str(shared.N)
 shared.sign <- read.table("longevity_significantly_shared.txt", header=TRUE)
@@ -1853,7 +1809,6 @@ shared.sign.N <- merge(shared.N, shared.sign, by="OG")
 str(shared.sign.N)
 ## combine with eggnog annotations
 # read the data
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/06_expansion_contraction/09_eggnog_annotation")
 eggnog <- read.csv("all_OGs_longevity_MM_j29p4hp0.emapper.annotations.csv", header = TRUE)
 str(eggnog)
 # add a new column with OG, gene symbol, description and GO and KEGG annotations
@@ -1864,22 +1819,21 @@ str(eggnog)
 sel.shared.sign.N <- merge(eggnog, shared.sign.N, by="OG", all.y=TRUE)
 str(sel.shared.sign.N)
 ## write file with shared genes and their annotations
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/07_PAML/05_longevity")
-#write.csv(sel.shared.sign.N,"longevity_sign_shared_genes_PAML.csv", quote=TRUE, row.names=FALSE)
+#write.csv(sel.shared.sign.N,"../../results/04_longevity/longevity_sign_shared_genes_PAML.csv", quote=TRUE, row.names=FALSE)
 ## write file with shared genes significantly selected in F branches
 str(sel.OGs.annot.significance.ratios)
 cave.species.shared.sel <- sel.OGs.annot.significance.ratios %>%
   filter(pvalue<=0.05) %>%
   filter(F_vs_B=="TRUE")
 cave.species.shared.sel.OGs <- cave.species.shared.sel[,c("OG","Preferred_name","Description","pvalue","F_vs_B")]
-#write.table(cave.species.shared.sel.OGs,"longevity_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
-#write.csv(cave.species.shared.sel.OGs,"longevity_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
+#write.table(cave.species.shared.sel.OGs,"../../results/04_longevity/longevity_shared_sel_OGs.txt", quote=FALSE, row.names=FALSE)
+#write.csv(cave.species.shared.sel.OGs,"../../results/04_longevity/longevity_shared_sel_OGs.csv", quote=FALSE, row.names=FALSE)
 
 
 ######### RELAX ######### 
 ### CAVE SPECIES ###
 ## read in annotation file
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/01_eggnog_annotation_files")
+setwd("data/01_cave_species/")
 eggnog.cave <- read.csv("all_OGs_cave_species_MM_9n4wx4so.emapper.annotations.csv", header = TRUE)
 str(eggnog.cave)
 # add a new column just with OG ID
@@ -1888,7 +1842,6 @@ eggnog.cave <- eggnog.cave %>%
   dplyr::select(OG_ID, Preferred_name,Description,GOs,KEGG_ko)
 str(eggnog.cave)
 ## read in selection file
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/")
 relax.cave <- read.table("cave_species_selected_OGs.txt", header=TRUE)
 str(relax.cave)
 selected.OGs <- merge(relax.cave, eggnog.cave, by="OG_ID", all.x=TRUE)
@@ -1897,11 +1850,10 @@ intensified <- selected.OGs  %>% filter(selection == "intensified") %>%
   dplyr::select(OG_ID,Preferred_name,selection) 
 relaxed <- selected.OGs  %>% filter(selection == "relaxed") %>% 
   dplyr::select(OG_ID,Preferred_name,selection) 
-#write.table(selected.OGs, "cave_species_RELAX_annotated_selected_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-#write.table(intensified, "cave_species_RELAX_annotated_intensified_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-#write.table(relaxed, "cave_species_RELAX_annotated_relaxed_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(selected.OGs, "../../results/01_cave_species/cave_species_RELAX_annotated_selected_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(intensified, "../../results/01_cave_species/cave_species_RELAX_annotated_intensified_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(relaxed, "../../results/01_cave_species/cave_species_RELAX_annotated_relaxed_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
 ### check if relaxed selection is more prevalent in cave vs. surface species
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/general_descriptive")
 cave.relax <- read.csv("cave_species_gen_des_1-5_combined.csv")
 cave.tre <- read.tree("cave_species_list_mod_corr_R.tre")
 plot(cave.tre)
@@ -1953,20 +1905,18 @@ summary(pgls_model_relaxed)
 phylolm_model_relaxed <- phylolm(formula = relaxed_ratio ~ fb, data = cave.relax, phy = cave.tre, model = "BM")
 summary(phylolm_model_relaxed)
 ## compare overlap between intensified selection and positive selection
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/")
 intens <- read.table("cave_species_RELAX_annotated_intensified_genes.txt", header = TRUE)
 str(intens)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/01_cave_species")
 pos <- read.csv("cave_species_shared_sel_OGs.csv", header = TRUE)
 str(pos)
 names(pos)[names(pos) == 'OG'] <- 'OG_ID'
 intens_pos <- merge(intens,pos, by="OG_ID")
-#write.csv(intens_pos, "overlap_intesified_positive_selection_cave_species.csv", row.names=FALSE)
+#write.csv(intens_pos, "../../results/01_cave_species/overlap_intesified_positive_selection_cave_species.csv", row.names=FALSE)
 
 
 #### GENERATE CHROMOSOME FIGURE OF OLM HIGHLIGHTING GENES UNDER SELECTION IN CAVE SPECIES, GENE AND REPEAT DENSITY ####
 # set working directory 
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/12_genome_location/01_proteus")
+setwd("data/01_cave_species/")
 ## load chromosome lengths 
 chr_df <- read.table("Proteus_chromosome_lengths.txt", header=FALSE, stringsAsFactors=FALSE)
 colnames(chr_df) <- c("chr","length")
@@ -2112,7 +2062,7 @@ legend("topleft",
 
 ### PIGMENTATION LOSS  ###
 ## read in annotation file
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/01_eggnog_annotation_files")
+setwd("data/02_pigmentation_loss/")
 eggnog.pigm <- read.csv("all_OGs_pigmentation_loss_MM_fe2v4rjm.emapper.annotations.csv", header = TRUE)
 str(eggnog.pigm)
 # add a new column just with OG ID
@@ -2121,7 +2071,6 @@ eggnog.pigm <- eggnog.pigm %>%
   dplyr::select(OG_ID, Preferred_name,Description,GOs,KEGG_ko)
 str(eggnog.pigm)
 ## read in selection file
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/")
 relax.pigm <- read.table("pigmentation_loss_selected_OGs.txt", header=TRUE)
 str(relax.pigm)
 selected.OGs <- merge(relax.pigm, eggnog.pigm, by="OG_ID", all.x=TRUE)
@@ -2130,15 +2079,12 @@ intensified <- selected.OGs  %>% filter(selection == "intensified") %>%
   dplyr::select(OG_ID,Preferred_name,selection) 
 relaxed <- selected.OGs  %>% filter(selection == "relaxed") %>% 
   dplyr::select(OG_ID,Preferred_name,selection) 
-#write.table(selected.OGs, "pigmentation_loss_RELAX_annotated_selected_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-#write.table(intensified, "pigmentation_loss_RELAX_annotated_intensified_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-#write.table(relaxed, "pigmentation_loss_RELAX_annotated_relaxed_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-
+#write.table(selected.OGs, "../../results/02_pigmentation_loss/pigmentation_loss_RELAX_annotated_selected_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(intensified, "../../results/02_pigmentation_loss/pigmentation_loss_RELAX_annotated_intensified_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(relaxed, "../../results/02_pigmentation_loss/pigmentation_loss_RELAX_annotated_relaxed_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
 ## compare overlap between intensified selection and positive selection
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/")
 intens <- read.table("pigmentation_loss_RELAX_annotated_intensified_genes.txt", header = TRUE)
 str(intens)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/02_pigmentation_loss")
 pos <- read.csv("pigmentation_loss_shared_sel_OGs.csv", header = TRUE)
 str(pos)
 names(pos)[names(pos) == 'OG'] <- 'OG_ID'
@@ -2146,7 +2092,7 @@ intens_pos <- merge(intens,pos, by="OG_ID")
 
 ### EYE LOSS ###
 ## read in annotation file
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/01_eggnog_annotation_files")
+setwd("data/03_eye_loss/")
 eggnog.eyeloss <- read.csv("all_OGs_eye_loss_MM_fe2v4rjm.emapper.annotations.csv", header = TRUE)
 str(eggnog.eyeloss)
 # add a new column just with OG ID
@@ -2155,7 +2101,6 @@ eggnog.eyeloss <- eggnog.eyeloss %>%
   dplyr::select(OG_ID, Preferred_name,Description,GOs,KEGG_ko)
 str(eggnog.eyeloss)
 ## read in selection file
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/")
 relax.eyeloss <- read.table("eye_loss_selected_OGs.txt", header=TRUE)
 str(relax.eyeloss)
 selected.OGs <- merge(relax.eyeloss, eggnog.eyeloss, by="OG_ID", all.x=TRUE)
@@ -2164,14 +2109,12 @@ intensified <- selected.OGs  %>% filter(selection == "intensified") %>%
   dplyr::select(OG_ID,Preferred_name,selection) 
 relaxed <- selected.OGs  %>% filter(selection == "relaxed") %>% 
   dplyr::select(OG_ID,Preferred_name,selection) 
-#write.table(selected.OGs, "eye_loss_RELAX_annotated_selected_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-#write.table(intensified, "eye_loss_RELAX_annotated_intensified_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-#write.table(relaxed, "eye_loss_RELAX_annotated_relaxed_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(selected.OGs, "../../results/03_eye_loss/eye_loss_RELAX_annotated_selected_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(intensified, "../../results/03_eye_loss/eye_loss_RELAX_annotated_intensified_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(relaxed, "../../results/03_eye_loss/eye_loss_RELAX_annotated_relaxed_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
 ## compare overlap between intensified selection and positive selection
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/")
 intens <- read.table("eye_loss_RELAX_annotated_intensified_genes.txt", header = TRUE)
 str(intens)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/03_eye_loss")
 pos <- read.csv("eye_loss_shared_sel_OGs.csv", header = TRUE)
 str(pos)
 names(pos)[names(pos) == 'OG'] <- 'OG_ID'
@@ -2179,7 +2122,7 @@ intens_pos <- merge(intens,pos, by="OG_ID")
 
 ### LONGEVITY ###
 ## read in annotation file
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/01_eggnog_annotation_files")
+setwd("data/04_longevity/")
 eggnog.longev <- read.csv("all_OGs_longevity_MM_j29p4hp0.emapper.annotations.csv", header = TRUE)
 str(eggnog.longev)
 # add a new column just with OG ID
@@ -2188,7 +2131,6 @@ eggnog.longev <- eggnog.longev %>%
   dplyr::select(OG_ID, Preferred_name,Description,GOs,KEGG_ko)
 str(eggnog.longev)
 ## read in selection file
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/")
 relax.longev <- read.table("longevity_selected_OGs.txt", header=TRUE)
 str(relax.longev)
 selected.OGs <- merge(relax.longev, eggnog.longev, by="OG_ID", all.x=TRUE)
@@ -2197,15 +2139,12 @@ intensified <- selected.OGs  %>% filter(selection == "intensified") %>%
   dplyr::select(OG_ID,Preferred_name,selection) 
 relaxed <- selected.OGs  %>% filter(selection == "relaxed") %>% 
   dplyr::select(OG_ID,Preferred_name,selection) 
-#write.table(selected.OGs, "longevity_RELAX_annotated_selected_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-#write.table(intensified, "longevity_RELAX_annotated_intensified_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-#write.table(relaxed, "longevity_RELAX_annotated_relaxed_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
-
+#write.table(selected.OGs, "../../results/04_longevity/longevity_RELAX_annotated_selected_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(intensified, "../../results/04_longevity/longevity_RELAX_annotated_intensified_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
+#write.table(relaxed, "../../results/04_longevity/longevity_RELAX_annotated_relaxed_genes.txt", sep="\t", quote=FALSE, row.names=FALSE)
 ## compare overlap between intensified selection and positive selection
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/")
 intens <- read.table("longevity_RELAX_annotated_intensified_genes.txt", header = TRUE)
 str(intens)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/09_absrel/04_longevity")
 pos <- read.csv("longevity_shared_sel_OGs.csv", header = TRUE)
 str(pos)
 names(pos)[names(pos) == 'OG'] <- 'OG_ID'
@@ -2214,7 +2153,7 @@ intens_pos <- merge(intens,pos, by="OG_ID")
 
 ######### GENOMIC LOCATION ANALYSIS ######### 
 ### CAVE SPECIES ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/12_genome_location")
+setwd("data/01_cave_species/")
 ### Test for co-localisation between relaxed and positive selection, but exclude overlaps
 ### load gene lists (Example data) and the annotated background genes
 cave.genloc <- read.csv("cave_species_candidate_gene_selection_analysis.csv") 
@@ -2224,7 +2163,7 @@ unique.cave.loc <- cave.genloc %>% distinct(OG_ID, .keep_all = TRUE)
 dim(unique.cave.loc)
 unique.cave.loc <- unique.cave.loc %>% drop_na(query)
 str(unique.cave.loc)
-#write.csv(unique.cave.loc,"cave_species_selection_genomic_location.csv",quote=FALSE, row.names=FALSE)
+#write.csv(unique.cave.loc,"../../results/01_cave_species/cave_species_selection_genomic_location.csv",quote=FALSE, row.names=FALSE)
 ## drop scaffolds from selection files
 unique.cave.loc <- unique.cave.loc %>%
   filter(!grepl("^scaffold", chr))
@@ -2416,22 +2355,18 @@ par(mfrow = c(1, 1))
 #### MAKE CIRCOS PLOT OF GENOME CO-LOCALIZATION ACROSS SPECIES ####
 # merge OG ID candidate genes and localisation on genome
 # Read the CSV files
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/12_genome_location/01_proteus")
 cave_genes <- read.csv("cave_species_6064_genes.csv", stringsAsFactors = FALSE)
 supplementary <- read.csv("Supplementary_Data_X_cave_species_OG_expansion_contraction_selection_genes.csv", stringsAsFactors = FALSE)
 # Perform left join based on OG_ID
 merged_data <- left_join(supplementary, cave_genes, by = "OG_ID")
 # Write the result to a new CSV
-#write.csv(merged_data, "merged_cave_species_data.csv", row.names = FALSE)
-# Set working directory for genome assembly
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/04_genome_assembly/Prang_Hi-c")
+#write.csv(merged_data, "../../results/01_cave_species/merged_cave_species_data.csv", row.names = FALSE)
 ### load chromosome lengths
 chrom_sizes <- read.table("Proteus_chromosome_lengths.txt", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
 colnames(chrom_sizes) <- c("Chrom", "Length")
 ### keep only chromosomes (exclude scaffolds) and add Start/End columns
 chromosomes <- chrom_sizes %>% filter(grepl("^chr", Chrom)) %>% mutate(Start = 1, End = Length) %>% dplyr::select(Chrom, Start, End)
 ### read gene location files
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/12_genome_location/01_proteus")
 positive_genes <- read.csv("cave_species_paml_gen_loc.csv", stringsAsFactors = FALSE)
 relaxed_genes  <- read.csv("cave_species_relaxed_gen_loc.csv", stringsAsFactors = FALSE)
 ### filter genes to only main chromosomes
@@ -2452,7 +2387,7 @@ legend("topleft", legend = c("Relaxed selection", "Positive selection"), fill = 
 
 
 ### PIGMENTATION LOSS ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/12_genome_location")
+setwd("data/02_pigmentation_loss/")
 cave.genloc <- read.csv("cave_species_candidate_gene_selection_analysis.csv") 
 str(cave.genloc)
 dim(cave.genloc)
@@ -2580,7 +2515,7 @@ cat("P-value for co-localization:", p_value, "\n")
 
 
 ### EYE LOSS ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/12_genome_location")
+setwd("data/03_eye_loss/")
 cave.genloc <- read.csv("cave_species_candidate_gene_selection_analysis.csv") 
 str(cave.genloc)
 dim(cave.genloc)
@@ -2686,7 +2621,7 @@ print(paste("Observed co-localization:", observed_co_localization))
 print(paste("P-value:", p_value))
 
 ### LONGEVITY ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/12_genome_location")
+setwd("data/04_longevity")
 ### Step 1: Load gene lists (Example data) and the annotated background genes
 ## merge longevity candidate genes from literature with results
 long.genloc <- read.csv("longevity_candidate_gene_selection_analysis.csv") 
@@ -2701,7 +2636,7 @@ unique.long.loc <- long.genloc %>% distinct(OG_ID, .keep_all = TRUE)
 dim(unique.long.loc)
 unique.long.loc <- unique.long.loc %>% drop_na(query)
 str(unique.long.loc)
-#write.csv(unique.long.loc,"cave_species_selection_genomic_location.csv",quote=FALSE, row.names=FALSE)
+#write.csv(unique.long.loc,"../../results/04_longevity/longevity_selection_genomic_location.csv",quote=FALSE, row.names=FALSE)
 ## drop scaffolds from selection files
 unique.long.loc <- unique.long.loc %>%
 filter(!grepl("^scaffold", chr))
@@ -2836,9 +2771,9 @@ for (pair in pairwise_combinations) {
 # Function to calculate pairwise distances by chromosome using midpoints
 # Define the main function that will run the analysis
 run_clustering_analysis <- function(selection_gr, background_gr, n_permutations = 1000) {
-  # Step 1: Calculate observed distances for the gene list
+  ## calculate observed distances for the gene list
   observed_distances <- calculate_pairwise_midpoint_distances(selection_gr)
-  # Step 2: Perform permutation test to compare with random expectation
+  ## perform permutation test to compare with random expectation
   set.seed(123)  # For reproducibility
   random_distances <- vector("numeric", length = n_permutations)
   for (i in 1:n_permutations) {
@@ -2846,12 +2781,12 @@ run_clustering_analysis <- function(selection_gr, background_gr, n_permutations 
     random_genes <- sample(background_gr, length(selection_gr), replace = FALSE)
     # Calculate pairwise distances for the randomly sampled genes
     random_distances[i] <- mean(calculate_pairwise_midpoint_distances(random_genes))}
-  # Step 3: Compare observed vs random
+  ## compare observed vs random
   mean_observed_distance <- mean(observed_distances)
   mean_random_distance <- mean(random_distances)
-  # Step 4: P-value calculation (how often observed distance is smaller than random)
+  ## P-value calculation (how often observed distance is smaller than random)
   p_value <- mean(random_distances >= mean_observed_distance)
-  # Step 5: Return the results as a list
+  ## return the results as a list
   return(list(
     mean_observed_distance = mean_observed_distance,
     mean_random_distance = mean_random_distance,
@@ -2864,15 +2799,15 @@ print_clustering_results <- function(results, analysis_name) {
   cat("Mean observed distance between genes: ", results$mean_observed_distance, "\n")
   cat("Mean random distance between genes: ", results$mean_random_distance, "\n")
   cat("P-value: ", results$p_value, "\n")}
-# Step 6: Run the analysis for each selection file and store the results
+## run the analysis for each selection file and store the results
 paml_results <- run_clustering_analysis(paml_gr, gene_annot_gr)
 intens_results <- run_clustering_analysis(intens_gr, gene_annot_gr)
 absrel_results <- run_clustering_analysis(absrel_gr, gene_annot_gr)
-# Step 7: Print the results for each analysis
+## print the results for each analysis
 print_clustering_results(paml_results, "PAML")
 print_clustering_results(intens_results, "INTENS")
 print_clustering_results(absrel_results, "ABSREL")
-# Step 8: Optionally visualize the distribution of random distances for each analysis
+## optionally visualize the distribution of random distances for each analysis
 # You can modify the layout of the plots if needed to fit multiple histograms in one output
 par(mfrow = c(2, 2))  # Arrange plots in a 2x2 grid
 # PAML plot
@@ -2891,7 +2826,7 @@ par(mfrow = c(1, 1))
 ######### OVERLAP ACROSS ANALYSES #########
 ######## CHECK CANDIDATE GENES ########
 ### CAVE SPECIES ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/02_cave_species")
+setwd("data/01_cave_species/")
 genes.pos <- read.csv("cave_species_absrel_shared.csv", header=TRUE)
 genes.intens <- read.csv("cave_species_relax_intensified_OGs.csv", header=TRUE)
 genes.paml <- read.csv("cave_species_paml_selected.csv", header=TRUE)
@@ -2915,7 +2850,6 @@ merged4 <- merge(merged3,genes.relax, by="OG_ID", all=TRUE)
 merged5 <- merge(merged4,genes.contr, by="OG_ID", all=TRUE)
 str(merged5)
 # also annotate with OG
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/01_eggnog_annotation_files")
 eggnog.gensize <- read.csv("all_OGs_cave_species_MM_9n4wx4so.emapper.annotations.csv", header = TRUE)
 str(eggnog.gensize)
 # add a new column just with OG ID
@@ -2938,14 +2872,11 @@ dim(merge.all)
 merged7.final <- merge(merge.all,eggnog.gensize, by="OG_ID", all.x=TRUE)
 dim(merged7.final)
 str(merged7.final)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/02_cave_species")
-#write.csv(merged7.final, "cave_species_candidate_gene_selection_analysis.csv", quote=FALSE, row.names=FALSE)
+#write.csv(merged7.final, "../../results/01_cave_species/cave_species_candidate_gene_selection_analysis.csv", quote=FALSE, row.names=FALSE)
 ### in excel file remove columns not needed and remove pigmentation and eye loss genes not annotated by any OGs
 ### analyse file for overlap
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/")
-#cave.spec.syn <- read.csv ("cave_species_candidate_gene_selection_analysis.csv", header=TRUE)
+#cave.spec.syn <- read.csv ("../../results/01_cave_species/cave_species_candidate_gene_selection_analysis.csv", header=TRUE)
 ### VENN DIAGRAM
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/")
 cavespec.syn <- read.csv ("cave_species_candidate_gene_selection_analysis.csv", header=TRUE)
 str(cavespec.syn)
 # define sets for diagram
@@ -2990,7 +2921,7 @@ display_venn(list3,
              fill = c("#999999", "#E69F00", "#56B4E9"))
 
 ### PIGMENTATION LOSS ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/03_pigmentation_loss")
+setwd("data/02_pigmentation_loss/")
 genes.pos <- read.csv("pigmentation_loss_shared_sel_OGs.csv", header=TRUE)
 genes.intens <- read.table("pigmentation_loss_relax_intensified.txt", header=TRUE)
 genes.paml <- read.csv("pigmentation_loss_paml_selected.csv", header=TRUE)
@@ -3012,7 +2943,6 @@ merged4 <- merge(merged3,genes.relax, by="OG_ID", all=TRUE)
 merged5 <- merge(merged4,genes.contr, by="OG_ID", all=TRUE)
 str(merged5)
 # also annotate with OG
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/01_eggnog_annotation_files")
 eggnog.gensize <- read.csv("all_OGs_pigmentation_loss_MM_fe2v4rjm.emapper.annotations.csv", header = TRUE)
 str(eggnog.gensize)
 # add a new column just with OG ID
@@ -3032,14 +2962,10 @@ str(merged6)
 ## annotate all with eggnog gene symbol
 merged7.final <- merge(merged6,eggnog.gensize, by="OG_ID", all.x=TRUE)
 dim(merged7.final)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/03_pigmentation_loss")
-write.csv(merged7.final, "pigmentation_loss_candidate_gene_selection_analysis.csv", quote=FALSE, row.names=FALSE)
+#write.csv(merged7.final, "../../results/02_pigmentation_loss/pigmentation_loss_candidate_gene_selection_analysis.csv", quote=FALSE, row.names=FALSE)
 ### in excel file remove columns not needed and replace missing gene symbols with NAs
 ### analyse file for overlap
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/")
-pigm.loss.syn <- read.csv ("pigmentation_loss_candidate_gene_selection_analysis.csv", header=TRUE)
 ### VENN DIAGRAM
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/")
 pigloss.syn <- read.csv ("pigmentation_loss_candidate_gene_selection_analysis.csv", header=TRUE)
 str(pigloss.syn)
 #Define sets for diagram
@@ -3084,7 +3010,7 @@ display_venn(list3,
              fill = c("#999999", "#E69F00", "#56B4E9"))
 
 ### EYE LOSS ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/04_eye_loss")
+setwd("data/03_eye_loss")
 genes.pos <- read.csv("eye_loss_absrel_shared.csv", header=TRUE)
 genes.intens <- read.csv("eye_loss_relax_intensified.csv", header=TRUE)
 genes.paml <- read.csv("eye_loss_paml_selected.csv", header=TRUE)
@@ -3106,7 +3032,6 @@ merged4 <- merge(merged3,genes.relax, by="OG_ID", all=TRUE)
 merged5 <- merge(merged4,genes.contr, by="OG_ID", all=TRUE)
 str(merged5)
 # also annotate with OG
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/01_eggnog_annotation_files")
 eggnog.gensize <- read.csv("all_OGs_eye_loss_MM_fe2v4rjm.emapper.annotations.csv", header = TRUE)
 str(eggnog.gensize)
 # add a new column just with OG ID
@@ -3126,14 +3051,10 @@ str(merged6)
 ## annotate all with eggnog gene symbol
 merged7.final <- merge(merged6,eggnog.gensize, by="OG_ID", all.x=TRUE)
 dim(merged7.final)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/04_eye_loss")
-write.csv(merged7.final, "eye_loss_candidate_gene_selection_analysis.csv", quote=FALSE, row.names=FALSE)
+#write.csv(merged7.final, "../../results/03_eye_loss/eye_loss_candidate_gene_selection_analysis.csv", quote=FALSE, row.names=FALSE)
 ### in excel file remove columns not needed and replace missing gene symbols with NAs
 ### analyse file for overlap
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/")
-eye.loss.syn <- read.csv ("eye_loss_candidate_gene_selection_analysis.csv", header=TRUE)
 ### VENN DIAGRAM
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/")
 eyeloss.syn <- read.csv ("eye_loss_candidate_gene_selection_analysis.csv", header=TRUE)
 str(eyeloss.syn)
 # define sets for diagram
@@ -3178,7 +3099,7 @@ display_venn(list3,
              fill = c("#999999", "#E69F00", "#56B4E9"))
 
 ### LONGEVITY ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/05_longevity")
+setwd("data/04_longevity/")
 genes.pos <- read.csv("longevity_absrel_shared.csv", header=TRUE)
 genes.intens <- read.table("longevity_relax_intensified.txt", header=TRUE)
 genes.paml <- read.csv("longevity_paml_selected.csv", header=TRUE)
@@ -3197,7 +3118,6 @@ merged3 <- merge(merged2,genes.expan, by="OG_ID", all=TRUE)
 merged4 <- merge(merged3,genes.relax, by="OG_ID", all=TRUE)
 merged5 <- merge(merged4,genes.contr, by="OG_ID", all=TRUE)
 # also annotate with OG
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/08_RELAX/01_eggnog_annotation_files")
 eggnog.gensize <- read.csv("all_OGs_longevity_MM_j29p4hp0.emapper.annotations.csv", header = TRUE)
 str(eggnog.gensize)
 # add a new column just with OG ID
@@ -3209,10 +3129,8 @@ colnames(eggnog.gensize)[2] <- "gene_symbol"
 str(eggnog.gensize)
 merged6 <- merge(merged5,eggnog.gensize, by="OG_ID", all.x=TRUE )
 str(merged6)
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/05_longevity")
-#write.csv(merged6, "longevity_candidate_gene_selection_analysis.csv", quote=FALSE, row.names=FALSE)
+#write.csv(merged6, "../../results/04_longevity/longevity_candidate_gene_selection_analysis.csv", quote=FALSE, row.names=FALSE)
 ### analyse file for overlap
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/")
 longevity.syn <- read.csv ("longevity_candidate_gene_selection_analysis.csv", header=TRUE)
 str(longevity.syn)
 #Define sets for diagram
@@ -3261,7 +3179,6 @@ display_venn(list3,
              scaled = FALSE)
 
 ### collect candidate genes for longevity from published studies
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/05_longevity")
 long.table <- read.csv("longevity_literature_candidate_genes.csv", header=TRUE)
 str(long.table)
 # Summarize the data
@@ -3272,22 +3189,21 @@ summary <- long.table %>%
     TargetSpecies_Count = n_distinct(species))  # Count unique target species per gene
 # View the summary
 print(summary)
-write.csv(summary, "Longevity_genes_literature.csv", row.names=F, quote=F)
+#write.csv(summary, "../../results/04_longevity/Longevity_genes_literature.csv", row.names=F, quote=F)
 ### combine candidate gene list from our study and from literature
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy")
 lit.cand.gen <-read.csv("longevity_genes_literature.csv", header=TRUE)
 str(lit.cand.gen)
 cand.gen <- read.csv("longevity_candidate_gene_selection_analysis.csv",header=TRUE)
 str(cand.gen)
 result <- merge(cand.gen, lit.cand.gen, by = "gene_symbol", all.x = TRUE)
 print(result)
-write.csv(result, "longevity_candidate_gene_lit_genes_selection_analysis.csv")
+#write.csv(result, "../../results/04_longevity/longevity_candidate_gene_lit_genes_selection_analysis.csv")
 
 
 #### HYPERGEOMETRIC TESTS ####
 ### CAVE SPECIES ###
 #### test if genes under relaxed selection in cave species overlap with pigmentation and eyeloss genes
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/02_cave_species")
+setwd("data/01_cave_species/")
 ## define your gene lists
 genes_pigment <- read.table("pigmentation_genes.txt")
 genes_pigment <- as.list(genes_pigment)
@@ -3396,7 +3312,7 @@ print(p_value)
 
 ### PIGMENTATION LOSS ###
 #### test if genes under relaxed selection in cave species overlap with pigmentation and eyeloss genes
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/03_pigmentation_loss")
+setwd("data/02_pigmentation_loss/")
 pig_loss_overlap <- read.csv("pigmentation_loss_candidate_gene_selection_analysis.csv", header=TRUE)
 str(pig_loss_overlap)
 ## define your gene lists
@@ -3477,7 +3393,7 @@ p_value <- phyper(overlap_count_absrel_intens - 1, size_absrel, total_genes - si
 print(p_value)
 
 ### EYE LOSS ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/04_eye_loss")
+setwd("data/03_eye_loss")
 eye_loss_overlap <- read.csv("eye_loss_candidate_gene_selection_analysis.csv", header=TRUE)
 str(eye_loss_overlap)
 ## define your gene lists
@@ -3559,7 +3475,7 @@ print(p_value)
 
 
 ### LONGEVITY ###
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/11_synergy/")
+setwd("data/04_longevity/")
 longevity_overlap <- read.csv("longevity_candidate_gene_lit_genes_selection_analysis.csv", header=TRUE)
 str(longevity_overlap)
 ## define your gene lists
@@ -3672,8 +3588,6 @@ print(stats_absrel_longlit)
 
 #### MAKE A FIGURE SUMMARISING EXPANDED/CONTRACTED GENE FAMILIES AND GENES UNDER SELECTION #### 
 ### make phylogenetic radial trees to create Figures ### 
-#set working dir
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/13_Figures/05_longevity")
 ### read in your tree (example using a Newick file)
 # tree <- read.tree("longevity_species_list_manip.tre")  # includes some replaced names for taxa not available on phylopic
 tree <- read.tree("longevity_species_list_abbrev.tre")
@@ -3703,8 +3617,8 @@ p +
 
 
 #### CANDIDATE GENE ANALYSIS TDG09 ####
-setwd("C:/Users/hans_/Desktop/Projects/Proteus_genome_subterranean_traits/04_analysis/15_convergent_AA/02_tdg09")
 ### CAVE SPECIES ### 
+setwd("data/01_cave_species/")
 cand_genes_sel <- read.csv("tdg09_outdf_cave_species.csv", header=TRUE)
 str(cand_genes_sel)
 names(cand_genes_sel)[names(cand_genes_sel) == "og"] <- "OG_ID"
@@ -3720,9 +3634,10 @@ str(cand_genes_significant)
 cand_genes_annotated <- merge(cand_genes_significant, gene.sym, by = "OG_ID", all.x = TRUE)
 str(cand_genes_annotated)
 # Write the significant results to a new CSV file
-#write.csv(cand_genes_annotated, "cave_species_significant_genes.csv", row.names = FALSE)
+#write.csv(cand_genes_annotated, "../../results/01_cave_species/cave_species_significant_genes.csv", row.names = FALSE)
 
 ### PIGMENTATION LOSS ###
+setwd("data/02_pigmentation_loss/")
 cand_genes_sel <- read.csv("tdg09_outdf_pigmentation_loss.csv", header=TRUE)
 str(cand_genes_sel)
 names(cand_genes_sel)[names(cand_genes_sel) == "og"] <- "OG_ID"
@@ -3738,9 +3653,10 @@ str(cand_genes_significant)
 cand_genes_annotated <- merge(cand_genes_significant, gene.sym, by = "OG_ID", all.x = TRUE)
 str(cand_genes_annotated)
 # Write the significant results to a new CSV file
-#write.csv(cand_genes_annotated, "pigmentation_loss_significant_genes.csv", row.names = FALSE)
+#write.csv(cand_genes_annotated, "../../results/02_pigmentation_loss/pigmentation_loss_significant_genes.csv", row.names = FALSE)
 
 ### EYE LOSS ###
+setwd("data/03_eye_loss/")
 cand_genes_sel <- read.csv("tdg09_outdf_eye_loss.csv", header=TRUE)
 str(cand_genes_sel)
 names(cand_genes_sel)[names(cand_genes_sel) == "og"] <- "OG_ID"
@@ -3756,9 +3672,10 @@ str(cand_genes_significant)
 cand_genes_annotated <- merge(cand_genes_significant, gene.sym, by = "OG_ID", all.x = TRUE)
 str(cand_genes_annotated)
 # Write the significant results to a new CSV file
-#write.csv(cand_genes_annotated, "eye_loss_significant_genes.csv", row.names = FALSE)
+#write.csv(cand_genes_annotated, "../../results/03_eye_loss/eye_loss_significant_genes.csv", row.names = FALSE)
 
 ### LONGEVITY ###
+setwd("data/04_longevity/")
 cand_genes_sel <- read.csv("tdg09_outdf_longevity.csv", header=TRUE)
 str(cand_genes_sel)
 names(cand_genes_sel)[names(cand_genes_sel) == "og"] <- "OG_ID"
@@ -3774,6 +3691,6 @@ str(cand_genes_significant)
 cand_genes_annotated <- merge(cand_genes_significant, gene.sym, by = "OG_ID", all.x = TRUE)
 str(cand_genes_annotated)
 # Write the significant results to a new CSV file
-#write.csv(cand_genes_annotated, "longevity_significant_genes.csv", row.names = FALSE)
+#write.csv(cand_genes_annotated, "../../results/04_longevity/longevity_significant_genes.csv", row.names = FALSE)
 
 
