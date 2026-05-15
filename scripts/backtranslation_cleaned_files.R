@@ -7,8 +7,10 @@ library(parallel)
 library(dplyr)
 source("./scripts/orthogroups_filter.R")
 
+#Inputs for this function are the otrhogroup table from Orthofinder results, Orthogroup sequence fasta files and an output path.
 orthogroups_filterOGs = orthogroups_filter(OGtable = "./path/to/orthogroups_tables/Orthogroups.tsv", OGfastaPath = "./path/to/othhofinder/fasta/results/Orthogroup_Sequences/", OGoutPath = "./path/to/filtered/output/", writeOGs = TRUE)
 
+#Inputs for later are path to CDS files corresponding to the same species used for Orthofinder input, output from the function above and an output path. 
 #cds path
 cdsPath = "./path/to/cds/files/"
 #OG result fastas
