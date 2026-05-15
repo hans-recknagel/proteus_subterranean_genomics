@@ -9,15 +9,10 @@ conExp = "contracted"
 #conExp = "expanded"
 
 
-listPath = paste0("./test_data/convergent_sequences/", "species_priority_", analysis, ".txt")
-#seqPath = paste0("./test_data/convergent_sequences/", analysis, "_", conExp)
-#seqPath = paste0("./test_data/orthofinder_results/", analysis, "/Orthogroup_Sequences")
-#seqPath = paste0("./test_data/convergent_sequences_check/", analysis)
-seqPath = paste0("./test_data/convergent_sequences_check_recopied/", analysis)
+listPath = paste0("./path/to/convergent_sequences/", "species_priority_", analysis, ".txt")
+seqPath = paste0("./path/to/convergent_sequences/", analysis)
 
-#outPath = paste0("./test_data/convergent_sequences/", analysis)
-#outPath = paste0("./test_data/convergent_sequences_check/", analysis, "_out")
-outPath = paste0("./test_data/convergent_sequences_check_recopied/", analysis, "_out")
+outPath = paste0("./path/to/convergent_sequences/", analysis, "_out")
 
 
 spList = read.table(listPath)

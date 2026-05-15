@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Input are the properly prepared AA fasta files. 
+
 orthofinder -t 40 \
 	-a 8 \
 	-M msa \

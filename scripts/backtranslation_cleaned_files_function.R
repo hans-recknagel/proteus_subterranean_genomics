@@ -1,5 +1,6 @@
 #backtranslating OF results
 
+#Inputs for this function are the path to CDS files corresponding to the same species used for Orthofinder input, output for the final results, orthogroup table from Orthofinder results, Orthogroup sequence fasta files and an output path.
 backtranslation2 = function(cdsPath,
                             finalFastaOut,
                             orthogroups_table,

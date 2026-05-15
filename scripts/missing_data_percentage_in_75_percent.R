@@ -1,6 +1,8 @@
 
 source("./scripts/orthogroups_filter.R")
 
+#These functions need orthogroup tables and orthogroup sequences as the input, as well as an output path.
+
 cave_species = orthogroups_filter_percentage(OGtable = "./path/to/orthogroups_tables/Orthogroups.tsv", OGfastaPath = "./path/to/Orthogroup_Sequences/", OGoutPath = "./path/to/filtered/orthogroups/")
 eye_loss = orthogroups_filter_percentage(OGtable = "./path/to/orthogroups_tables/Orthogroups.tsv", OGfastaPath = "./path/to/Orthogroup_Sequences/", OGoutPath = "./path/to/filtered/orthogroups/")
 longevity = orthogroups_filter_percentage(OGtable = "./path/to/orthogroups_tables/Orthogroups.tsv", OGfastaPath = "./path/to/Orthogroup_Sequences/", OGoutPath = "./path/to/filtered/orthogroups/")

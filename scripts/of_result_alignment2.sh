@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Inputs are the filtered and backtranslated orthogroups and the aligner selections.
+
 INFOLDER=/path/to/filtered/and/backtranslated/data
 #OUTFOLDER=data
 #aligner is MUSCLE, MAFFT or BOTH
