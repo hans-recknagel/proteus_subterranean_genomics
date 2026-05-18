@@ -1,5 +1,6 @@
 #!bin/bash
 
+#Inputs are analysis name, number of species, pal2nal output alignments, RAxML trees, and the path to relax results.
 
 analysis=analysis_name
 
