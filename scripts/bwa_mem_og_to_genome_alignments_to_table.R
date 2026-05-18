@@ -1,5 +1,7 @@
 #bam results from bwa alignments from og to genome to table format
 
+#Input is the folder with the bam files from sam_to_bam.sh
+
 library(Rsamtools)
 library(dplyr)
 
