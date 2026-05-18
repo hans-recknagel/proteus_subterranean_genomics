@@ -1,5 +1,7 @@
 #script for adapting proteus gff annotation file to split genome
 
+#Inputs are the gff file and a list of headers from the split genome fasta file. Output path can be set at the end of the script.
+
 library(dplyr)
 library(tidyr)
 
