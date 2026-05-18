@@ -1,5 +1,7 @@
 #bam results from bwa alignments from exp con analyses to table format
 
+#Takes bam files from sam:to_bam.sh and ortholog list tables for input.
+
 library(Rsamtools)
 library(dplyr)
 
