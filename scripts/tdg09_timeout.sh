@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#This script takes the analysis name, list of orthogroups, path to tree folder, path to phylip files, outdir, and path to log files as the input.
+
 analysis=analysis_name
 
 #OGS=$analysis\_ogs_all_OGonly.txt
