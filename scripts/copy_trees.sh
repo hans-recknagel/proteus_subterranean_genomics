@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Inputs are the analysis name, list of orthogroups for that analysis and part to the tree folder.
+
 analysis=analysis_name
 list=$analysis\_ogs_all_OGonly.txt
 ogs=$(cat $list)
