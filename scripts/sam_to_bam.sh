@@ -1,5 +1,6 @@
 #!bin/bash
 
+#Input is the path to folder with .sam bwa mem results.
 
 FOLDER=/path/to/folder
 
