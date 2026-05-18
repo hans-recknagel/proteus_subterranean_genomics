@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Inputs are analysis name, number of species, version of run, pal2nal output alignments, RAxML trees, and the output path.
+
+
 analysis=analysis_name
 hits=hits_per_(insert number of species)_species
 version=01
