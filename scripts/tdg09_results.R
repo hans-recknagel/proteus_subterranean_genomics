@@ -1,5 +1,7 @@
 #script for putting tdg09 results in table form 
 
+#Input is the path to the tdg09 output folder and the output path.
+
 library(yaml)
 
 
