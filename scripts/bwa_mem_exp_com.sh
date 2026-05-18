@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Inputs are the path to the renamed backtranslated results from script rename_backtranslated_files.sh, output path, and the split genome.
+
 FOLDER=infolder_name_new_headers
 OUTFOLDER=outfolder_name
 
