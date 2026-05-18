@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Input is the path to the fasta files from the fasta_headers_BF_*.sh scripts, name of the analysis, and an output path.
+
 analysis=analysis_name
 
 fastapath=$analysis/fasta_out/selected_ogs/sp_only_headers/
