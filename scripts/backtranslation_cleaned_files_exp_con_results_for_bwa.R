@@ -1,5 +1,7 @@
 #backtranslating OF results
 
+#Input are the lists of orthogroup tables of intertest orthogroup tables, CDS fasta files, and output path.
+
 #libraries
 library(ShortRead)
 library(stringi)
@@ -28,7 +30,7 @@ bwaOGs2 = lapply(bwaOGs, function(x){
 names(bwaOGs2) = tablesNames
 
 
-OGtables = "./test_data/orthogroups_tables/"
+OGtables = "./path/to/orthogroups_tables/"
 OGtablesAllList = list.files(OGtables, full.names = TRUE, pattern = ".*Orthogroups\\.tsv")
 OGtablesAllNames = list.files(OGtables, pattern = ".*Orthogroups\\.tsv")
 
