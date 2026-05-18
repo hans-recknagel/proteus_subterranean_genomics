@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Input is the analysis name and the path to backtranslated sequences for a specific number of species. 
 
 ANALYSIS=analysis_name
 
