@@ -1,10 +1,14 @@
 #script for filtering fasta files with contracted/expanded gene groups, to get the longest sequence according to the provided list (closest to human)
 #changed to work with all orthogroups
 
+#This script takes the analysis name, path to species priority table, and a path to fasta files.
+#It also needs a selected conExp variable, either expanded or contracted.
+
 library(Biostrings)
 library(ShortRead)
 
-analysis = "eye_loss"
+#comment and uncomment for expanded or contracted
+analysis = "analysis_name"
 conExp = "contracted"
 #conExp = "expanded"
 
