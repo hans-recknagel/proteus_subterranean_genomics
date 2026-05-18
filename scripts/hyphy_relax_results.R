@@ -1,5 +1,7 @@
 ###hyphy json result to table
 
+#Inputs are the analysis name and the path to jsron RELAX results.
+
 library(jsonlite)
 library(dplyr)
 
