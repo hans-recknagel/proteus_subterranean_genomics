@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#The input is the split genome and results from the filter_for_prang.sh script.
+
 REF=/path/to/genome/genome.fasta
 
 FASTA=$(ls *_Prang_OGs.fa)
