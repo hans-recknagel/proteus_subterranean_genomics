@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Input is the name of the analysis, and path to the filtered mafft aligned files.
+
 analysis=analysis_name
 
 mkdir $analysis
