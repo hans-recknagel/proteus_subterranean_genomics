@@ -1,7 +1,8 @@
-
-
 library(jsonlite)
 library(dplyr)
+
+#Inputs are the analysis name and the path to json aBSREL results.
+#Below the right background and foreground vectors need to be uncommented for input.
 
 analysis = "analysis"
 pathToAnalysis = paste0("path/to/absrel/results/", analysis)
@@ -25,11 +26,6 @@ allJsonAbsrelFullNames = list.files(pathToAnalysis, pattern = ".json", recursive
 #pigmentation_loss
 #foreground = c("Ammex", "Asmec", "Hegla", "Prang", "Luden", "Sirhi", "Sians", "Trros")
 #background = c("Ammel", "Asmes", "Darer", "Gamor", "Hosap", "Leocu", "Mymur", "Plwal", "Sigra", "Tagut", "Thmac", "Xetro", "Zoviv", "Trtib", "Chlan", "Ornil", "Scvul")
-
-#genome_size
-foreground = c("Plwal", "Ammex", "Prang", "Bubuf", "Nefor", "Prann", "Sctor")
-background = c("Asmes", "Asmec", "Darer", "Hosap", "Leocu", "Tagut", "Ornil", "Camil", "Enpus", "Lacha", "Menas", "Pemar", "Pipip", "Xetro", "Zoviv")
-
 
 
 allAbsrelFiles = lapply(allJsonAbsrelFullNames, fromJSON)
