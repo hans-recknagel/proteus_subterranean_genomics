@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Input is the path to folder containing all filtered orthogroups and their mafft alignments.
+#The rest of the paths should be set accordingly so the script can find the AA alignments and compare them to the nucleotide sequences. 
+
 INFOLDER=/path/to/analysis_name
 
 DIRS=$(ls -d $INFOLDER | cat)
