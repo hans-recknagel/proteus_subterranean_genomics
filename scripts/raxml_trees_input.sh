@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Input is the name of the analysis which the script should use for the path to the pal2nal results fot the analysis in question. It also takes an output dir. 
+
 analysis=analysis_name
 
 outdir=/path/to/$analysis
