@@ -1,6 +1,6 @@
 #run backtranslating OF results it is just a function call for backtranslation_cleaned_files_function.R, inputs are the same
 
-source("./backtranslation_chinese_cleaned_files_function.R")
+source("./backtranslation_cleaned_files_function.R")
 
 backtranslation2(cdsPath = "/path/to/cds/files/",
                  finalFastaOut = "/path/to/output/folder/",
